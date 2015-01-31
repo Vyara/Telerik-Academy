@@ -37,14 +37,18 @@ class FibonacciNumbers
         {
             if (i == 0 || i == 1)
             {
-                Console.Write("{0}, ", i);
+                Console.Write(i);
             }
             else
             {
                 c = a + b;
-                Console.Write("{0}, ", c);
+                Console.Write(c);
                 a = b;
                 b = c;
+            }
+            if (i >= n)
+            {
+                Console.Write(", ");
             }
         }
         Console.WriteLine();
