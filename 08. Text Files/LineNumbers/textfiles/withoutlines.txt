@@ -1,0 +1,7 @@
+this is  a text file 
+here is a list of animals
+cat
+dog
+snake
+lion 
+horse

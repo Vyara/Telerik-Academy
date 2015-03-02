@@ -1,0 +1,7 @@
+1. this is  a text file 
+2. here is a list of animals
+3. cat
+4. dog
+5. snake
+6. lion 
+7. horse
