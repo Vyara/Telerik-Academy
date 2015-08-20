@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApplication1.WindowAddEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add New Event" Height="457.143" Width="378.022"
+        ResizeMode="NoResize"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="306*"/>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="160*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="NewTitle" HorizontalAlignment="Left" Height="23" Margin="23,28,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1" LostFocus="NewTitle_LostFocus"/>
+        <!--<TextBox x:Name="NewDateTime" HorizontalAlignment="Left" Height="23" Margin="31,299,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="55" LostFocus="NewDateTime_LostFocus"/>-->
+        <TextBox x:Name="NewLocationX" HorizontalAlignment="Left" Height="23" Margin="23,110,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="43" Grid.Column="1" Grid.ColumnSpan="2" LostFocus="NewLocationX_LostFocus"/>
+        <TextBox x:Name="NewLocationY" HorizontalAlignment="Left" Height="23" Margin="26,110,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="54" Grid.Column="2" TextChanged="NewLocationY_TextChanged"/>
+        <TextBox x:Name="NewMeetingPoint" HorizontalAlignment="Left" Height="23" Margin="23,148,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1" LostFocus="NewMeetingPoint_LostFocus"/>
+        <TextBox x:Name="NewMoneyNeed" HorizontalAlignment="Left" Height="23" Margin="23,180,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1" LostFocus="NewMoneyNeed_LostFocus"/>
+        <TextBox x:Name="NewCommentBox" HorizontalAlignment="Left" Height="23" Margin="23,227,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Title" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,28,0,0" Width="118"/>
+        <Label Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,68,0,0" Width="118"/>
+        <Label Content="Location" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,110,0,0" Width="118"/>
+        <Label Content="Meeting Point" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,144,0,0" Width="118"/>
+        <Label Content="MoneyNeed" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,176,0,0" Width="118"/>
+        <Label Content="X:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,107,0,0" Width="18" Grid.Column="1"/>
+        <Label Content="Y:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,107,0,0" Width="23" Grid.Column="2"/>
+        <Label Content="Comment" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,227,0,0" Width="118"/>
+        <Button x:Name="ButtonNewEvent" Grid.ColumnSpan="3" IsEnabled="False" Content="Add Event" HorizontalAlignment="Left" Margin="108,275,0,0" VerticalAlignment="Top" Width="201" Height="79" Click="ButtonNewEvent_Click"/>
+        <DatePicker x:Name="MyDaTePicker" HorizontalAlignment="Left" Margin="23,70,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿<Window
+        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="Home" x:Class="WpfApplication1.MainWindow"
+        ResizeMode="NoResize"
+        Title="EventName" Height="459.854" Width="1090.876" >
+
+    <Window.Resources>
+        <Style x:Key="MyStyle" TargetType="{x:Type Control}">
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Window.Resources>
+    <Grid >
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="MyDataGrid" HorizontalAlignment="Left" Margin="292,55,0,0" VerticalAlignment="Top" Height="364" Width="781" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Name"  Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Family" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="GSM" Binding="{Binding GSM}"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding ParticipantGender}"/>
+                <DataGridTextColumn Header="EMail" Binding="{Binding EMail}" />
+                <DataGridTextColumn Header="MoneyPaid" Binding="{Binding MoneyPaid}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <!---->
+
+        <!--ItemsSource="{Binding Source = MyCollection}"-->
+        <Label Style="{StaticResource MyStyle}" Content="Participants" HorizontalAlignment="Left" Margin="592,10,0,0" VerticalAlignment="Top"/>
+        <Label Style="{StaticResource MyStyle}" Content="Events" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.475,0.498" Margin="117,19,0,0"/>
+        <ComboBox x:Name="MyComboBox" HorizontalAlignment="Left" Margin="31,55,0,0" VerticalAlignment="Top" Width="215" Height="21" SelectionChanged="ComboBox_SelectionChanged">
+            <!--<Label Content="Event0" HorizontalAlignment="Stretch" VerticalAlignment="Center"></Label>
+            <Label Content="Event1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Label>
+            <Label Content="Event2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Label>-->
+
+        </ComboBox>
+        <TextBlock x:Name="MyTextBlock" HorizontalAlignment="Left" Margin="31,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="215"><Run Text="Event Info"/></TextBlock>
+        <Button Style="{StaticResource MyStyle}" x:Name="ButtonLogin" Content="Login" HorizontalAlignment="Left" Margin="46,106,0,0" VerticalAlignment="Top" Width="75" Click="ButtonLogin_Click"/>
+        <Button Style="{StaticResource MyStyle}" x:FieldModifier="public" x:Name="AddButtoin" Content="Add Participant" HorizontalAlignment="Left" Margin="31,187,0,0" VerticalAlignment="Top" Width="136" RenderTransformOrigin="0.48,0.5" Height="47" Click="AddButtoin_Click"/>
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,273,0,0" Height="63" Width="136" Text="Login to activate this button" Padding="5,2,2,2"/>
+        <Button x:Name="AddEvent" Style="{StaticResource MyStyle}" IsEnabled="False" Content="Add event" HorizontalAlignment="Left" Margin="31,239,0,0" VerticalAlignment="Top" Width="136" Height="29" Click="AddEvent_Click"/>
+
+
+
+    </Grid>
+</Window>
