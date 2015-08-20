@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/RegistrationFormStyles.css"/>
+</head>
+<body>
+    <form method="post" action="/">
+        <table id="registrationTable">
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clean This Form" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td class="labelBoxes"><label for="lastName" class="labels">Last Name</label></td>
+                    <td><input type="text" id="lastName" /></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="firstName" class="labels">First Name</label></td>
+                    <td><input type="text" id="firstName" /></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="address" class="labels">Address</label></td>
+                    <td><textarea rows="4" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="city" class="labels">City</label></td>
+                    <td>
+                        <input type="text" id="city" />
+                        <label for="state">State</label>
+                        <input type="text" id="state" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="postalCode" class="labels">Zip/Postal Code</label></td>
+                    <td><input type="text" id="postalCode" /></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="country" class="labels">Country</label></td>
+                    <td>
+                        <select id="country">
+                            <option value="GER">Germany</option>
+                            <option value="BG" selected="selected">Bulgaria</option>
+                            <option value="UK">United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes">
+                        <label for="phone" class="labels">
+                            Phone(country code,<br />
+                            area code, number)
+                        </label>
+                    </td>
+                    <td>
+                        +(<input type="tel" id="areaCode"/>) <input type="tel" id="provider" /> <input type="tel" id="phone" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="email" class="labels">E-mail</label></td>
+                    <td><input type="email" id="email" required /></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="birthDate" class="labels">Birth date</label></td>
+                    <td><input type="date" id="birthDate" /></td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label for="gender" class="labels">Gender</label></td>
+                    <td>
+                        <select id="gender">
+                            <option value="male" selected="selected">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelBoxes"><label class="labels">Starting date</label></td>
+                    <td>
+                        <input type="radio" name="date" id="spring"/>
+                        <label for="spring">Spring 2015</label>
+                        <input type="radio" name="date" id="summer"/>
+                        <label for="summer">Summer 2015</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class ="labelBoxes"><label for="comments" class="labels">Comments/Questions</label></td>
+                    <td><textarea rows="5" id="comments"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

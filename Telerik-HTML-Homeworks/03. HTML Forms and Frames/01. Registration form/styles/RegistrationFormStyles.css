@@ -1,0 +1,45 @@
+﻿table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tfoot{
+    background-color: #5785a7;
+    text-align: center;
+}
+
+.labels{
+    font-weight: 800;
+    text-align: center;
+}
+
+.labelBoxes{
+    text-align: center;
+}
+
+#firstName, #lastName, #email{
+    width: 300px;
+}
+
+#address, #comments{
+    width: 280px;
+}
+
+#state{
+    width: 50px;
+}
+
+#postalCode{
+    width: 80px;
+}
+
+#areaCode, #provider{
+    width: 50px;
+}
+
+#phone{
+    width: 150px;
+}
+
+
+

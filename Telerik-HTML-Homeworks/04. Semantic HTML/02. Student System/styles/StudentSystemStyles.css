@@ -1,0 +1,38 @@
+﻿body {
+    border: 3px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#welcoming {
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align: center;
+    float: right;
+    font-size: large;
+}
+
+nav {
+    padding-top: 100px;
+}
+
+table {
+    padding-left: 30px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+header, nav, section, article, footer { /*support for earlier browsers- displays as block elements*/
+    display: block;
+}

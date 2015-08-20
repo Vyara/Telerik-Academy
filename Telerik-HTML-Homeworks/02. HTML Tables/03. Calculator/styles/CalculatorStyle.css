@@ -1,0 +1,30 @@
+﻿table, tr, td {
+    border: 3px solid #124390;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+td {
+    background-color: lightblue;
+}
+
+.button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: none;
+    outline: 0;
+    font-size: x-large;
+}
+
+#textbox {
+    width: 200px;
+    text-align: right;
+    border: none;
+    background: none;
+    font-size: x-large;
+}
+
+#zero {
+    width: 100px;
+}

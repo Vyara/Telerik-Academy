@@ -1,0 +1,42 @@
+﻿#main, #laptops {
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: left;
+    display: inline;
+}
+
+a {
+    color: #0094FF;
+}
+
+
+.macbookPic {
+    height: 50px;
+    width: 70px;
+    border: none;
+}
+
+header {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#asidesliders {
+    border: none;
+    width: 500px;
+}
+
+fieldset, td {
+    width: 242px;
+}
+
+.menuComponents {
+    width: auto;
+}
