@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+    <section id="calc-outer">
+    <header id="control-icons-and-menu">
+        <span>
+            <img id="calclogo" title="calc-icon" src="images/calc-icon.png" alt="calc-icon" />
+        </span>
+        <span id="calc-title">Calculator</span>
+        <span id="calc-controls">
+            <img title="calc-controls" src="images/calc-controls.png" alt="calc-controls" />
+        </span>
+        </header>
+    <section id="calc-inner">
+        <nav id="calc-navigation">
+            <ul>
+                <li><span>V</span>iew</li>
+                <li><span>E</span>dit</li>
+                <li><span>H</span>elp</li>
+            </ul>
+        </nav>
+        <input id="calc-display" type="text" value="885445" />
+        <section>
+            <table id="bits-display">
+                <tbody>
+                    <tr>
+                    <tr>
+                        <td>0000</td>
+                        <td rowspan="2">0000</td>
+                        <td rowspan="2">0000</td>
+                        <td rowspan="2">0000</td>
+                        <td>0000</td>
+                        <td rowspan="2">0000</td>
+                        <td rowspan="2">0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr class="bit-numbers">
+                        <td>63</td>
+                        <td>47</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td rowspan="2">0000</td>
+                        <td rowspan="2">1000</td>
+                        <td rowspan="2">0111</td>
+                        <td>0001</td>
+                        <td rowspan="2">1011</td>
+                        <td rowspan="2">1011</td>
+                        <td>0111</td>
+                    </tr>
+                    <tr class="bit-numbers">
+                        <td>31</td>
+                        <td>15</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    <aside>
+        <ul id="nymerical-system-menu">
+            <li>
+                <input type="radio" name="numeric-system-radios[]" id="hex" />
+                <label for="hex">Hex</label>
+            </li>
+            <li>
+                <input type="radio" name="numeric-system-radios[]" id="dec" checked="checked" />
+                <label for="dec">Dec</label>
+            </li>
+            <li>
+                <input type="radio" name="numeric-system-radios[]" id="oct" />
+                <label for="oct">Oct</label>
+            </li>
+            <li>
+                <input type="radio" name="numeric-system-radios[]" id="bin" />
+                <label for="bin">Bin</label>
+            </li>
+        </ul>
+        <ul id="byte-lenghts">
+            <li>
+                <input type="radio" name="byte-lenghts-radios[]" id="qword" checked="checked" />
+                <label for="qword">Qword</label>
+            </li>
+            <li>
+                <input type="radio" name="byte-lenghts-radios[]" id="dword" />
+                <label for="dword">Dword</label>
+            </li>
+            <li>
+                <input type="radio" name="byte-lenghts-radios[]" id="word" />
+                <label for="word">Word</label>
+            </li>
+            <li>
+                <input type="radio" name="byte-lenghts-radios[]" id="byte" />
+                <label for="byte">Byte</label>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <section id="calc-keyboard">
+            <table>
+                <tr>
+                    <td>
+                        <button class="inactive-blank" disabled="disabled"></button>
+                    </td>
+                    <td>
+                        <button class="active-func">Mod</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">A</button>
+                    </td>
+                    <td>
+                        <button class="active-grey-func">MC</button>
+                    </td>
+                    <td>
+                        <button class="active-grey-func">MR</button>
+                    </td>
+                    <td>
+                        <button class="active-grey-func">MS</button>
+                    </td>
+                    <td>
+                        <button class="active-grey-func">M+</button>
+                    </td>
+                    <td>
+                        <button class="active-grey-func">M-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="active-func">(</button>
+                    </td>
+                    <td>
+                        <button class="active-func">)</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">B</button>
+                    </td>
+                    <td>
+                        <button class="active-func">&larr;</button>
+                    </td>
+                    <td>
+                        <button class="active-func">CE</button>
+                    </td>
+                    <td>
+                        <button class="active-func">c</button>
+                    </td>
+                    <td>
+                        <button class="active-func">&#177;</button>
+                    </td>
+                    <td>
+                        <button class="inactive-func" disabled="disabled">&#8730;</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="active-func">RoL</button>
+                    </td>
+                    <td>
+                        <button class="active-func">RoR</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">C</button>
+                    </td>
+                    <td>
+                        <button class="active-number">7</button>
+                    </td>
+                    <td>
+                        <button class="active-number">8</button>
+                    </td>
+                    <td>
+                        <button class="active-number">9</button>
+                    </td>
+                    <td>
+                        <button class="active-func">/</button>
+                    </td>
+                    <td>
+                        <button class="inactive-func" disabled="disabled">%</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="active-func">Or</button>
+                    </td>
+                    <td>
+                        <button class="active-func">Xor</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">D</button>
+                    </td>
+                    <td>
+                        <button class="active-number">4</button>
+                    </td>
+                    <td>
+                        <button class="active-number">5</button>
+                    </td>
+                    <td>
+                        <button class="active-number">6</button>
+                    </td>
+                    <td>
+                        <button class="active-func">*</button>
+                    </td>
+                    <td>
+                        <button class="inactive-func" disabled="disabled">1/&chi;</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="active-func">Lsh</button>
+                    </td>
+                    <td>
+                        <button class="active-func">Rsh</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">E</button>
+                    </td>
+                    <td>
+                        <button class="active-number">1</button>
+                    </td>
+                    <td>
+                        <button class="active-number">2</button>
+                    </td>
+                    <td>
+                        <button class="active-number">3</button>
+                    </td>
+                    <td>
+                        <button class="active-func">&minus;</button>
+                    </td>
+                    <td rowspan="2">
+                        <button class="active-func" id="equals">=</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="active-func">Not</button>
+                    </td>
+                    <td>
+                        <button class="active-func">And</button>
+                    </td>
+                    <td>
+                        <button class="inactive-letter" disabled="disabled">F</button>
+                    </td>
+                    <td colspan="2">
+                        <button class="active-number" id="zero">0</button>
+                    </td>
+                    <td>
+                        <button class="inactive-func" disabled="disabled">.</button>
+                    </td>
+                    <td>
+                        <button class="active-func">+</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <div></div>
+    </main>
+      </section>
+        </section>
+</body>
+</html>

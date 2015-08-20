@@ -1,0 +1,58 @@
+﻿table {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    background-color: #535353;
+}
+
+th {
+    text-align: left;
+    font-weight: 100;
+    font-size: 1em;
+    padding-bottom: 10px;
+    color: #a5a0a0;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+tr > td:first-child {
+    font-style: italic;
+    font-size: 0.7em;
+    color: #efefef;
+}
+
+tr > td:last-child {
+    padding-left: 20px;
+}
+
+#username, #email, #postlink {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #fbfbbe;
+}
+
+    #username:before {
+        content: url('data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEXSURBVChTpVLLTsJAFD0z03ZaWm0RCJoQXx/AyoWRhYlbv6Cf7MYvcGPc4oMQCW1pxzNtkRAh0XgW87j3nHvuPESapgZ/gGxngDLpCASXEeLJAN3bIcJxFypyWkKDRlAZqNhFcneM+GaA4DyCHnVwME7Qvx/BPw0BUTMpYGXhKcRXPXhDv3b6hs25AofXfbg9zb2BNKWBf9aBk3jb5DUYU4GCpovQyjoYkjU3m+P8QAW4Rx6kK5uW1v3thc237pQIrD4ymJxl9oGC1XsOU1SkK4Hl84KinIkdVgxVWYXlyyfnkg51oMT88Q3FNNtuj2t7KbOHKYrXpuDmpTlK3oK+COGfBBB8xIJtLJ7mKGdFTbH4x9f4FYAv9GpS388qrs8AAAAASUVORK5CYII=') /*/images/greenbullet.jpg*/;
+        display: inline-block;
+        padding-right: 3px;
+        padding-top: 5px;
+    }
+
+#supportstatus, #responsetime, #lastaction, #status {
+    font-size: 0.7em;
+    color: #c3c0c0;
+}
+
+#supportstatus {
+    font-weight: 500;
+    color: #f00;
+}
+
+#status {
+    color: #d2691e;
+}

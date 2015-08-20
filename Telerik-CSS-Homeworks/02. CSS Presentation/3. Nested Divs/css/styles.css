@@ -1,0 +1,10 @@
+﻿main {
+    width: 800px;
+}
+
+div.first {
+    border: 2px solid #f50d07;
+    background-color: #000;
+    border-radius: 60px;
+    padding-right: 10%;
+}

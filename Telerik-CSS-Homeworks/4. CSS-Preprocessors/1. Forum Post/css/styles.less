@@ -1,0 +1,312 @@
+﻿@text-color-default: #fff;
+@font-default: normal Arial;
+@border-default-color: #603382;
+@elements-background-default-color: #b14cf0;
+@elements-border-radius-default: 10px;
+@background-top: #c3a0ec;
+@backgroundcolor-top: #D791FF;
+@backgroundcolor-second: #D292FD;
+@backgroundcolor-third: #C58AF2;
+@backgroundcolor-fourth: #A439F4;
+@backgroundcolor-fifth: #911DF0;
+@backgroundcolor-sixth: #8F19EF;
+@backgroundcolor-bottom: #9215F2;
+@backgroundcolor-top-position: 0%;
+@backgroundcolor-second-position: 1%;
+@backgroundcolor-third-position: 5%;
+@backgroundcolor-fourth-position: 15%;
+@backgroundcolor-fifth-position: 20%;
+@backgroundcolor-sixth-position: 21%;
+@backgroundcolor-seventh-position: 25%;
+@background-bottom-position: 100%;
+@elements-default-border: 2px solid #000;
+
+.gradient(@background-top, @backgroundcolor-top, @backgroundcolor-second, @backgroundcolor-third, @backgroundcolor-fourth, @backgroundcolor-fifth @backgroundcolor-sixth, @backgroundcolor-bottom, @backgroundcolor-top-position, @backgroundcolor-second-position, @backgroundcolor-third-position, @backgroundcolor-fourth-position, @backgroundcolor-fifth-position, @backgroundcolor-sixth-position, @backgroundcolor-seventh-position, @background-bottom-position) {
+    background: @background-top; /* Old browsers */
+    background: -moz-linear-gradient(top, @background-top @backgroundcolor-top-position, @backgroundcolor-top @backgroundcolor-top-position, @backgroundcolor-second @backgroundcolor-second-position, @backgroundcolor-third @backgroundcolor-third-position, @backgroundcolor-fourth @backgroundcolor-fourth-position, @backgroundcolor-fifth @backgroundcolor-fifth-position, @backgroundcolor-sixth @backgroundcolor-sixth-position, @backgroundcolor-bottom @backgroundcolor-seventh-position, @backgroundcolor-bottom @background-bottom-position); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@backgroundcolor-top-position,@background-top), color-stop(@backgroundcolor-top-position,@backgroundcolor-top), color-stop(@backgroundcolor-second-position,@backgroundcolor-second), color-stop(@backgroundcolor-third-position,@backgroundcolor-third), color-stop(@backgroundcolor-fourth-position,@backgroundcolor-fourth), color-stop(@backgroundcolor-fifth-position,@backgroundcolor-fifth), color-stop(@backgroundcolor-sixth-position,@backgroundcolor-sixth), color-stop(@backgroundcolor-seventh-position,@backgroundcolor-bottom), color-stop(@background-bottom-position,@backgroundcolor-bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @background-top @backgroundcolor-top-position,@backgroundcolor-top @backgroundcolor-top-position,@backgroundcolor-second @backgroundcolor-second-position,@backgroundcolor-third @backgroundcolor-third-position,@backgroundcolor-fourth @backgroundcolor-fourth-position,@backgroundcolor-fifth @backgroundcolor-fifth-position,@backgroundcolor-sixth @backgroundcolor-sixth-position,@backgroundcolor-bottom @backgroundcolor-seventh-position,@backgroundcolor-bottom @background-bottom-position); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @background-top @backgroundcolor-top-position,@backgroundcolor-top @backgroundcolor-top-position,@backgroundcolor-second @backgroundcolor-second-position,@backgroundcolor-third @backgroundcolor-third-position,@backgroundcolor-fourth @backgroundcolor-fourth-position,@backgroundcolor-fifth @backgroundcolor-fifth-position,@backgroundcolor-sixth @backgroundcolor-sixth-position,@backgroundcolor-bottom @backgroundcolor-seventh-position,@backgroundcolor-bottom @background-bottom-position); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @background-top @backgroundcolor-top-position,@backgroundcolor-top @backgroundcolor-top-position,@backgroundcolor-second @backgroundcolor-second-position,@backgroundcolor-third @backgroundcolor-third-position,@backgroundcolor-fourth @backgroundcolor-fourth-position,@backgroundcolor-fifth @backgroundcolor-fifth-position,@backgroundcolor-sixth @backgroundcolor-sixth-position,@backgroundcolor-bottom @backgroundcolor-seventh-position,@backgroundcolor-bottom @background-bottom-position); /* IE10+ */
+    background: linear-gradient(to bottom, @background-top @backgroundcolor-top-position,@backgroundcolor-top @backgroundcolor-top-position,@backgroundcolor-second @backgroundcolor-second-position,@backgroundcolor-third @backgroundcolor-third-position,@backgroundcolor-fourth @backgroundcolor-fourth-position,@backgroundcolor-fifth @backgroundcolor-fifth-position,@backgroundcolor-sixth @backgroundcolor-sixth-position,@backgroundcolor-bottom @backgroundcolor-seventh-position,@backgroundcolor-bottom @background-bottom-position); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3a0ec', endColorstr='#9215F2',GradientType=0 ); /* IE6-9 */
+}
+
+.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+        clear: both;
+    }
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: 14px @font-default;
+    color: @text-color-default;
+    .gradient(@background-top, @backgroundcolor-top, @backgroundcolor-second, @backgroundcolor-third, @backgroundcolor-fourth, @backgroundcolor-fifth, @backgroundcolor-sixth, @backgroundcolor-bottom, @backgroundcolor-top-position, @backgroundcolor-second-position, @backgroundcolor-third-position, @backgroundcolor-fourth-position, @backgroundcolor-fifth-position, @backgroundcolor-sixth-position, @backgroundcolor-seventh-position, @background-bottom-position);
+    background-repeat: no-repeat;
+
+    header {
+        padding-top: 25px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        div#header-container {
+            .clearfix();
+
+            div#reg-form-container {
+                float: right;
+                position: relative;
+                right: 5%;
+                top: 50%;
+
+                div {
+                    text-align: right;
+
+                    label {
+                        width: 50px;
+                        margin: 5px;
+                    }
+
+                    input {
+                        width: 130px;
+                        border: 1px solid @border-default-color;
+                        background-color: @elements-background-default-color;
+                        border-radius: @elements-border-radius-default;
+                        padding: 2px 5px;
+                        margin: 5px;
+                    }
+                }
+
+                button {
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-weight: bold;
+                    border: 1px ridge @border-default-color; /*works in Mozilla*/
+                    background-color: @elements-background-default-color;
+                    color: @text-color-default;
+                    border-style: outset;
+                    border-radius: @elements-border-radius-default;
+                    padding: 5px 8px;
+
+                    &:hover {
+                        background-color: #8949b9;
+                        border-style: inset;
+                    }
+                }
+            }
+
+
+            div#logo-container {
+                float: left;
+                position: relative;
+            }
+        }
+
+
+        nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px 20px 20px 20px;
+            padding: 12px;
+            border: @elements-default-border;
+            border-radius: @elements-border-radius-default;
+
+            ul {
+                &.nav-list {
+                    list-style-type: none;
+
+                    li {
+                        float: left;
+                        margin: 0;
+
+                        &:hover > a {
+                            text-decoration: underline;
+                            color: #a8a8a8;
+
+                            + ul {
+                                display: block;
+                            }
+                        }
+
+                        ul li {
+                            float: none;
+                            margin: 0 15px;
+                            padding: 10px 0;
+                            border-bottom: 1px solid black;
+
+                            &:last-of-type {
+                                border-bottom: none;
+                            }
+
+                            > a {
+                                font-size: 1.2em;
+                                color: @text-color-default;
+                            }
+                        }
+                    }
+
+                    &.sub-nav-list {
+                        position: absolute;
+                        display: none;
+                        background-color: rgba(179, 94, 243, 0.9);
+                        border-radius: 5px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        padding: 0 10px 0 10px;
+                        color: @text-color-default;
+                        font: 1.4em @font-default;
+
+                        &.selected {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        .clearfix();
+        width: 75%;
+        float: left;
+        color: black;
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: @elements-default-border;
+            border-radius: @elements-border-radius-default;
+            color: @text-color-default;
+
+            header {
+                background: none;
+                padding: 5px;
+
+
+                h1 {
+                    font-size: 1.4em;
+                    padding: 0;
+                }
+            }
+
+            footer {
+                padding: 5px;
+
+                p {
+                    font-size: 16px;
+                    text-align: right;
+                    font-weight: normal;
+                    color: @text-color-default;
+
+                    time {
+                        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #bf6cf4;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        .clearfix();
+        float: left;
+        width: 20%;
+        margin: 20px;
+
+        > ul {
+            list-style-type: none;
+
+            > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: @elements-default-border;
+                border-radius: 5px;
+
+                h2 {
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+
+                p {
+                    margin-top: 10px;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    font-size: 14px;
+
+                    a {
+                        color: #aaaaaa;
+                        text-decoration: none;
+                    }
+
+                    strong {
+                        color: #cccccc;
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+
+                    em {
+                        color: #cccccc;
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin-top: 10px;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+
+                    li {
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB90BCA0LNFA4GiMAAAAdaVRYdENvbW1lbnQAAAAAAENyZWF0ZWQgd2l0aCBHSU1QZC5lBwAAAh9JREFUKM9Nkr1rVFEUxH9z733v7Ye7xKwkAfEDrdVaRFG0EPwAG7GwURC08J/RQiwsBFu1EBtBhDRiqREUG8VAiCTGuNnv9+49FqsxpzrFmTkzw4gdc+7CfeY2s0uV52xryIkQadcmfi+WBAKZjXJWSm+/+7neBez18rx/vvjs1jaH/i1XTz54un/dXayXPs/JSGYgwyyB/p6ZITkwcM5RUjJSrL7N8frDwcn5z0/uoitnHi4sbLqP81u+MwWDmZEsIUuYbKcJZMIknDySpuTyrDXj1vfO5EjYNdK9+a7rJCqMSNAustCins0SXJPct6aqmD4qU5cyDhmW61SxR2k9zBJ7+qHVr/nHodO1y4mEcwWd5jFaxT7y0MYs/lWbtnMxQNoHBpKnjD22ht/5OViiin3mN3UqhEhmZuS+RRHaBF/HSEAipYSZ7YwQKeEkDBFcjVo+QzFuUcUeSlL40eHd4dVwfFCusbzxiiLbTSNboJ7tIQttvCsQ/ywnYhxTxj6jco3B5AejagOzROZyVmbi17BZize7jfC+PcxyU2ISu4yrX2z0E6aEYTgCkiPaGOGQCTmP8Dg5nAL9wuLqbHVDAGcu3z9yeCV7Mffb7y8sSIJkU7tJCZm2SyYTTgJNiceqbL0ZVz/ttWuLL28vamclrpx+eDSPut6Y2PnGgANFpUZzovA/Q2OQWxwHhoM6y72avYneniwd4u2XR3cA+AN6iQt1xYT78wAAAABJRU5ErkJggg==') /*/images/li-dot.png*/ no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .clearfix();
+        clear: both;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+        p {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

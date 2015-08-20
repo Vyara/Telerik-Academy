@@ -1,0 +1,41 @@
+﻿@tumbnail-image-height: 100px;
+@tumbnail-image-width: 100px;
+@tumbnail-defailt-margin: 5px;
+@zoomed-image-height: 400px;
+@zoomed-image-width: 400px;
+@image-default-border: 1px solid #808080;
+@image-selcted-border: 2px solid #000;
+
+section ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: @tumbnail-defailt-margin;
+
+    label img {
+        width: @tumbnail-image-width;
+        height: @tumbnail-image-height;
+        border: @image-default-border;
+
+        &:hover {
+            border: @image-selcted-border;
+        }
+    }
+
+    input {
+        display: none;
+
+        & + img {
+            display: none;
+            margin-top: 5px;
+            margin-left: 0, auto;
+            position: absolute;
+        }
+
+        &:checked + img {
+            display: block;
+            width: @zoomed-image-width;
+            height: @zoomed-image-height;
+             border: @image-default-border;
+        }
+    }
+}

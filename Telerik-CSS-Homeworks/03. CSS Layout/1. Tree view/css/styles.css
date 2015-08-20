@@ -1,0 +1,27 @@
+﻿ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul ul li a {
+    color: #878b92;
+}
+
+a + ul {
+    display: none;
+}
+
+ul li a {
+    color: #030303;
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li:hover > ul {
+    display: block;
+}

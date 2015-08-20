@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #9c9a9a;
+}
+
+
+header, nav {
+    text-align: center;
+    list-style: none;
+    color: #fafad2;
+    font-size: 1.2em;
+}
+
+li {
+    list-style: none;
+}
+
+    li a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #fff;
+    }
+
+nav > ul > li:last-child {
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #d3d3d3;
+}
+
+section > article > header > h1 {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+section article footer {
+    text-align: left;
+    font-size: 0.9em;
+    color: #000;
+}
+
+    section article footer a {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+footer {
+    text-align: center;
+    color: #000;
+}
