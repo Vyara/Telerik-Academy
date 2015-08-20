@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolClasses.Class" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAAAiAAEAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Class.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SchoolClasses.Discipline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIBAAAAAAEAIAAAASAAAAEAAAAAAAIAAAAIAA=</HashCode>
+      <FileName>Discipline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SchoolClasses.Person" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAQACEAEAAgAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.School" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAEAABAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.Student" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.Teacher" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEQAACAACAAAAAAAAAAAAEAAAIAAg=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.TestSchool" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TestSchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SchoolClasses.IComment" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IComment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

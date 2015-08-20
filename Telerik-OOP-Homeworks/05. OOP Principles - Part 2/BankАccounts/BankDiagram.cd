@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BankАccounts.Account" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAAAAAAAAEAAgAAAAIAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankАccounts.Bank" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAACAAAACAAAAAEA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankАccounts.Company" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankАccounts.Customer" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankАccounts.Deposit" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deposit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankАccounts.Individual" Collapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankАccounts.Loan" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Loan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankАccounts.Mortgage" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mortgage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankАccounts.TestBankAccounts" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TestBankAccounts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BankАccounts.IDepositable" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDepositable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankАccounts.IWithdrawable" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWithdrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

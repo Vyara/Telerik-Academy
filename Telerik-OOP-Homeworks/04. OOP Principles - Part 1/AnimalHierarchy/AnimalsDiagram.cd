@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimalHierarchy.Animal" Collapsed="true">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAARAAEAEQEAAQAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AnimalHierarchy.Cat" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalHierarchy.Dog" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalHierarchy.Frog" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalHierarchy.Kitten" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitten.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalHierarchy.TestAnimalHierarchy" Collapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TestAnimalHierarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalHierarchy.Tomcat" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tomcat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AnimalHierarchy.ISound" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISound.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
