@@ -1,0 +1,7 @@
+whedon: 3 time/s
+firefly: 2 time/s
+space: 2 time/s
+series: 2 time/s
+serenity: 2 time/s
+science: 1 time/s
+label: 1 time/s

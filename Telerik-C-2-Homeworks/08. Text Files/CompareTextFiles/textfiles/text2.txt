@@ -1,0 +1,7 @@
+This is a text file
+this line is the same as the line in another text file
+not the same
+Same line
+a Little difference here
+Yet another difference
+same!
