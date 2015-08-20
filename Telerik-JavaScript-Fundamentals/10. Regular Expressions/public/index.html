@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Regular Expressions</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. Format with placeholders</h1>
+
+    <h2>
+        Write a function that formats a string. The function should have placeholders, as shown in the example
+        Add the function to the <strong>String.prototype</strong>
+    </h2>
+
+    <h3>Example:</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>input</th>
+            <th>output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>var options = {name: 'John'};<br>'Hello, there! Are you #{name}?'.format(options);</td>
+            <td>'Hello, there! Are you John'</td>
+        </tr>
+        <tr>
+            <td>var options = {name: 'John', age: 13};<br>'My name is #{name} and I am
+                #{age}-years-old').format(options);
+            </td>
+            <td>'My name is John and I am 13-years-old'</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p>Option 1:</p>
+    <label for="problem11">name: </label>
+    <input type="text" id="problem11" value="John">
+
+    <p>Option 2:</p>
+    <label for="problem121">name:</label>
+    <input type="text" id="problem121" value="John">
+    <label for="problem122">age:</label>
+    <input type="text" id="problem122" value="13">
+
+
+    <section id="problem1buttons">
+        <button id="problem1test">Test!</button>
+        <button id="problem1clear">Clear</button>
+    </section>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. HTML binding</h1>
+
+    <h2>
+        Write a function that puts the value of an object into the content/attributes of HTML tags.
+        Add the function to the <strong>String.prototype</strong>
+    </h2>
+
+    <h3>Example 1:</h3>
+
+    <p><strong>input</strong></p>
+
+<pre><code> var str = '&lt;div data-bind-content="name"&gt;&lt;/div&gt;';
+    str.bind(str, {name: 'Steven'});
+</code></pre>
+
+    <p><strong>output</strong></p>
+
+<pre><code>    &lt;div data-bind-content="name"&gt;Steven&lt;/div&gt;
+</code></pre>
+
+
+    <h3>Example 2:</h3>
+
+    <p><strong>input</strong></p>
+
+<pre><code> var bindingString = '&lt;a data-bind-content="name" data-bind-href="link" data-bind-class="name"&gt;&lt;/а&gt;'
+    str.bind(str, {name: 'Elena', link: 'http://telerikacademy.com'});
+</code></pre>
+
+    <p><strong>output</strong></p>
+
+<pre><code>    &lt;a data-bind-content="name" data-bind-href="link" data-bind-class="name"
+    href="http://telerikacademy.com" class="Elena"&gt;Elena&lt;/а&gt;
+</code></pre>
+
+    <p>Option 1:</p>
+    <label for="problem21">name: </label>
+    <input type="text" id="problem21" value="Steven">
+
+    <p>Option 2:</p>
+    <label for="problem221">name:</label>
+    <input type="text" id="problem221" value="Elena">
+    <label for="problem222">link:</label>
+    <input type="text" id="problem222" value="http://telerikacademy.com">
+
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

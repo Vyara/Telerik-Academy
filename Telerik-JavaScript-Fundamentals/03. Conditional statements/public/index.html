@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Conditional statements</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. Exchange if greater</h1>
+
+    <h2>
+        Write an if statement that takes two double variables a and b and exchanges their values if the first one is
+        greater than the second.<br/>
+        As a result print the values a and b, separated by a space.
+    </h2>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>2 5</td>
+        </tr>
+        <tr>x
+            <td>3</td>
+            <td>4</td>
+            <td>3 4</td>
+        </tr>
+        <tr>
+            <td>5.5</td>
+            <td>4.5</td>
+            <td>4.5 5.5</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem11">a:</label>
+    <input type="text" id="problem11">
+    <label for="problem12">b:</label>
+    <input type="text" id="problem12">
+    <button id="problem1test">Test!</button>
+    <button id="problem1clear">Clear</button>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. Multiplication Sign</h1>
+
+    <h2>
+        Write a script that shows the sign (+, - or 0) of the product of three real numbers, without calculating
+        it.<br/>
+        Use a sequence of if operators.
+    </h2>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th align="center">result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td align="center">+</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>-2</td>
+            <td>1</td>
+            <td align="center">+</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>4</td>
+            <td>3</td>
+            <td align="center">-</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>-2.5</td>
+            <td>4</td>
+            <td align="center">0</td>
+        </tr>
+        <tr>
+            <td>-1</td>
+            <td>-0.5</td>
+            <td>-5.1</td>
+            <td align="center">-</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem21">a:</label>
+    <input type="text" id="problem21">
+    <label for="problem22">b:</label>
+    <input type="text" id="problem22">
+    <label for="problem23">c:</label>
+    <input type="text" id="problem23">
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. The biggest of Three</h1>
+
+    <h2>
+        Write a script that finds the biggest of three numbers.<br/>
+        Use nested if statements.
+    </h2>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th align="center">biggest</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>-2</td>
+            <td>1</td>
+            <td align="center">1</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>4</td>
+            <td>3</td>
+            <td align="center">4</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>-2.5</td>
+            <td>5</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td>-0.1</td>
+            <td>-0.5</td>
+            <td>-1.1</td>
+            <td align="center">-0.1</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem31">a:</label>
+    <input type="text" id="problem31">
+    <label for="problem32">b:</label>
+    <input type="text" id="problem32">
+    <label for="problem33">c:</label>
+    <input type="text" id="problem33">
+    <button id="problem3test">Test!</button>
+    <button id="problem3clear">Clear</button>
+</article>
+<article id="article4">
+    <h1>Problem 4. Sort 3 numbers</h1>
+
+    <h2>
+        Sort 3 real values in descending order.<br/>
+        Use nested if statements.<br/>
+    </h2>
+
+    <h3>Note: Don’t use arrays and the built-in sorting functionality.</h3>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>5</td>
+            <td>1</td>
+            <td>2</td>
+            <td>5 2 1</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>-2</td>
+            <td>1</td>
+            <td>1 -2 -2</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4 3 -2</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>-2.5</td>
+            <td>5</td>
+            <td>5 0 -2.5</td>
+        </tr>
+        <tr>
+            <td>-1.1</td>
+            <td>-0.5</td>
+            <td>-0.1</td>
+            <td>-0.1 -0.5 -1.1</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+            <td>30 20 10</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1 1 1</td>
+        </tr>
+        </tbody>
+    </table>
+    <label for="problem41">a:</label>
+    <input type="text" id="problem41">
+    <label for="problem42">b:</label>
+    <input type="text" id="problem42">
+    <label for="problem43">c:</label>
+    <input type="text" id="problem43">
+    <button id="problem4test">Test!</button>
+    <button id="problem4clear">Clear</button>
+</article>
+<article id="article5">
+    <h1>Problem 5. Digit as word</h1>
+
+    <h2>
+        Write a script that asks for a digit (0-9), and depending on the input, shows the digit as a word (in
+        English).<br/>
+        Print “not a digit” in case of invalid input.<br/>
+        Use a switch statement.<br/>
+    </h2>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>digit</th>
+            <th>result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>two</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>one</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>zero</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>five</td>
+        </tr>
+        <tr>
+            <td>-0.1</td>
+            <td>not a digit</td>
+        </tr>
+        <tr>
+            <td>hi</td>
+            <td>not a digit</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>nine</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>not a digit</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <label for="problem5">d:</label>
+    <input type="text" id="problem5">
+    <button id="problem5test">Test!</button>
+    <button id="problem5clear">Clear</button>
+</article>
+<article id="article6">
+    <h1>Problem 6. Quadratic equation</h1>
+
+    <h2>
+        Write a script that reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0 and solves it
+        (prints its real roots).<br/>
+        Calculates and prints its real roots.
+    </h2>
+
+    <h3>Note: Quadratic equations may have 0, 1 or 2 real roots.</h3>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th align="center">a</th>
+            <th align="center">b</th>
+            <th align="center">c</th>
+            <th>roots</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">2</td>
+            <td align="center">5</td>
+            <td align="center">-3</td>
+            <td>x1=-3; x2=0.5</td>
+        </tr>
+        <tr>
+            <td align="center">-1</td>
+            <td align="center">3</td>
+            <td align="center">0</td>
+            <td>x1=3; x2=0</td>
+        </tr>
+        <tr>
+            <td align="center">-0.5</td>
+            <td align="center">4</td>
+            <td align="center">-8</td>
+            <td>x1=x2=4</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td align="center">2</td>
+            <td align="center">8</td>
+            <td>no real roots</td>
+        </tr>
+        </tbody>
+    </table>
+    <label for="problem61">a:</label>
+    <input type="text" id="problem61">
+    <label for="problem62">b:</label>
+    <input type="text" id="problem62">
+    <label for="problem63">c:</label>
+    <input type="text" id="problem63">
+    <button id="problem6test">Test!</button>
+    <button id="problem6clear">Clear</button>
+</article>
+<article id="article7">
+    <h1>Problem 7. The biggest of five numbers</h1>
+
+    <h2>
+        Write a script that finds the greatest of given 5 variables.<br/>
+        Use nested if statements.
+    </h2>
+
+    <h3>Examples:</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th align="center">d</th>
+            <th align="center">e</th>
+            <th>biggest</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td align="center">4</td>
+            <td align="center">1</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>-22</td>
+            <td>1</td>
+            <td align="center">0</td>
+            <td align="center">0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>-2</td>
+            <td>4</td>
+            <td>3</td>
+            <td align="center">2</td>
+            <td align="center">0</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>-2.5</td>
+            <td>0</td>
+            <td align="center">5</td>
+            <td align="center">5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>-3</td>
+            <td>-0.5</td>
+            <td>-1.1</td>
+            <td align="center">-2</td>
+            <td align="center">-0.1</td>
+            <td>-0.1</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem71">a:</label>
+    <input type="text" id="problem71">
+    <label for="problem72">b:</label>
+    <input type="text" id="problem72">
+    <label for="problem73">c:</label>
+    <input type="text" id="problem73">
+    <label for="problem74">d:</label>
+    <input type="text" id="problem74">
+    <label for="problem75">e:</label>
+    <input type="text" id="problem75">
+    <button id="problem7test">Test!</button>
+    <button id="problem7clear">Clear</button>
+</article>
+<article id="article8">
+    <h1>Problem 8. Number as words</h1>
+
+    <h2>
+        Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.
+    </h2>
+
+    <h3>Examples:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>numbers</th>
+            <th>number as words</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>0</td>
+            <td>Zero</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Nine</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Ten</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Twelve</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Nineteen</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Twenty five</td>
+        </tr>
+        <tr>
+            <td>98</td>
+            <td>Ninety eight</td>
+        </tr>
+        <tr>
+            <td>273</td>
+            <td>Two hundred and seventy three</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>Four hundred</td>
+        </tr>
+        <tr>
+            <td>501</td>
+            <td>Five hundred and one</td>
+        </tr>
+        <tr>
+            <td>617</td>
+            <td>Six hundred and seventeen</td>
+        </tr>
+        <tr>
+            <td>711</td>
+            <td>Seven hundred and eleven</td>
+        </tr>
+        <tr>
+            <td>999</td>
+            <td>Nine hundred and ninety nine</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem8">Please a number in the range [0…999]:</label>
+    <input type="text" id="problem8">
+    <button id="problem8test">Test!</button>
+    <button id="problem8clear">Clear</button>
+</article>
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

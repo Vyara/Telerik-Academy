@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Functions</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. English digit</h1>
+
+    <h2>
+        Write a function that returns the last digit of given integer as an English word.
+    </h2>
+
+    <h3>Examples:</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th align="center">input</th>
+            <th align="center">output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">512</td>
+            <td align="center">two</td>
+        </tr>
+        <tr>
+            <td align="center">1024</td>
+            <td align="center">four</td>
+        </tr>
+        <tr>
+            <td align="center">12309</td>
+            <td align="center">nine</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem1">Please enter an integer:</label>
+    <input type="text" id="problem1">
+
+    <button id="problem1test">Test!</button>
+    <button id="problem1clear">Clear</button>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. Reverse number</h1>
+
+    <h2>
+        Write a function that reverses the digits of given decimal number.
+    </h2>
+
+    <h3>Example:</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th align="center">input</th>
+            <th align="center">output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">256</td>
+            <td align="center">652</td>
+        </tr>
+        <tr>
+            <td align="center">123.45</td>
+            <td align="center">54.321</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem2">Please enter a number:</label>
+    <input type="text" id="problem2">
+
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. Occurrences of word</h1>
+
+    <h2>
+        Write a function that finds all the occurrences of word in a text.<br/>
+        The search can be case sensitive or case insensitive.<br/>
+        Use function overloading.
+    </h2>
+
+    <h3 id="problem3">Text: </h3>
+    <textarea id="problem31">Function is a first-class object. As such, it has properties and methods, such as .call() and .bind().A nested function is a function defined within another function. It is created each time the outer function is invoked.In addition, each created function forms a lexical closure: the lexical scope of the outer function, including any constants, local variables and argument values,becomes part of the internal state of each inner function object, even after execution of the outer function concludes.JavaScript also supports anonymous functions.</textarea>
+    <section id="problem3input">
+    <label for="problem32">Word:</label>
+    <input type="text" id="problem32" value="Function">
+    </section>
+    <section id="problem3buttons">
+        <button id="problem3test">Test!</button>
+        <button id="problem3clear">Clear</button>
+    </section>
+</article>
+<article id="article4">
+    <h1>Problem 4. Number of elements</h1>
+
+    <h2>
+        Write a function to count the number of div elements on the web page
+    </h2>
+
+    <label for="problem4">URL:</label>
+    <input type="text" id="problem4" value="https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/08.%20Functions/README.md">
+
+    <button id="problem4test">Test!</button>
+    <button id="problem4clear">Clear</button>
+</article>
+<article id="article5">
+    <h1>Problem 5. Appearance count</h1>
+
+    <h2>
+        Write a function that counts how many times given number appears in given array.<br/>
+        Write a test function to check if the function is working correctly.
+    </h2>
+
+    <label for="problem51">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem51" value="3, 2, 3, 4, 2, 2, 4">
+    <label for="problem52">Number:</label>
+    <input type="text" id="problem52" value="2">
+    <button id="problem5test">Test!</button>
+    <button id="problem5clear">Clear</button>
+</article>
+<article id="article6">
+    <h1>Problem 6. Larger than neighbours</h1>
+
+    <h2>
+        Write a function that checks if the element at given position in given array of integers is bigger than its
+        two<br/>
+        neighbours (when such exist).
+    </h2>
+
+    <label for="problem61">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem61" value="4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3">
+    <label for="problem62">Element position:</label>
+    <input type="text" id="problem62" value="3">
+    <button id="problem6test">Test!</button>
+    <button id="problem6clear">Clear</button>
+</article>
+<article id="article7">
+    <h1>Problem 7. First larger than neighbours</h1>
+
+    <h2>
+        Write a function that returns the index of the first element in array that is larger than its neighbours or -1,
+        if there’s<br/>
+        no such element.<br/>
+        Use the function from the previous exercise.
+    </h2>
+
+
+    <label for="problem7">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem7" value="1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3">
+    <button id="problem7test">Test!</button>
+    <button id="problem7clear">Clear</button>
+</article>
+
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

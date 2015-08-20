@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Operators and Expressions</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+<h1>Problem 1. Odd or Even</h1>
+
+    <h2>
+    Write an expression that checks if given integer is odd or even.<br />
+        <br />
+        Examples:
+    </h2>
+    <table><thead>
+    <tr>
+        <th align="center">n</th>
+        <th align="center">Odd?</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">-2</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">-1</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">false</td>
+    </tr>
+    </tbody></table>
+
+
+    <label for="problem1">Please enter a number:</label>
+<input type="text" id="problem1">
+    <button id="problem1test">Test!</button>
+    <button id="problem1clear">Clear</button>
+    </article>
+
+<article id="article2">
+    <h1>Problem 2. Divisible by 7 and 5</h1>
+
+    <h2>
+        Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.<br />
+        <br />
+        Examples:
+        </h2>
+    <table><thead>
+    <tr>
+        <th align="center">n</th>
+        <th align="center">Divided by 7 and 5?</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">7</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">35</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">140</td>
+        <td align="center">true</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem2">Please enter a number:</label>
+    <input type="text" id="problem2">
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. Rectangle area</h1>
+
+    <h2>
+        Write an expression that calculates rectangle’s area by given width and height.<br />
+        <br />
+        Examples:
+
+    </h2>
+
+    <table><thead>
+    <tr>
+        <th align="center">width</th>
+        <th align="center">height</th>
+        <th align="center">area</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">4</td>
+        <td align="center">12</td>
+    </tr>
+    <tr>
+        <td align="center">2.5</td>
+        <td align="center">3</td>
+        <td align="center">7.5</td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">5</td>
+        <td align="center">25</td>
+    </tr>
+    </tbody></table>
+    <label for="problem31">Please enter a rectangle's width:</label>
+    <input type="text" id="problem31">
+    <label for="problem32">Please enter a rectangle's height:</label>
+    <input type="text" id="problem32">
+    <button id="problem3test">Test!</button>
+    <button id="problem3clear">Clear</button>
+</article>
+<article id="article4">
+    <h1>Problem 4. Third digit</h1>
+
+    <h2>
+        Write an expression that checks for given integer if its third digit (right-to-left) is 7.<br />
+        <br />
+        Examples:
+        </h2>
+
+    <table><thead>
+    <tr>
+        <th align="center">n</th>
+        <th align="center">Third digit 7?</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">701</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">1732</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">9703</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">877</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">777877</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">9999799</td>
+        <td align="center">true</td>
+    </tr>
+    </tbody></table>
+    <label for="problem4">Please enter a number:</label>
+    <input type="text" id="problem4">
+    <button id="problem4test">Test!</button>
+    <button id="problem4clear">Clear</button>
+</article>
+<article id="article5">
+    <h1>Problem 5. Third bit</h1>
+
+    <h2>
+        Write a boolean expression for finding if the bit #3 (counting from 0) of a given integer.<br />
+        The bits are counted from right to left, starting from bit #0.<br />
+        The result of the expression should be either 1 or 0.<br />
+        Examples:<br />
+
+    </h2>
+    <table><thead>
+    <tr>
+        <th align="center">n</th>
+        <th align="center">binary representation</th>
+        <th align="center">bit #3</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">00000000 00000101</td>
+        <td align="center">0</td>
+    </tr>
+    <tr>
+        <td align="center">8</td>
+        <td align="center">00000000 00001000</td>
+        <td align="center">1</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">00000000 00000000</td>
+        <td align="center">0</td>
+    </tr>
+    <tr>
+        <td align="center">15</td>
+        <td align="center">00000000 00001111</td>
+        <td align="center">1</td>
+    </tr>
+    <tr>
+        <td align="center">5343</td>
+        <td align="center">00010100 11011111</td>
+        <td align="center">1</td>
+    </tr>
+    <tr>
+        <td align="center">62241</td>
+        <td align="center">11110011 00100001</td>
+        <td align="center">0</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem5">Please enter a number:</label>
+    <input type="text" id="problem5">
+    <button id="problem5test">Test!</button>
+    <button id="problem5clear">Clear</button>
+</article>
+<article id="article6">
+    <h1>Problem 6. Point in Circle</h1>
+
+    <h2>
+        Write an expression that checks if given point P(x, y) is within a circle K({0,0}, 5). //{0,0} is the centre and 5 is the radius<br />
+        Examples:<br />
+
+    </h2>
+    <table><thead>
+    <tr>
+        <th align="center">x</th>
+        <th align="center">y</th>
+        <th align="center">inside</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">-5</td>
+        <td align="center">0</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">-4</td>
+        <td align="center">5</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">1.5</td>
+        <td align="center">-3</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">-4</td>
+        <td align="center">-3.5</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">100</td>
+        <td align="center">-30</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">0.2</td>
+        <td align="center">-0.8</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">0.9</td>
+        <td align="center">-4.93</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">2.655</td>
+        <td align="center">true</td>
+    </tr>
+    </tbody></table>
+    <label for="problem61">Please enter a value for x:</label>
+    <input type="text" id="problem61">
+    <label for="problem62">Please enter a value for y:</label>
+    <input type="text" id="problem62">
+    <button id="problem6test">Test!</button>
+    <button id="problem6clear">Clear</button>
+</article>
+<article id="article7">
+    <h1>Problem 7. Is prime</h1>
+
+    <h2>
+        Write an expression that checks if given positive integer number n (n ≤ 100) is prime.<br />
+        Examples:<br />
+
+    </h2>
+
+    <table><thead>
+    <tr>
+        <th align="center">n</th>
+        <th align="center">Prime?</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">1</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">9</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">37</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">97</td>
+        <td align="center">true</td>
+    </tr>
+    <tr>
+        <td align="center">51</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">-3</td>
+        <td align="center">false</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">false</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem7">Please enter an integer:</label>
+    <input type="text" id="problem7">
+    <button id="problem7test">Test!</button>
+    <button id="problem7clear">Clear</button>
+</article>
+<article id="article8">
+    <h1>Problem 8. Trapezoid area</h1>
+
+    <h2>
+        Write an expression that calculates trapezoid's area by given sides a and b and height h.<br />
+        Examples:<br />
+
+    </h2>
+    <table><thead>
+    <tr>
+        <th align="center">a</th>
+        <th align="center">b</th>
+        <th align="center">h</th>
+        <th align="center">area</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">7</td>
+        <td align="center">12</td>
+        <td align="center">72</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">33</td>
+        <td align="center">49.5</td>
+    </tr>
+    <tr>
+        <td align="center">8.5</td>
+        <td align="center">4.3</td>
+        <td align="center">2.7</td>
+        <td align="center">17.28</td>
+    </tr>
+    <tr>
+        <td align="center">100</td>
+        <td align="center">200</td>
+        <td align="center">300</td>
+        <td align="center">45000</td>
+    </tr>
+    <tr>
+        <td align="center">0.222</td>
+        <td align="center">0.333</td>
+        <td align="center">0.555</td>
+        <td align="center">0.1540125</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem81">Please a value for a:</label>
+    <input type="text" id="problem81">
+    <label for="problem82">Please a value for b:</label>
+    <input type="text" id="problem82">
+    <label for="problem83">Please a value for h:</label>
+    <input type="text" id="problem83">
+    <button id="problem8test">Test!</button>
+    <button id="problem8clear">Clear</button>
+</article>
+<article id="article9">
+    <h1>Problem 9. Point in Circle and outside Rectangle</h1>
+
+    <h2>
+        Write an expression that checks for given point P(x, y) if it is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2).<br />
+        Examples:<br />
+
+    </h2>
+    <table><thead>
+    <tr>
+        <th align="center">x</th>
+        <th align="center">y</th>
+        <th align="center">inside K &amp; outside of R</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">yes</td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">yes</td>
+    </tr>
+    <tr>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">no</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">no</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">0</td>
+        <td align="center">no</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td align="center">0</td>
+        <td align="center">no</td>
+    </tr>
+    <tr>
+        <td align="center">2.5</td>
+        <td align="center">1.5</td>
+        <td align="center">yes</td>
+    </tr>
+    <tr>
+        <td align="center">3.5</td>
+        <td align="center">1.5</td>
+        <td align="center">yes</td>
+    </tr>
+    <tr>
+        <td align="center">-100</td>
+        <td align="center">-100</td>
+        <td align="center">no</td>
+    </tr>
+    </tbody></table>
+    <label for="problem91">Please enter a value for x:</label>
+    <input type="text" id="problem91">
+    <label for="problem92">Please enter a value for y:</label>
+    <input type="text" id="problem92">
+    <button id="problem9test">Test!</button>
+    <button id="problem9clear">Clear</button>
+</article>
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

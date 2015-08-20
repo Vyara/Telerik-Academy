@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Strings</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. Reverse string</h1>
+
+    <h2>
+        Write a JavaScript function that reverses a string and returns it.
+    </h2>
+
+    <h3>Example:</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th align="center">input</th>
+            <th align="center">output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">sample</td>
+            <td align="center">elpmas</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem1">Please enter a string:</label>
+    <input type="text" id="problem1" value="sample">
+
+
+    <section id="problem1buttons">
+        <button id="problem1test">Test!</button>
+        <button id="problem1clear">Clear</button>
+    </section>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. Correct brackets</h1>
+
+    <h2>
+        Write a JavaScript function to check if in a given expression the brackets are put correctly.
+    </h2>
+
+    <h4>Example of correct expression: ((a+b)/5-d). Example of incorrect expression: )(a+b)).</h4>
+
+    <label for="problem21">First Expression:</label>
+    <input type="text" id="problem21" value="((a+b)/5-d)">
+    <label for="problem22">Second Expression:</label>
+    <input type="text" id="problem22" value=")(a+b))">
+
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. Sub-string in text</h1>
+
+    <h2>
+        Write a JavaScript function that finds how many times a substring is contained in a given text (perform case
+        insensitive search).
+    </h2>
+
+    <h3>Example:</h3>
+    <h4>
+        The target sub-string is in<br/>
+
+        The text is as follows: We are living in an yellow submarine. We don't have anything else. inside the submarine
+        is very tight. <br/>
+        So we are drinking all the day. We will move out of it in 5 days.<br/>
+        <br/>
+        The result is: 9
+    </h4>
+    <label for="problem31">Text:</label>
+    <textarea id="problem31">We are living in an yellow submarine. We don't have anything else. inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.</textarea>
+    <label for="problem32">Target Substring:</label>
+    <input type="text" id="problem32" value="in">
+
+
+    <section id="problem3buttons">
+        <button id="problem3test">Test!</button>
+        <button id="problem3clear">Clear</button>
+    </section>
+</article>
+<article id="article4">
+    <h1>Problem 4. Parse tags</h1>
+
+    <h2>
+        You are given a text. Write a function that changes the text in all regions:
+    </h2>
+
+<pre><code>&lt;upcase&gt;text&lt;/upcase&gt; to uppercase.
+    &lt;lowcase&gt;text&lt;/lowcase&gt; to lowercase
+    &lt;mixcase&gt;text&lt;/mixcase&gt; to mix casing(random)
+</code></pre>
+
+    <h3>Example: </h3>
+
+    <h4>
+        We are <code>&lt;mixcase&gt;living&lt;/mixcase&gt;</code> in a <code>&lt;upcase&gt;yellow submarine&lt;/upcase&gt;</code>.
+        We <code>&lt;mixcase&gt;don't&lt;/mixcase&gt;</code> have <code>&lt;lowcase&gt;anything&lt;/lowcase&gt;</code>
+        else.
+
+
+        <em>The expected result:</em><br/>
+        We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.<br/>
+        <br/>
+        <<em>Note: Regions can be nested.</em>
+    </h4>
+
+    <label for="problem4">Text:</label>
+    <textarea id="problem4"> We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.</textarea>
+
+    <section id="problem4buttons">
+        <button id="problem4test">Test!</button>
+        <button id="problem4clear">Clear</button>
+    </section>
+</article>
+<article id="article5">
+    <h1>Problem 5. nbsp</h1>
+
+    <h2>
+        Write a function that replaces non breaking white-spaces in a text with '&nbsp';
+    </h2>
+    <label for="problem5">Text:</label>
+    <textarea id="problem5">We are  living in an yellow submarine. We  don't have anything  else. inside the submarine is very tight. </textarea>
+    <section id="problem5buttons">
+        <button id="problem5test">Test!</button>
+        <button id="problem5clear">Clear</button>
+    </section>
+</article>
+<article id="article6">
+    <h1>Problem 6. Extract text from HTML</h1>
+
+    <h2>
+        Write a function that extracts the content of a html page given as text.<br/>
+        The function should return anything that is in a tag, without the tags.
+    </h2>
+
+    <h3>Example:</h3>
+
+<pre><code>&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Sample site&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;div&gt;text
+    &lt;div&gt;more text&lt;/div&gt;
+    and more...
+    &lt;/div&gt;
+    in body
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre>
+    <h4>
+        Result: Sample site text more text and more...in body
+    </h4>
+
+    <label for="problem6">Text:</label>
+    <textarea id="problem6"> &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Sample site&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;div&gt;text
+    &lt;div&gt;more text&lt;/div&gt;
+    and more...
+    &lt;/div&gt;
+    in body
+    &lt;/body&gt;
+    &lt;/html&gt;</textarea>
+    <section id="problem6buttons">
+        <button id="problem6test">Test!</button>
+        <button id="problem6clear">Clear</button>
+    </section>
+</article>
+<article id="article7">
+    <h1>Problem 7. Parse URL</h1>
+
+    <h2>
+        Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts
+        from it the [protocol], [server] and [resource] elements.<br/>
+        Return the elements in a JSON object.
+    </h2>
+
+    <h3>Example: </h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th align="center">URL</th>
+            <th align="center">result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center"><code>http://telerikacademy.com/Courses/Courses/Details/239</code></td>
+            <td align="center">{ protocol: <code>http</code>, <br> server: <code>telerikacademy.com</code> <br>
+                resource: <code>/Courses/Courses/Details/239</code></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem7">URL:</label>
+    <input type="text" id="problem7" value="http://telerikacademy.com/Courses/Courses/Details/239">
+    <button id="problem7test">Test!</button>
+    <button id="problem7clear">Clear</button>
+</article>
+<article id="article8">
+    <h1>Problem 8. Replace tags</h1>
+
+    <h2>
+        Write a JavaScript function that replaces in a HTML document given as string all the tags <code>&lt;a href="…"&gt;…&lt;/a&gt;</code>
+        with corresponding tags <code>[URL=…]…/URL]</code>.
+    </h2>
+
+    <h3>Example: </h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th align="center">input</th>
+            <th align="center">output</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center"><code>&lt;p&gt;Please visit &lt;a href="http://academy.telerik.com"&gt;our site&lt;/a&gt;
+                to choose a training course. Also visit &lt;a href="www.devbg.org"&gt;our forum&lt;/a&gt; to discuss the
+                courses.&lt;/p&gt;</code></td>
+            <td align="center"><code>&lt;p&gt;Please visit [URL=http://academy.telerik.com]our site[/URL] to choose a
+                training course. Also visit [URL=www.devbg.org]our forum[/URL] to discuss the courses.&lt;/p&gt;</code>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <label for="problem8">Text:</label>
+    <textarea id="problem8"> &lt;p&gt;Please visit &lt;a href="http://academy.telerik.com"&gt;our site&lt;/a&gt;
+                to choose a training course. Also visit &lt;a href="www.devbg.org"&gt;our forum&lt;/a&gt; to discuss the
+                courses.&lt;/p&gt;</textarea>
+    <section id="problem8buttons">
+        <button id="problem8test">Test!</button>
+        <button id="problem8clear">Clear</button>
+    </section>
+</article>
+<article id="article9">
+    <h1>Problem 9. Extract e-mails</h1>
+
+    <h2>
+        Write a function for extracting all email addresses from given text.<br/>
+        All sub-strings that match the format @… should be recognized as emails.<br/>
+        Return the emails as array of strings.
+    </h2>
+
+
+    <label for="problem9">Text:</label>
+    <textarea id="problem9">janedoe@gmail.com, !v@s.d, john_doe@abv.bg, ksahdh, ;, now@then, .jp, jsa@.de, sam.walters@yahoo.com </textarea>
+    <section id="problem9buttons">
+        <button id="problem9test">Test!</button>
+        <button id="problem9clear">Clear</button>
+    </section>
+</article>
+<article id="article10">
+    <h1>Problem 10. Find palindromes</h1>
+
+    <h2>
+        Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".
+    </h2>
+
+    <label for="problem10">Text:</label>
+    <input type="text" id="problem10" value="Sample random text with ABBA  aBbA.next ?lamal point...eXe, alula!">
+    <button id="problem10test">Test!</button>
+    <button id="problem10clear">Clear</button>
+</article>
+<article id="article11">
+    <h1>Problem 11. String format</h1>
+
+    <h2>
+        Write a function that formats a string using placeholders.
+        The function should work with up to 30 placeholders and all types.
+    </h2>
+
+    <h3>Examples: </h3>
+
+
+       <pre><code>var str = stringFormat'Hello {0}!', 'Peter');
+           //str = 'Hello Peter!';
+
+           var frmt = '{0}, {1}, {0} text {2}';
+           var str = stringFormat(frmt, 1, 'Pesho', 'Gosho');
+           //str = '1, Pesho, 1 text Gosho'
+       </code></pre>
+
+
+    <button id="problem11test">Test!</button>
+    <button id="problem11clear">Clear</button>
+</article>
+<article id="article12">
+    <h1>Problem 12. Generate list</h1>
+
+    <h2>
+        Write a function that creates a HTML <code>&lt;ul&gt;</code> using a template for every HTML <code>
+        &lt;li&gt;</code>.<br/>
+        The source of the list should be an array of elements.<br/>
+        Replace all placeholders marked with –{…}– with the value of the corresponding property of the object.
+    </h2>
+
+    <h3>Example: </h3>
+
+    <em>HTML:</em> </p>
+
+<pre><code>&lt;div data-type="template" id="list-item"&gt;
+    &lt;strong&gt;-{name}-&lt;/strong&gt; &lt;span&gt;-{age}-&lt;/span&gt;
+    /div&gt;
+</code></pre>
+
+    <p><em>JavaScript:</em></p>
+
+<pre><code>var people = [{name: 'Peter', age: 14},…];
+    var tmpl = document.getElementById('list-item').innerHtml;
+    var peopleList = generateList(people, template);
+    //peopleList = '&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Peter&lt;/strong&gt; &lt;span&gt;14&lt;/span&gt;&lt;/li&gt;&lt;li&gt;…&lt;/li&gt;…&lt;/ul&gt;'
+</code></pre>
+
+
+    <label for="problem12">HTML:</label>
+    <textarea id="problem12"> &lt;div data-type="template" id="list-item"&gt;
+    &lt;strong&gt;-{name}-&lt;/strong&gt; &lt;span&gt;-{age}-&lt;/span&gt;
+    &lt;/div&gt;</textarea>
+
+    <section id="problem12buttons">
+        <button id="problem12test">Test!</button>
+        <button id="problem12clear">Clear</button>
+    </section>
+</article>
+
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

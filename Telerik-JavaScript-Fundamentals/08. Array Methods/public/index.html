@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Array Methods</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. Make person</h1>
+
+    <h2>
+        Write a function for creating persons.<br/>
+        Each person must have <strong>firstname</strong>, <strong>lastname</strong>, <strong>age</strong> and <strong>gender</strong>
+        (true is female, false is male)<br/>
+        Generate an array with ten person with different names, ages and genders
+    </h2>
+    <h5>first person: </h5>
+    <label for="problem111">firstname:</label>
+    <input type="text" id="problem111" value="John">
+    <label for="problem112">lastname:</label>
+    <input type="text" id="problem112" value="Doe">
+    <label for="problem113">age:</label>
+    <input type="text" id="problem113" value="23">
+    <label for="problem114">gender:</label>
+    <select id="problem114">
+        <option value="true">true(female)</option>
+        <option value="false" selected>false(male)</option>
+    </select>
+    <h5>second person: </h5>
+    <label for="problem121">firstname:</label>
+    <input type="text" id="problem121" value="Jane">
+    <label for="problem122">lastname:</label>
+    <input type="text" id="problem122" value="Doe">
+    <label for="problem123">age:</label>
+    <input type="text" id="problem123" value="32">
+    <label for="problem124">gender:</label>
+    <select id="problem124">
+        <option value="true" selected>true(female)</option>
+        <option value="false">false(male)</option>
+    </select>
+    <h5>third person: </h5>
+    <label for="problem131">firstname:</label>
+    <input type="text" id="problem131" value="Alana">
+    <label for="problem132">lastname:</label>
+    <input type="text" id="problem132" value="Smith">
+    <label for="problem133">age:</label>
+    <input type="text" id="problem133" value="18">
+    <label for="problem134">gender:</label>
+    <select id="problem134">
+        <option value="true" selected>true(female)</option>
+        <option value="false">false(male)</option>
+    </select>
+    <h5>fourth person: </h5>
+    <label for="problem141">firstname:</label>
+    <input type="text" id="problem141" value="Brian">
+    <label for="problem142">lastname:</label>
+    <input type="text" id="problem142" value="Jones">
+    <label for="problem143">age:</label>
+    <input type="text" id="problem143" value="46">
+    <label for="problem144">gender:</label>
+    <select id="problem144">
+        <option value="true">true(female)</option>
+        <option value="false" selected>false(male)</option>
+    </select>
+    <h5>fifth person: </h5>
+    <label for="problem151">firstname:</label>
+    <input type="text" id="problem151" value="Zoe">
+    <label for="problem152">lastname:</label>
+    <input type="text" id="problem152" value="Ferguson">
+    <label for="problem153">age:</label>
+    <input type="text" id="problem153" value="26">
+    <label for="problem154">gender:</label>
+    <select id="problem154">
+        <option value="true" selected>true(female)</option>
+        <option value="false">false(male)</option>
+    </select>
+    <h5>sixth person: </h5>
+    <label for="problem161">firstname:</label>
+    <input type="text" id="problem161" value="Yuki">
+    <label for="problem162">lastname:</label>
+    <input type="text" id="problem162" value="Hamada">
+    <label for="problem163">age:</label>
+    <input type="text" id="problem163" value="28">
+    <label for="problem164">gender:</label>
+    <select id="problem164">
+        <option value="true" selected>true(female)</option>
+        <option value="false">false(male)</option>
+    </select>
+    <h5>seventh person: </h5>
+    <label for="problem171">firstname:</label>
+    <input type="text" id="problem171" value="Bob">
+    <label for="problem172">lastname:</label>
+    <input type="text" id="problem172" value="Bobson">
+    <label for="problem173">age:</label>
+    <input type="text" id="problem173" value="55">
+    <label for="problem174">gender:</label>
+    <select id="problem174">
+        <option value="true">true(female)</option>
+        <option value="false" selected>false(male)</option>
+    </select>
+
+    <h5>eight person: </h5>
+    <label for="problem181">firstname:</label>
+    <input type="text" id="problem181" value="Kate">
+    <label for="problem182">lastname:</label>
+    <input type="text" id="problem182" value="Morris">
+    <label for="problem183">age:</label>
+    <input type="text" id="problem183" value="16">
+    <label for="problem184">gender:</label>
+    <select id="problem184">
+        <option value="true" selected>true(female)</option>
+        <option value="false">false(male)</option>
+    </select>
+
+    <h5>ninth person: </h5>
+    <label for="problem191">firstname:</label>
+    <input type="text" id="problem191" value="Cameron">
+    <label for="problem192">lastname:</label>
+    <input type="text" id="problem192" value="Samson">
+    <label for="problem193">age:</label>
+    <input type="text" id="problem193" value="12">
+    <label for="problem194">gender:</label>
+    <select id="problem194">
+        <option value="true">true(female)</option>
+        <option value="false" selected>false(male)</option>
+    </select>
+
+    <h5>tenth person: </h5>
+    <label for="problem1101">firstname:</label>
+    <input type="text" id="problem1101" value="Sam">
+    <label for="problem1102">lastname:</label>
+    <input type="text" id="problem1102" value="Christenson">
+    <label for="problem1103">age:</label>
+    <input type="text" id="problem1103" value="17">
+    <label for="problem1104">gender:</label>
+    <select id="problem1104">
+        <option value="true">true(female)</option>
+        <option value="false" selected>false(male)</option>
+    </select>
+
+
+    <section id="problem1buttons">
+        <button id="problem1test">Test!</button>
+        <button id="problem1clear">Clear</button>
+    </section>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. People of age</h1>
+
+    <h2>
+        Write a function that checks if an array of person contains only people of age (with age 18 or greater)<br/>
+        Use <strong>only array methods</strong> and no regular loops (for, while)
+
+    </h2>
+
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. Underage people</h1>
+
+    <h2>
+        Write a function that prints all underaged persons of an array of person<br/>
+        Use <strong>Array#filter</strong> and <strong>Array#forEach</strong><br/>
+        Use <strong>only array methods</strong> and no regular loops (for, while)
+    </h2>
+
+    <section id="problem3buttons">
+        <button id="problem3test">Test!</button>
+        <button id="problem3clear">Clear</button>
+    </section>
+</article>
+<article id="article4">
+    <h1>Problem 4. Average age of females</h1>
+
+    <h2>
+        Write a function that calculates the average age of all females, extracted from an array of persons<br/>
+        Use <strong>Array#filter</strong><br/>
+        Use <strong>only array methods</strong> and no regular loops (for, while)
+    </h2>
+
+    <button id="problem4test">Test!</button>
+    <button id="problem4clear">Clear</button>
+</article>
+<article id="article5">
+    <h1>Problem 5. Youngest person</h1>
+
+    <h2>
+        Write a function that finds the youngest male person in a given array of people and prints his full name<br/>
+        Use <strong>only array methods</strong> and no regular loops (for, while)<br/>
+        Use <strong>Array#find</strong>
+    </h2>
+
+    <h3>Example: </h3>
+
+    <button id="problem5test">Test!</button>
+    <button id="problem5clear">Clear</button>
+</article>
+<article id="article6">
+    <h1>Problem 6. Group people</h1>
+
+    <h2>
+        Write a function that groups an array of persons by first letter of first name and returns the groups as a
+        JavaScript Object<br/>
+        Use <strong>Array#reduce</strong><br/>
+        Use <strong>only array methods</strong> and no regular loops (for, while)<br/>
+    </h2>
+
+    <h3>Example:</h3>
+
+    <h4>
+        result = {<br/>
+        'a': [{<br/>
+        firstname: 'Asen',<br/>
+        /* ... */<br/>
+        }, {<br/>
+        firstname: 'Anakonda',<br/>
+        /* ... */<br/>
+        }],<br/>
+        'j': [{<br/>
+        firstname: 'John',<br/>
+        /* ... */<br/>
+        }]<br/>
+        };
+    </h4>
+
+    <button id="problem6test">Test!</button>
+    <button id="problem6clear">Clear</button>
+</article>
+
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.js-console {
+    resize: none;
+    width: 70%;
+    height: 500px;
+    font-size: 20px;
+    border: 3px groove gray;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    overflow: auto;
+
+}
+
+article {
+    display: none;
+    border: 2px solid black;
+    width: 70%;
+
+}
+
+#article1 {
+    display: block;
+}
+
+input {
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px;
+    margin-left: 0;
+    width: 70px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background: darkseagreen;
+}
+
+th, td {
+    padding: 3px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+table {
+    margin-left: 10px;
+}
+
+label {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#problem32, #problem4, #problem51, #problem61, #problem7 {
+    width: 200px;
+}
+
+textarea {
+    display: inline-block;
+    float: right;
+    margin-right: 500px;
+    text-align: justify;
+}
+
+#article3 {
+    height: 370px;
+}
+
+#problem3 {
+    display: inline-block;
+}
+
+#problem31 {
+    display: inline-block;
+    margin-right: 440px;
+    width: 750px;
+    height: 100px;
+}
+
+#problem3buttons {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#problem3input {
+    margin-top: 80px;
+
+}

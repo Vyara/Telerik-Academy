@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Arrays</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<article id="article1">
+    <h1>Problem 1. Increase array members</h1>
+
+    <h2>
+        Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. <br />
+        Print the obtained array on the console.
+    </h2>
+
+    <button id="problem1test">Test!</button>
+    <button id="problem1clear">Clear</button>
+</article>
+
+<article id="article2">
+    <h1>Problem 2. Lexicographically comparison</h1>
+
+    <h2>
+        Write a script that compares two char arrays lexicographically (letter by letter).
+    </h2>
+
+    <h3>First Array: </h3>
+
+    <label for="problem21">char 1:</label>
+    <input type="text" id="problem21">
+    <label for="problem22">char 2:</label>
+    <input type="text" id="problem22">
+    <label for="problem23">char 3:</label>
+    <input type="text" id="problem23">
+
+    <h3>Second Array: </h3>
+
+    <label for="problem24">char 1:</label>
+    <input type="text" id="problem24">
+    <label for="problem25">char 2:</label>
+    <input type="text" id="problem25">
+    <label for="problem26">char 3:</label>
+    <input type="text" id="problem26">
+
+
+    <button id="problem2test">Test!</button>
+    <button id="problem2clear">Clear</button>
+</article>
+<article id="article3">
+    <h1>Problem 3. Maximal sequence</h1>
+
+    <h2>
+        Write a script that finds the maximal sequence of equal elements in an array.
+    </h2>
+
+    <h3>Example:</h3>
+    <table><thead>
+    <tr>
+        <th>input</th>
+        <th>result</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td>2, 1, 1, 2, 3, 3, <strong>2, 2, 2</strong>, 1</td>
+        <td>2, 2, 2</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem3">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem3" value="2, 1, 1, 2, 3, 3, 2, 2, 2, 1">
+
+    <button id="problem3test">Test!</button>
+    <button id="problem3clear">Clear</button>
+</article>
+<article id="article4">
+    <h1>Problem 4. Maximal increasing sequence</h1>
+
+    <h2>
+        Write a script that finds the maximal increasing sequence in an array.
+    </h2>
+
+    <h3>Example:</h3>
+    <table><thead>
+    <tr>
+        <th>input</th>
+        <th>result</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td>3, <strong>2, 3, 4</strong>, 2, 2, 4</td>
+        <td>2, 3, 4</td>
+    </tr>
+    </tbody></table>
+
+    <label for="problem4">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem4" value="3, 2, 3, 4, 2, 2, 4">
+
+    <button id="problem4test">Test!</button>
+    <button id="problem4clear">Clear</button>
+</article>
+<article id="article5">
+    <h1>Problem 5. Selection sort</h1>
+
+    <h2>
+        Sorting an array means to arrange its elements in increasing order.<br />
+        Write a script to sort an array.<br />
+        Use the selection sort algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.
+    </h2>
+
+    <h3>Hint: Use a second array</h3>
+
+    <label for="problem5">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem5" value="3, 2, 3, 4, 2, 2, 4">
+    <button id="problem5test">Test!</button>
+    <button id="problem5clear">Clear</button>
+</article>
+<article id="article6">
+    <h1>Problem 6. Most frequent number</h1>
+
+    <h2>
+        Write a script that finds the most frequent number in an array.
+    </h2>
+
+    <h3>Example:</h3>
+    <table><thead>
+    <tr>
+        <th>input</th>
+        <th>result</th>
+    </tr>
+    </thead><tbody>
+    <tr>
+        <td><strong>4</strong>, 1, 1, <strong>4</strong>, 2, 3, <strong>4</strong>, <strong>4</strong>, 1, 2, <strong>4</strong>, 9, 3</td>
+        <td>4 (5 times)</td>
+    </tr>
+    </tbody></table>
+    <label for="problem6">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem6" value="4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3">
+    <button id="problem6test">Test!</button>
+    <button id="problem6clear">Clear</button>
+</article>
+<article id="article7">
+    <h1>Problem 7. Binary search</h1>
+
+    <h2>
+        Write a script that finds the index of given element in a sorted array of integers by using the binary search algorithm.
+    </h2>
+
+
+    <label for="problem71">Array sequence(values should be separated by ', '):</label>
+    <input type="text" id="problem71" value="2, 1, 23, 65, 0, -3">
+    <label for="problem72">Element to look for:</label>
+    <input type="text" id="problem72">
+    <button id="problem7test">Test!</button>
+    <button id="problem7clear">Clear</button>
+</article>
+
+<button id="previous">Previous</button>
+<button id="next">Next</button>
+<div id="js-console">Console:</div>
+<script type="text/javascript" src="javascripts/consoleScripts.js"></script>
+<script type="text/javascript" src="javascripts/scripts.js"></script>
+</body>
+</html>
