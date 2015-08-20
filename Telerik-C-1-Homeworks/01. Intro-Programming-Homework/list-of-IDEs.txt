@@ -1,0 +1,19 @@
+Problem 12. Development Environments
+
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.
+Write in a text file called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each of them. Use English.
+
+1. Anjuta
+Supports variety of languages like C, C++, Java, JavaScript and Python. It is a Linux only based IDE. Includes common development tools like interactive debugger, source editor, GUI designer, etc.
+
+2. Eclipse
+Cross-platform, mostly written in Java and can be used to develop applications in many languagues, including C, C++, Python and Ruby. Contains a base workspace and plugin system. An open source free software.
+
+3. CodeLite
+Open source, cross-platform IDE for C/C++, it is written in C++. It uses the wxWidgets toolkit, which is a library for creating GUIs and cross-plattform applications.
+
+4. Netbeans
+Cross-platform, open source software, used primarily for Java. Allows applications to be developed from a set of so called modules. Comes with the GlassFish application server, which can be used for testing purposes.
+
+5. Xcode
+Developed by Apple, for MacOS, used for developing software for OS X and iOS. Includes the WebObjects application server and framework. Has many features, like Live Rendering and Performance Testing.
