@@ -1,2 +1,4 @@
-# Telerik-C-1-Homeworks
-C# part 1 homeworks
+CSharp-Part-1
+=============
+
+Repository for the course "C# part 1"
