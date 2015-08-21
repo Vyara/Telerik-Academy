@@ -1,0 +1,12 @@
+﻿
+Number: 100; LastDigit: zero
+Number: 101; LastDigit: one
+Number: 102; LastDigit: two
+Number: 103; LastDigit: three
+Number: 104; LastDigit: four
+Number: 105; LastDigit: five
+Number: 106; LastDigit: six
+Number: 107; LastDigit: seven
+Number: 108; LastDigit: eight
+Number: 109; LastDigit: nine
+

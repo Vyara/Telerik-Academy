@@ -1,0 +1,45 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ output extension=".txt" #>
+
+<#
+for (int i = 100; i < 110; i++)
+{
+	var result  = EnglishDigit(i);
+	WriteLine("Number: {0}; LastDigit: {1}", i, result);
+}
+#>
+
+<#+
+string EnglishDigit(decimal number) 
+{
+        var lastDigit = (int)(Math.Abs(number) % 10);
+        string lastDigitWord = "";
+        switch (lastDigit)
+        {
+            case 0: lastDigitWord = "zero";
+                break;
+            case 1: lastDigitWord = "one";
+                break;
+            case 2: lastDigitWord = "two";
+                break;
+            case 3: lastDigitWord = "three";
+                break;
+            case 4: lastDigitWord = "four";
+                break;
+            case 5: lastDigitWord = "five";
+                break;
+            case 6: lastDigitWord = "six";
+                break;
+            case 7: lastDigitWord = "seven";
+                break;
+            case 8: lastDigitWord = "eight";
+                break;
+            case 9: lastDigitWord = "nine";
+                break;
+
+        }
+
+        return lastDigitWord;
+}
+#>

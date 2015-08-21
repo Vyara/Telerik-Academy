@@ -1,0 +1,4 @@
+2015-08-20 21:46:47,034 [1] ERROR Log4NetTesting.Log4Net - This is a log error message
+2015-08-20 21:46:47,038 [1] INFO Log4NetTesting.Log4Net - This is a log info message
+2015-08-20 21:46:47,041 [1] FATAL Log4NetTesting.Log4Net - This is a log fatal message
+2015-08-20 21:46:47,043 [1] WARN Log4NetTesting.Log4Net - This is a log warn message
