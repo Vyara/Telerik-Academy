@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pick a color</title>
+</head>
+<body>
+<h1>How to implement a background changing functionality.</h1>
+
+<h2>Problem:</h2>
+
+<p>You want to have an easy access and easy-to-use option for setting a background color to your page.</p>
+
+<h2>Description:</h2>
+
+<p>
+    Many users enjoy websites, which give them the options for content personalization.<br/> Color themes are one of the
+    most noticeable and enjoyed features,
+    which could give your web page that desired personal touch.<br/> A basic but powerful demonstration of this, could
+    be implementing a simple form containing 5 radio buttons,<br/>
+    representing 5 different colors. When a specific radio button is clicked, the background color of its<br/>
+    container(could be a form or a page) is set to the color,<br/>
+    which the selected button represents.
+</p>
+
+<h2>Solution:</h2>
+
+<p>You can create this simple form by following the below steps:</p>
+<ol>
+    <li>Include the latest version of jQuery in your html project. You can use the <a href="https://code.jquery.com/">CDN</a>
+        option.
+    </li>
+    <li>Create an html form element and give it a specific id value(optionally, you can set a css style of your choice):
+        <pre>&lt;form action="" id="some-id" style="width: 500px"&gt;&lt;/form&gt;</pre>
+    </li>
+    <li>
+        In the form, create 5 input elements with type="radio" attributes and name="_{name of your choice}"
+        <br/>
+        <pre>&lt;input type="radio" name="_background-color" value="red"&gt;Red</pre>
+
+        <em>Note: You can leave the radio button representing your page's default background-color checked by default:
+            <pre>  &lt;input type="radio" name="_background-color" value="white" checked="checked"&gt;White</pre>
+        </em>
+    </li>
+    <li>
+        In a script tag, include the javascript functionality, using jQuery selectors as follows:
+        <ol>
+            <li>Select the form tag by its id:
+                <pre>$('#the-form')</pre>
+            </li>
+            <li>
+                Attach a onclick event onto it, based on the inputs' common name attribute:
+                <pre>$('#the-form').on('click', 'input[name=_background-color]', function () {});</pre>
+            </li>
+            <li>Within the function, change the form tag's background color by using the css method and apply the color
+                of the targeted(selected) checkbox(the this object):
+                <pre> $('#the-form').css("background-color", this.value);</pre>
+
+            </li>
+        </ol>
+        <p>The whole script code should look something like this:
+            <pre>$('#the-form').on('click', 'input[name=_background-color]', function () {
+        $('#the-form').css("background-color", this.value);
+        });</pre>
+        </p>
+    </li>
+</ol>
+
+<p>Eventually, you should have a sample functionality like the example below:</p>
+
+<form action="" id="the-form" style="width: 500px">
+    <input type="radio" name="_background-color" value="white" checked="checked">White<br/>
+    <input type="radio" name="_background-color" value="red">Red<br/>
+    <input type="radio" name="_background-color" value="green">Green<br/>
+    <input type="radio" name="_background-color" value="blue">Blue<br/>
+    <input type="radio" name="_background-color" value="yellow">Yellow
+</form>
+
+<h2>And that's it! Now you can implement this option in your project and give the users the option to personalize the
+    site with a color of their choice!
+</h2>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script>
+    $('#the-form').on('click', 'input[name=_background-color]', function () {
+        $('#the-form').css("background-color", this.value);
+    });
+</script>
+</body>
+</html>
