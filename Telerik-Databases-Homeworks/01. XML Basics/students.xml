@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students-style.xslt" ?>
+<students>
+  <student xmlns:students="urn:students">
+    <name>Isaac Newton</name>
+    <sex>Male</sex>
+    <birthDate>1643-01-04</birthDate>
+    <phone>555-555-555</phone>
+    <email>i-heart-calculus@cam.ac.uk</email>
+    <course>Mathematics</course>
+    <speciality>Applied Mathematics</speciality>
+    <facultyNumber>5555</facultyNumber>
+    <exams>
+      <exam>
+        <name>Calculus</name>
+        <tutor>Gottfried Wilhelm von Leibniz</tutor>
+        <score>6</score>
+      </exam>
+      <exam>
+        <name>Biology</name>
+        <tutor>Robert Hooke</tutor>
+        <score>5</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Alan Turing</name>
+    <sex>Male</sex>
+    <birthDate>1954-06-23</birthDate>
+    <phone>999-999-999</phone>
+    <email>cs-i-am-your-father@cam.ac.uk</email>
+    <course>Mathematics</course>
+    <speciality>Cryptoanalysis</speciality>
+    <facultyNumber>9999</facultyNumber>
+    <exams>
+      <exam>
+        <name>Computational Theory</name>
+        <tutor>Charles Babbage</tutor>
+        <score>5.5</score>
+      </exam>
+      <exam>
+        <name>Modular Aritmetic</name>
+        <tutor>Euclid</tutor>
+        <score>4.5</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Henrietta Swan Leavitt</name>
+    <sex>Female</sex>
+    <birthDate>1868-07-04</birthDate>
+    <phone>333-333-333</phone>
+    <email>shine-bright-like-a-cepheid@harvard.edu</email>
+    <course>Theoretical Physics</course>
+    <speciality>Cosmology</speciality>
+    <facultyNumber>3333</facultyNumber>
+    <exams>
+      <exam>
+        <name>Differential Equations</name>
+        <tutor>Edward Charles Pickering</tutor>
+        <score>6</score>
+      </exam>
+    </exams>
+  </student>
+</students>
