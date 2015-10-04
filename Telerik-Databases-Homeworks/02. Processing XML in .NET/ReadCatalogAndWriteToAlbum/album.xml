@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+		<album>
+				<name>The Fat of the Land</name>
+				<artist>The Prodigy</artist>
+		</album>
+		<album>
+				<name>Drones</name>
+				<artist>Muse</artist>
+		</album>
+		<album>
+				<name>Black Holes and Revelations</name>
+				<artist>Muse</artist>
+		</album>
+		<album>
+				<name>OK Computer</name>
+				<artist>Radiohead</artist>
+		</album>
+		<album>
+				<name>The Day Is My Enemy</name>
+				<artist>The Prodigy</artist>
+		</album>
+		<album>
+				<name>Garbage</name>
+				<artist>Garbage</artist>
+		</album>
+		<album>
+				<name>Version 2.0</name>
+				<artist>Garbage</artist>
+		</album>
+		<album>
+				<name>Surrender</name>
+				<artist>The Chemical Brothers</artist>
+		</album>
+		<album>
+				<name>Not Your Kind of People</name>
+				<artist>Garbage</artist>
+		</album>
+</albums>

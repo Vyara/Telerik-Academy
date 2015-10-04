@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<databases>
+		<dir path="C:\Temp\Databases-master\00. Databases - Course Introduction">
+				<dir path="C:\Temp\Databases-master\00. Databases - Course Introduction\Slides" />
+		</dir>
+		<dir path="C:\Temp\Databases-master\01. XML Basics">
+				<dir path="C:\Temp\Databases-master\01. XML Basics\Demo" />
+				<dir path="C:\Temp\Databases-master\01. XML Basics\Homework" />
+				<dir path="C:\Temp\Databases-master\01. XML Basics\Slides">
+						<dir path="C:\Temp\Databases-master\01. XML Basics\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\02. Processing XML in .NET">
+				<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo">
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\CreatingDocumentLINQToXML" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\DOMParser" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\LINQNamespaces" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\Modifing-XML-With-DOM" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\SearchingWithLINQ" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XMLReader" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XMLWriter" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XPathDemo" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XPathNavigatorDemo" />
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XSL Transform" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Homework" />
+				<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Slides">
+						<dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET">
+				<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo">
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\.nuget" />
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\BuiltInJsonSerializers">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\BuiltInJsonSerializers\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ConfiguringJSON.NET">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ConfiguringJSON.NET\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ControllingTheParsing">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ControllingTheParsing\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\DemoModels">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\DemoModels\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Extensions">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Extensions\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\JavaScriptSerializerFeatures">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\JavaScriptSerializerFeatures\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\LinqToJson">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\LinqToJson\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client">
+										<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client\Client">
+												<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client\Client\Properties" />
+										</dir>
+								</dir>
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Server" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\WorkingWithJSON.NET">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\WorkingWithJSON.NET\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\XMLtoJSON">
+								<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\XMLtoJSON\Properties" />
+						</dir>
+				</dir>
+				<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Homework" />
+				<dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Slides" />
+		</dir>
+		<dir path="C:\Temp\Databases-master\04. Database Systems - Overview">
+				<dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Homework" />
+				<dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Slides">
+						<dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction">
+				<dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Demo" />
+				<dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Homework" />
+				<dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Slides">
+						<dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\06. Database Modeling">
+				<dir path="C:\Temp\Databases-master\06. Database Modeling\Homework">
+						<dir path="C:\Temp\Databases-master\06. Database Modeling\Homework\imgs" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\06. Database Modeling\Slides">
+						<dir path="C:\Temp\Databases-master\06. Database Modeling\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\07. Intro to SQL">
+				<dir path="C:\Temp\Databases-master\07. Intro to SQL\Demo" />
+				<dir path="C:\Temp\Databases-master\07. Intro to SQL\Homework" />
+				<dir path="C:\Temp\Databases-master\07. Intro to SQL\Slides">
+						<dir path="C:\Temp\Databases-master\07. Intro to SQL\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\08. Advanced SQL">
+				<dir path="C:\Temp\Databases-master\08. Advanced SQL\Demo" />
+				<dir path="C:\Temp\Databases-master\08. Advanced SQL\Homework" />
+				<dir path="C:\Temp\Databases-master\08. Advanced SQL\Slides">
+						<dir path="C:\Temp\Databases-master\08. Advanced SQL\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\09. Transact-SQL">
+				<dir path="C:\Temp\Databases-master\09. Transact-SQL\Demo" />
+				<dir path="C:\Temp\Databases-master\09. Transact-SQL\Homework" />
+				<dir path="C:\Temp\Databases-master\09. Transact-SQL\Slides" />
+		</dir>
+		<dir path="C:\Temp\Databases-master\10. ADO.NET">
+				<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo">
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\5. MySQL">
+								<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\5. MySQL\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\AppConfigDemo">
+								<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\AppConfigDemo\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Command-and-DataReader" />
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Dates" />
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Images" />
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\MS-Access" />
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\SQL-Injection-Demo" />
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\SqlParameters" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\10. ADO.NET\Homework">
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Homework\imgs" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\10. ADO.NET\Slides">
+						<dir path="C:\Temp\Databases-master\10. ADO.NET\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\11. Entity Framework">
+				<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo">
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\AttachDetachEntities" />
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\ExecuteSQLQuery" />
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\JoinAndGroupDemo" />
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\ReadingWithLINQToEntities" />
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\UpdatingDeletingInsertingData" />
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\UsingEntityFrameworkModel" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\11. Entity Framework\Homework" />
+				<dir path="C:\Temp\Databases-master\11. Entity Framework\Slides">
+						<dir path="C:\Temp\Databases-master\11. Entity Framework\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\12. Entity Framework Performance">
+				<dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo">
+						<dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo\Solving-ToList-Problem" />
+						<dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo\SolvingTheNplus1QueryProblem" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Slides" />
+		</dir>
+		<dir path="C:\Temp\Databases-master\13. Entity Framework Code First">
+				<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo">
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Client">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Client\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data\Migrations" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Models">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Models\Properties" />
+						</dir>
+				</dir>
+				<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Homework" />
+				<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Slides">
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Slides\imgs" />
+				</dir>
+				<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem">
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\.nuget" />
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Migrations" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Properties" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Repositories" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Models">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Models\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web">
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\App_Data" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\App_Start" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Content" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Controllers" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\fonts" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Properties" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Scripts" />
+								<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views">
+										<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views\Home" />
+										<dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views\Shared" />
+								</dir>
+						</dir>
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\14. Database Performance">
+				<dir path="C:\Temp\Databases-master\14. Database Performance\Demo" />
+				<dir path="C:\Temp\Databases-master\14. Database Performance\Homework" />
+				<dir path="C:\Temp\Databases-master\14. Database Performance\Slides">
+						<dir path="C:\Temp\Databases-master\14. Database Performance\Slides\imgs" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\15. Database-Transactions-Concepts">
+				<dir path="C:\Temp\Databases-master\15. Database-Transactions-Concepts\Demo" />
+		</dir>
+		<dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF">
+				<dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo">
+						<dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transaction-Scope" />
+						<dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transactions-ADO.NET" />
+						<dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transactions-in-EF" />
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET">
+				<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo">
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ConnectingToMongoDb">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ConnectingToMongoDb\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\CrudOperations">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\CrudOperations\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ExtensionsMethods">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ExtensionsMethods\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqLikeQueries">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqLikeQueries\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqToMongoDB">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqToMongoDB\Properties" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\NativelikeMongoDBQueries">
+								<dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\NativelikeMongoDBQueries\Properties" />
+						</dir>
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET">
+				<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo">
+						<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet">
+								<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Demo.Models">
+										<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Demo.Models\Properties" />
+								</dir>
+								<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Extensions">
+										<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Extensions\Properties" />
+								</dir>
+								<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisAndDotNet">
+										<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisAndDotNet\Properties" />
+								</dir>
+								<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisClients">
+										<dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisClients\Properties" />
+								</dir>
+						</dir>
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\21. Databases Team Work Project">
+				<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014">
+						<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports">
+								<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\20-Jul-2013" />
+								<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\21-Jul-2013" />
+								<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\22-Jul-2013" />
+						</dir>
+				</dir>
+				<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015">
+						<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports">
+								<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports">
+										<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\20-Jul-2013" />
+										<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\21-Jul-2013" />
+										<dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\22-Jul-2013" />
+								</dir>
+						</dir>
+				</dir>
+		</dir>
+		<dir path="C:\Temp\Databases-master\22. Exam">
+				<dir path="C:\Temp\Databases-master\22. Exam\2013" />
+				<dir path="C:\Temp\Databases-master\22. Exam\2014">
+						<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution">
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 1 - Database First" />
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data">
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.Data">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.Data\Properties" />
+										</dir>
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.DataGenerator">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.DataGenerator\Properties" />
+										</dir>
+								</dir>
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 3 - SQL Queries" />
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 4 - Performance Tuning" />
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5 Database Backup" />
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code">
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data\Migrations" />
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data\Properties" />
+										</dir>
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\GeneratingJsonFiles" />
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\Models" />
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\Properties" />
+										</dir>
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Models">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Models\Properties" />
+										</dir>
+										<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Searcher">
+												<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Searcher\Properties" />
+										</dir>
+								</dir>
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 7 Answers" />
+						</dir>
+						<dir path="C:\Temp\Databases-master\22. Exam\2014\Description">
+								<dir path="C:\Temp\Databases-master\22. Exam\2014\Description\Data.Json.Files" />
+						</dir>
+				</dir>
+		</dir>
+		<file name="" extention=".gitignore" />
+		<file name="LICENSE" extention="" />
+</databases>

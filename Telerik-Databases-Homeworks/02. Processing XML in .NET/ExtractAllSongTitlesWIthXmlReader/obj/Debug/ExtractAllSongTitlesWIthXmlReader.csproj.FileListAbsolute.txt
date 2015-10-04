@@ -1,0 +1,6 @@
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\bin\Debug\ExtractAllSongTitlesWIthXmlReader.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\bin\Debug\ExtractAllSongTitlesWIthXmlReader.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\bin\Debug\ExtractAllSongTitlesWIthXmlReader.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\obj\Debug\ExtractAllSongTitlesWIthXmlReader.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\obj\Debug\ExtractAllSongTitlesWIthXmlReader.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractAllSongTitlesWIthXmlReader\obj\Debug\ExtractAllSongTitlesWIthXmlReader.csprojResolveAssemblyReference.cache

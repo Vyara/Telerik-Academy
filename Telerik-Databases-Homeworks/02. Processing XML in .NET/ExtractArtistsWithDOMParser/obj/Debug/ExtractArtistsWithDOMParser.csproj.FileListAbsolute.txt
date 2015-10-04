@@ -1,0 +1,6 @@
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\bin\Debug\ExtractArtistsWithDOMParser.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\bin\Debug\ExtractArtistsWithDOMParser.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\bin\Debug\ExtractArtistsWithDOMParser.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\obj\Debug\ExtractArtistsWithDOMParser.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\obj\Debug\ExtractArtistsWithDOMParser.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithDOMParser\obj\Debug\ExtractArtistsWithDOMParser.csprojResolveAssemblyReference.cache

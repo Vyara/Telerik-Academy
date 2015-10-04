@@ -1,0 +1,19 @@
+﻿
+table, th, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+div {
+    border: 1px dashed black;
+    margin: 5px;
+}

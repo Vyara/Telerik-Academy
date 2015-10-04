@@ -1,0 +1,6 @@
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\bin\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\bin\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\bin\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\obj\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.csprojResolveAssemblyReference.cache
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\obj\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\DeleteAlbumsWithPriceLargerThan20UsingDomParser\obj\Debug\DeleteAlbumsWithPriceLargerThan20UsingDomParser.pdb

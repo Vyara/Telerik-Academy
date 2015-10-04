@@ -1,0 +1,1166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="C:\Temp\Databases-master">
+  <dir path="C:\Temp\Databases-master\00. Databases - Course Introduction">
+    <dir path="C:\Temp\Databases-master\00. Databases - Course Introduction\Slides">
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\01. XML Basics">
+    <dir path="C:\Temp\Databases-master\01. XML Basics\Demo">
+      <file name="items" extention=".xml" />
+      <file name="library-invalid" extention=".xml" />
+      <file name="library-valid" extention=".xml" />
+      <file name="library-xml2html" extention=".xsl" />
+      <file name="library" extention=".xml" />
+      <file name="library" extention=".xsd" />
+      <file name="order" extention=".xsd" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\01. XML Basics\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\01. XML Basics\Slides">
+      <dir path="C:\Temp\Databases-master\01. XML Basics\Slides\imgs">
+        <file name="dom-parser" extention=".png" />
+        <file name="vs-schema-editor" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+    <file name="TODO" extention=".txt" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\02. Processing XML in .NET">
+    <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo">
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\CreatingDocumentLINQToXML">
+        <file name="6. CreatingDocs-LINQ-to-XML" extention=".csproj" />
+        <file name="books" extention=".xml" />
+        <file name="LINQToXML" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\DOMParser">
+        <file name="1. DOM-Parser" extention=".csproj" />
+        <file name="DOMParser" extention=".cs" />
+        <file name="library" extention=".xml" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\LINQNamespaces">
+        <file name="8. LINQ-Namespaces" extention=".csproj" />
+        <file name="books" extention=".xml" />
+        <file name="LINQtoXMLNamespaces" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\Modifing-XML-With-DOM">
+        <file name="2. Modifing-XML-With-DOM" extention=".csproj" />
+        <file name="items" extention=".xml" />
+        <file name="itemsNew" extention=".xml" />
+        <file name="ModifyXMLwithDOM" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\SearchingWithLINQ">
+        <file name="9. Searching-with-LINQ" extention=".csproj" />
+        <file name="books" extention=".xml" />
+        <file name="SearchingWithLINQ" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XMLReader">
+        <file name="3. XmlReader-Demo" extention=".csproj" />
+        <file name="library" extention=".xml" />
+        <file name="XmlReaderDemo" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XMLWriter">
+        <file name="4. XmlWriter-Demo" extention=".csproj" />
+        <file name="books" extention=".xml" />
+        <file name="XmlWriterDemo" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XPathDemo">
+        <file name="5. XPath-Demo" extention=".csproj" />
+        <file name="items" extention=".xml" />
+        <file name="XPathDemo" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XPathNavigatorDemo">
+        <file name="06. XPathNavigator-Demo" extention=".csproj" />
+        <file name="items" extention=".xml" />
+        <file name="itemsNew" extention=".xml" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Demo\XSL Transform">
+        <file name="9. XSL-Transformations" extention=".csproj" />
+        <file name="catalog" extention=".html" />
+        <file name="catalog" extention=".xml" />
+        <file name="catalog" extention=".xsl" />
+        <file name="XSLTransform" extention=".cs" />
+      </dir>
+      <file name="XML-Parsing-Demos" extention=".sln" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Slides">
+      <dir path="C:\Temp\Databases-master\02. Processing XML in .NET\Slides\imgs">
+        <file name="dom-parser" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+    <file name="TODO" extention=".txt" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET">
+    <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo">
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\.nuget">
+        <file name="NuGet" extention=".Config" />
+        <file name="NuGet" extention=".exe" />
+        <file name="NuGet" extention=".targets" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\BuiltInJsonSerializers">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\BuiltInJsonSerializers\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="1. BuiltInJsonSerializers" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="packages" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ConfiguringJSON.NET">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ConfiguringJSON.NET\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="4. ConfiguringJSON.NET" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ControllingTheParsing">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\ControllingTheParsing\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="5. ControllingTheParsing" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\DemoModels">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\DemoModels\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="Category" extention=".cs" />
+        <file name="DemoModels" extention=".csproj" />
+        <file name="Location" extention=".cs" />
+        <file name="Place" extention=".cs" />
+        <file name="User" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Extensions">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Extensions\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="Extensions" extention=".cs" />
+        <file name="Extensions" extention=".csproj" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\JavaScriptSerializerFeatures">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\JavaScriptSerializerFeatures\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="2. JavaScriptSerializerFeatures" extention=".csproj" />
+        <file name="App" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\LinqToJson">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\LinqToJson\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="6. LinqToJson" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client">
+          <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client\Client">
+            <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Client\Client\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Client" extention=".csproj" />
+            <file name="JsonRequester" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Program" extention=".cs" />
+          </dir>
+          <file name="Client" extention=".sln" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\Services\Server">
+          <file name="app" extention=".js" />
+          <file name="data" extention=".json" />
+          <file name="id-generator" extention=".js" />
+          <file name="package" extention=".json" />
+        </dir>
+        <file name="data" extention=".json" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\WorkingWithJSON.NET">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\WorkingWithJSON.NET\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="3. WorkingWithJSON.NET" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\XMLtoJSON">
+        <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Demo\XMLtoJSON\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="7. XMLtoJSON" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="data" extention=".xml" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <file name="ProcessingJSONinDotNet" extention=".sln" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\03. Processing-JSON-in-.NET\Slides">
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+  </dir>
+  <dir path="C:\Temp\Databases-master\04. Database Systems - Overview">
+    <dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Slides">
+      <dir path="C:\Temp\Databases-master\04. Database Systems - Overview\Slides\imgs">
+        <file name="er-diagram" extention=".png" />
+        <file name="erwin-diagram" extention=".png" />
+        <file name="fabforce-diagram" extention=".png" />
+        <file name="many-to-many-ralation" extention=".png" />
+        <file name="msvisio-diagram" extention=".png" />
+        <file name="normalized" extention=".png" />
+        <file name="not-normalized" extention=".png" />
+        <file name="one-to-many-ralation" extention=".png" />
+        <file name="one-to-one-ralation" extention=".png" />
+        <file name="relational-model" extention=".png" />
+        <file name="self-relation" extention=".png" />
+        <file name="transaction-lifecycle" extention=".png" />
+        <file name="tree-structure" extention=".png" />
+        <file name="views" extention=".png" />
+        <file name="views2" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction">
+    <dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Demo">
+      <file name="install_northwind" extention=".sql" />
+      <file name="install_pubs" extention=".sql" />
+      <file name="Northwind" extention=".mdf" />
+      <file name="Northwind_log" extention=".ldf" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Slides">
+      <dir path="C:\Temp\Databases-master\05. SQL Server and MySQL - Introduction\Slides\imgs">
+        <file name="backup-restore" extention=".png" />
+        <file name="database-types" extention=".png" />
+        <file name="execute-sql" extention=".png" />
+        <file name="management-studio" extention=".png" />
+        <file name="mysql-task" extention=".png" />
+        <file name="new-login" extention=".png" />
+        <file name="php-my-admin" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\06. Database Modeling">
+    <dir path="C:\Temp\Databases-master\06. Database Modeling\Homework">
+      <dir path="C:\Temp\Databases-master\06. Database Modeling\Homework\imgs">
+        <file name="diagram" extention=".png" />
+      </dir>
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\06. Database Modeling\Slides">
+      <dir path="C:\Temp\Databases-master\06. Database Modeling\Slides\imgs">
+        <file name="create-relations" extention=".png" />
+        <file name="create-table" extention=".png" />
+        <file name="create-table2" extention=".png" />
+        <file name="create-table3" extention=".png" />
+        <file name="create-table4" extention=".png" />
+        <file name="create-table5" extention=".png" />
+        <file name="create-table6" extention=".png" />
+        <file name="data-types" extention=".png" />
+        <file name="new-database" extention=".png" />
+        <file name="new-database2" extention=".png" />
+        <file name="new-diagram" extention=".png" />
+        <file name="self-relation" extention=".png" />
+        <file name="sql-connect" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\07. Intro to SQL">
+    <dir path="C:\Temp\Databases-master\07. Intro to SQL\Demo">
+      <file name="Create-TelerikAcademy-Database-SQL-Script" extention=".sql" />
+      <file name="Introduction-to-SQL-demos" extention=".txt" />
+      <file name="MySQL-demos" extention=".txt" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\07. Intro to SQL\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\07. Intro to SQL\Slides">
+      <dir path="C:\Temp\Databases-master\07. Intro to SQL\Slides\imgs">
+        <file name="additional-cond" extention=".png" />
+        <file name="arithmetic-ops" extention=".png" />
+        <file name="cartesian" extention=".png" />
+        <file name="col-alias" extention=".png" />
+        <file name="communicating-with-db" extention=".png" />
+        <file name="complex-join-cond" extention=".png" />
+        <file name="concat" extention=".png" />
+        <file name="cross-join" extention=".png" />
+        <file name="dep-all" extention=".png" />
+        <file name="dep-dist" extention=".png" />
+        <file name="full-outer-join" extention=".png" />
+        <file name="inner-join" extention=".png" />
+        <file name="inner-join2" extention=".png" />
+        <file name="join-types" extention=".png" />
+        <file name="left-outer-join" extention=".png" />
+        <file name="literal" extention=".png" />
+        <file name="multiple" extention=".png" />
+        <file name="null-value" extention=".png" />
+        <file name="order-by" extention=".png" />
+        <file name="right-outer-join" extention=".png" />
+        <file name="schema" extention=".png" />
+        <file name="select-all-dep" extention=".png" />
+        <file name="select-apple" extention=".png" />
+        <file name="select-name-dep" extention=".png" />
+        <file name="self-join" extention=".png" />
+        <file name="sql-select" extention=".png" />
+        <file name="three-way-join" extention=".png" />
+        <file name="union" extention=".png" />
+        <file name="where" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\08. Advanced SQL">
+    <dir path="C:\Temp\Databases-master\08. Advanced SQL\Demo">
+      <file name="Introduction-to-SQL-Part-II-Demos" extention=".txt" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\08. Advanced SQL\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\08. Advanced SQL\Slides">
+      <dir path="C:\Temp\Databases-master\08. Advanced SQL\Slides\imgs">
+        <file name="avg-sum" extention=".png" />
+        <file name="coalesce" extention=".png" />
+        <file name="combine" extention=".png" />
+        <file name="count-all" extention=".png" />
+        <file name="count-expr" extention=".png" />
+        <file name="cross" extention=".png" />
+        <file name="gfuncs-nested" extention=".png" />
+        <file name="group-and-null" extention=".png" />
+        <file name="group-funcs" extention=".png" />
+        <file name="group-having" extention=".png" />
+        <file name="group-join" extention=".png" />
+        <file name="group-sev-cols" extention=".png" />
+        <file name="groups-of-data" extention=".png" />
+        <file name="min-max" extention=".png" />
+        <file name="string-funcs" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\09. Transact-SQL">
+    <dir path="C:\Temp\Databases-master\09. Transact-SQL\Demo">
+      <file name="Install-Northwind" extention=".sql" />
+      <file name="Transact-SQL-Demos" extention=".sql" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\09. Transact-SQL\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\09. Transact-SQL\Slides">
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\10. ADO.NET">
+    <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo">
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\5. MySQL">
+        <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\5. MySQL\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="5. MySQL" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="packages" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\AppConfigDemo">
+        <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\AppConfigDemo\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="AppConfigDemo" extention=".csproj" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Command-and-DataReader">
+        <file name="1. Command-and-DataReader" extention=".csproj" />
+        <file name="CommandAndDataReader" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Dates">
+        <file name="6. Working-with-Dates" extention=".csproj" />
+        <file name="WorkingWithDates" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\Images">
+        <file name="7. Working-with-Images" extention=".csproj" />
+        <file name="Create-Images-Database-Script" extention=".sql" />
+        <file name="ImagesInDBDemo" extention=".cs" />
+        <file name="logo" extention=".gif" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\MS-Access">
+        <file name="4. MS-Access" extention=".csproj" />
+        <file name="Library" extention=".mdb" />
+        <file name="OleDbConnectionDemo" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\SQL-Injection-Demo">
+        <file name="2. SQL-Injection-Demo" extention=".csproj" />
+        <file name="SqlInjectionDemo" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Demo\SqlParameters">
+        <file name="3. SQL-Parameters-Demo" extention=".csproj" />
+        <file name="app" extention=".config" />
+        <file name="Project" extention=".cs" />
+        <file name="Settings.Designer" extention=".cs" />
+        <file name="Settings" extention=".settings" />
+        <file name="SqlParametersExample" extention=".cs" />
+      </dir>
+      <file name="ADO.NET-Demos" extention=".sln" />
+      <file name="Create-TelerikAcademy-Database-SQL-Script" extention=".sql" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\10. ADO.NET\Homework">
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Homework\imgs">
+        <file name="excel" extention=".png" />
+      </dir>
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\10. ADO.NET\Slides">
+      <dir path="C:\Temp\Databases-master\10. ADO.NET\Slides\imgs">
+        <file name="ado-architecture" extention=".png" />
+        <file name="ado-classes" extention=".png" />
+        <file name="ado-components" extention=".png" />
+        <file name="ado-connected-model" extention=".png" />
+        <file name="ado-disconnected-model" extention=".png" />
+        <file name="connected-model-classes" extention=".png" />
+        <file name="connected-model" extention=".png" />
+        <file name="disconnected-model" extention=".png" />
+        <file name="entity-framework" extention=".png" />
+        <file name="linq-to-sql" extention=".png" />
+        <file name="oledb" extention=".png" />
+        <file name="orm-model" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\11. Entity Framework">
+    <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo">
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\AttachDetachEntities">
+        <file name="6. AttachDetachEntities" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="AttachDetachEntities" extention=".cs" />
+        <file name="packages" extention=".config" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\ExecuteSQLQuery">
+        <file name="4. ExecuteSQLNativeQuery" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="ExecutingSQLQueriesExample" extention=".cs" />
+        <file name="packages" extention=".config" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\JoinAndGroupDemo">
+        <file name="5. JoinAndGroupDemo" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="JoinAndGroupExample" extention=".cs" />
+        <file name="packages" extention=".config" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\ReadingWithLINQToEntities">
+        <file name="2. ReadingWithLINQToEntities" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="packages" extention=".config" />
+        <file name="ReadingWithLINQToEntities" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\UpdatingDeletingInsertingData">
+        <file name="3. UpdatingDeletingInsertingData" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="packages" extention=".config" />
+        <file name="UpdatingDeletingInsertingData" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Demo\UsingEntityFrameworkModel">
+        <file name="1. UsingEntityFrameworkModel" extention=".csproj" />
+        <file name="Alphabetical_list_of_product" extention=".cs" />
+        <file name="App" extention=".Config" />
+        <file name="Category" extention=".cs" />
+        <file name="Category_Sales_for_1997" extention=".cs" />
+        <file name="Current_Product_List" extention=".cs" />
+        <file name="Customer" extention=".cs" />
+        <file name="CustomerDemographic" extention=".cs" />
+        <file name="Customer_and_Suppliers_by_City" extention=".cs" />
+        <file name="CustOrderHist_Result" extention=".cs" />
+        <file name="CustOrdersDetail_Result" extention=".cs" />
+        <file name="CustOrdersOrders_Result" extention=".cs" />
+        <file name="Employee" extention=".cs" />
+        <file name="Employee_Sales_by_Country_Result" extention=".cs" />
+        <file name="Extender" extention=".cs" />
+        <file name="Invoice" extention=".cs" />
+        <file name="Logger" extention=".cs" />
+        <file name="NorthwindModel.Context" extention=".cs" />
+        <file name="NorthwindModel.Context" extention=".tt" />
+        <file name="NorthwindModel" extention=".cs" />
+        <file name="NorthwindModel.Designer" extention=".cs" />
+        <file name="NorthwindModel" extention=".edmx" />
+        <file name="NorthwindModel.edmx" extention=".diagram" />
+        <file name="NorthwindModel" extention=".tt" />
+        <file name="Order" extention=".cs" />
+        <file name="Orders_Qry" extention=".cs" />
+        <file name="Order_Detail" extention=".cs" />
+        <file name="Order_Details_Extended" extention=".cs" />
+        <file name="Order_Subtotal" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="Product" extention=".cs" />
+        <file name="Products_Above_Average_Price" extention=".cs" />
+        <file name="Products_by_Category" extention=".cs" />
+        <file name="Product_Sales_for_1997" extention=".cs" />
+        <file name="Region" extention=".cs" />
+        <file name="SalesByCategory_Result" extention=".cs" />
+        <file name="Sales_by_Category" extention=".cs" />
+        <file name="Sales_by_Year_Result" extention=".cs" />
+        <file name="Sales_Totals_by_Amount" extention=".cs" />
+        <file name="Shipper" extention=".cs" />
+        <file name="sp_helpdiagramdefinition_Result" extention=".cs" />
+        <file name="sp_helpdiagrams_Result" extention=".cs" />
+        <file name="Summary_of_Sales_by_Quarter" extention=".cs" />
+        <file name="Summary_of_Sales_by_Year" extention=".cs" />
+        <file name="Supplier" extention=".cs" />
+        <file name="sysdiagram" extention=".cs" />
+        <file name="Ten_Most_Expensive_Products_Result" extention=".cs" />
+        <file name="Territory" extention=".cs" />
+      </dir>
+      <file name="Entity-Framework-Demos" extention=".sln" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\11. Entity Framework\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\11. Entity Framework\Slides">
+      <dir path="C:\Temp\Databases-master\11. Entity Framework\Slides\imgs">
+        <file name="basic-workflow" extention=".png" />
+        <file name="basic-workflow2" extention=".png" />
+        <file name="ef-metadata" extention=".png" />
+        <file name="orm-mapping" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\12. Entity Framework Performance">
+    <dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo">
+      <dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo\Solving-ToList-Problem">
+        <file name="2. Solving-ToList-Problem" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="Category" extention=".cs" />
+        <file name="Customer" extention=".cs" />
+        <file name="Northwind.Context" extention=".cs" />
+        <file name="Northwind.Context" extention=".tt" />
+        <file name="Northwind" extention=".cs" />
+        <file name="Northwind.Designer" extention=".cs" />
+        <file name="Northwind" extention=".edmx" />
+        <file name="Northwind.edmx" extention=".diagram" />
+        <file name="Northwind" extention=".tt" />
+        <file name="Order" extention=".cs" />
+        <file name="Order_Detail" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="Product" extention=".cs" />
+        <file name="Shipper" extention=".cs" />
+        <file name="SolvingToListProblem" extention=".cs" />
+        <file name="Supplier" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Demo\SolvingTheNplus1QueryProblem">
+        <file name="1. SolvingTheN+1QueryProblem" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="Category" extention=".cs" />
+        <file name="Northwind.Context" extention=".cs" />
+        <file name="Northwind.Context" extention=".tt" />
+        <file name="Northwind" extention=".cs" />
+        <file name="Northwind.Designer" extention=".cs" />
+        <file name="Northwind" extention=".edmx" />
+        <file name="Northwind.edmx" extention=".diagram" />
+        <file name="Northwind" extention=".tt" />
+        <file name="packages" extention=".config" />
+        <file name="Product" extention=".cs" />
+        <file name="SolvingTheNplus1QueryProblem" extention=".cs" />
+        <file name="Supplier" extention=".cs" />
+      </dir>
+      <file name="Entity-Framework-Performance" extention=".sln" />
+      <file name="ExpressProfiler" extention=".exe" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\12. Entity Framework Performance\Slides">
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+    <file name="TODO" extention=".txt" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\13. Entity Framework Code First">
+    <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo">
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Client">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Client\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="CodeFirst.Client" extention=".csproj" />
+        <file name="packages" extention=".config" />
+        <file name="Program" extention=".cs" />
+        <file name="Settings" extention=".StyleCop" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data\Migrations">
+          <file name="Configuration" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Data\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="CodeFirst.Data" extention=".csproj" />
+        <file name="ForumContext" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="Settings" extention=".StyleCop" />
+        <file name="TagMappings" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Models">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Demo\CodeFirst.Models\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="Category" extention=".cs" />
+        <file name="CodeFirst.Models" extention=".csproj" />
+        <file name="Post" extention=".cs" />
+        <file name="PostAnswer" extention=".cs" />
+        <file name="PostType" extention=".cs" />
+        <file name="Settings" extention=".StyleCop" />
+        <file name="Tag" extention=".cs" />
+      </dir>
+      <file name="Entity-Framework-Code-First-Demos" extention=".sln" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Slides">
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\Slides\imgs">
+        <file name="code-first-workflow" extention=".png" />
+        <file name="db-connection-workflow" extention=".png" />
+        <file name="db-first-workflow" extention=".png" />
+        <file name="dbset" extention=".png" />
+        <file name="demo-models" extention=".png" />
+        <file name="exception" extention=".png" />
+        <file name="model-first-workflow" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem">
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\.nuget">
+        <file name="NuGet" extention=".Config" />
+        <file name="NuGet" extention=".exe" />
+        <file name="NuGet" extention=".targets" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="ConsoleClient" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="StudentSystem.ConsoleClient" extention=".csproj" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Migrations">
+          <file name="Configuration" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Data\Repositories">
+          <file name="GenericRepository" extention=".cs" />
+          <file name="IGenericRepository" extention=".cs" />
+          <file name="StudentsRepository" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="IStudentSystemData" extention=".cs" />
+        <file name="IStudentSystemDbContext" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="StudentsSystemData" extention=".cs" />
+        <file name="StudentSystem.Data" extention=".csproj" />
+        <file name="StudentSystemDbContext" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Models">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Models\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="App" extention=".config" />
+        <file name="Course" extention=".cs" />
+        <file name="Homework" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="Student" extention=".cs" />
+        <file name="StudentInfo" extention=".cs" />
+        <file name="StudentSystem.Models" extention=".csproj" />
+        <file name="Test" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web">
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\App_Data">
+          <file name="StudentSystemConnection" extention=".mdf" />
+          <file name="StudentSystemConnection_log" extention=".ldf" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\App_Start">
+          <file name="BundleConfig" extention=".cs" />
+          <file name="FilterConfig" extention=".cs" />
+          <file name="RouteConfig" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Content">
+          <file name="bootstrap" extention=".css" />
+          <file name="bootstrap.min" extention=".css" />
+          <file name="Site" extention=".css" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Controllers">
+          <file name="HomeController" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\fonts">
+          <file name="glyphicons-halflings-regular" extention=".eot" />
+          <file name="glyphicons-halflings-regular" extention=".svg" />
+          <file name="glyphicons-halflings-regular" extention=".ttf" />
+          <file name="glyphicons-halflings-regular" extention=".woff" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Scripts">
+          <file name="bootstrap" extention=".js" />
+          <file name="bootstrap.min" extention=".js" />
+          <file name="jquery-1.10.2.intellisense" extention=".js" />
+          <file name="jquery-1.10.2" extention=".js" />
+          <file name="jquery-1.10.2.min" extention=".js" />
+          <file name="jquery-1.10.2.min" extention=".map" />
+          <file name="modernizr-2.6.2" extention=".js" />
+          <file name="respond" extention=".js" />
+          <file name="respond.min" extention=".js" />
+          <file name="_references" extention=".js" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views">
+          <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views\Home">
+            <file name="About" extention=".cshtml" />
+            <file name="Contact" extention=".cshtml" />
+            <file name="Index" extention=".cshtml" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\13. Entity Framework Code First\StudentSystem\StudentSystem.Web\Views\Shared">
+            <file name="Error" extention=".cshtml" />
+            <file name="_Layout" extention=".cshtml" />
+          </dir>
+          <file name="Web" extention=".config" />
+          <file name="_ViewStart" extention=".cshtml" />
+        </dir>
+        <file name="favicon" extention=".ico" />
+        <file name="Global" extention=".asax" />
+        <file name="Global.asax" extention=".cs" />
+        <file name="packages" extention=".config" />
+        <file name="Project_Readme" extention=".html" />
+        <file name="StudentSystem.Web" extention=".csproj" />
+        <file name="Web" extention=".config" />
+        <file name="Web.Debug" extention=".config" />
+        <file name="Web.Release" extention=".config" />
+      </dir>
+      <file name="StudentSystem" extention=".jmconfig" />
+      <file name="StudentSystem" extention=".sln" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\14. Database Performance">
+    <dir path="C:\Temp\Databases-master\14. Database Performance\Demo">
+      <file name="Database-Performance-for-Developers-Demos" extention=".sql" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\14. Database Performance\Homework">
+      <file name="README" extention=".md" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\14. Database Performance\Slides">
+      <dir path="C:\Temp\Databases-master\14. Database Performance\Slides\imgs">
+        <file name="clustered-index" extention=".png" />
+        <file name="execution" extention=".png" />
+        <file name="non-clustered-index" extention=".png" />
+        <file name="table-partitioning-example" extention=".png" />
+        <file name="table-partitioning" extention=".png" />
+      </dir>
+      <file name="index" extention=".html" />
+      <file name="open" extention=".js" />
+      <file name="package" extention=".json" />
+      <file name="README" extention=".md" />
+    </dir>
+    <file name="README" extention=".md" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\15. Database-Transactions-Concepts">
+    <dir path="C:\Temp\Databases-master\15. Database-Transactions-Concepts\Demo">
+      <file name="Transactions-and-Isolation-Demos" extention=".doc" />
+      <file name="Transfer-Funds-Demo" extention=".sql" />
+    </dir>
+  </dir>
+  <dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF">
+    <dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo">
+      <dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transaction-Scope">
+        <file name="2. Transaction-Scope" extention=".csproj" />
+        <file name="TransactionScopeExample" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transactions-ADO.NET">
+        <file name="1. Transactions-ADO.NET" extention=".csproj" />
+        <file name="TransactionsExample" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\16. Database-Transactions-with-EF\Demo\Transactions-in-EF">
+        <file name="3. Transactions-in-EF" extention=".csproj" />
+        <file name="App" extention=".Config" />
+        <file name="Northwind.Designer" extention=".cs" />
+        <file name="Northwind" extention=".edmx" />
+        <file name="NorthwindTransactions" extention=".cs" />
+      </dir>
+      <file name="Transactions-Demos" extention=".sln" />
+    </dir>
+    <file name="TODO" extention=".txt" />
+  </dir>
+  <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET">
+    <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo">
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ConnectingToMongoDb">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ConnectingToMongoDb\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="1. ConnectingToMongoDb" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="packages" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\CrudOperations">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\CrudOperations\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="2. CrudOperations" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ExtensionsMethods">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\ExtensionsMethods\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="Extensions" extention=".cs" />
+        <file name="ExtensionsMethods" extention=".csproj" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqLikeQueries">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqLikeQueries\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="4. LinqLikeQueries" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqToMongoDB">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\LinqToMongoDB\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="5. LinqToMongoDB" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\NativelikeMongoDBQueries">
+        <dir path="C:\Temp\Databases-master\18. MongoDB-and-MongoDB-with-.NET\Demo\NativelikeMongoDBQueries\Properties">
+          <file name="AssemblyInfo" extention=".cs" />
+        </dir>
+        <file name="3. NativelikeMongoDBQueries" extention=".csproj" />
+        <file name="App" extention=".config" />
+        <file name="Program" extention=".cs" />
+      </dir>
+      <file name="MongoDBAndMongoDBWithDotNETDemos" extention=".sln" />
+    </dir>
+  </dir>
+  <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET">
+    <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo">
+      <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet">
+        <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Demo.Models">
+          <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Demo.Models\Properties">
+            <file name="AssemblyInfo" extention=".cs" />
+          </dir>
+          <file name="Demo.Models" extention=".csproj" />
+          <file name="Todo" extention=".cs" />
+          <file name="User" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Extensions">
+          <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\Extensions\Properties">
+            <file name="AssemblyInfo" extention=".cs" />
+          </dir>
+          <file name="Extensions (Minkov-pc's conflicted copy 2014-09-02)" extention=".cs" />
+          <file name="Extensions" extention=".cs" />
+          <file name="Extensions" extention=".csproj" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisAndDotNet">
+          <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisAndDotNet\Properties">
+            <file name="AssemblyInfo" extention=".cs" />
+          </dir>
+          <file name="1. RedisAndDotNet" extention=".csproj" />
+          <file name="App" extention=".config" />
+          <file name="packages" extention=".config" />
+          <file name="Program" extention=".cs" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisClients">
+          <dir path="C:\Temp\Databases-master\19. Redis-and-Redis-with-.NET\Demo\RedisAndRedisWithDotNet\RedisClients\Properties">
+            <file name="AssemblyInfo" extention=".cs" />
+          </dir>
+          <file name="2. RedisClients" extention=".csproj" />
+          <file name="App" extention=".config" />
+          <file name="packages" extention=".config" />
+          <file name="Program (Minkov-pc's conflicted copy 2014-09-02)" extention=".cs" />
+          <file name="Program" extention=".cs" />
+        </dir>
+        <file name="RedisAndRedisWithDotNet" extention=".sln" />
+      </dir>
+    </dir>
+  </dir>
+  <dir path="C:\Temp\Databases-master\21. Databases Team Work Project">
+    <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014">
+      <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports">
+        <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\20-Jul-2013">
+          <file name="Bourgas-Plaza-Sales-Report-20-Jul-2013" extention=".xls" />
+          <file name="Kaspichan-Center-Sales-Report-20-Jul-2013" extention=".xls" />
+          <file name="Zmeyovo-Sales-Report-20-Jul-2013" extention=".xls" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\21-Jul-2013">
+          <file name="Bourgas-Plaza-Sales-Report-21-Jul-2013" extention=".xls" />
+          <file name="Kaspichan-Center-Sales-Report-21-Jul-2013" extention=".xls" />
+          <file name="Plovdiv-Stolipinovo-Sales-Report-21-Jul-2013" extention=".xls" />
+          <file name="Zmeyovo-Sales-Report-21-Jul-2013" extention=".xls" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2014\Sample-Sales-Reports\22-Jul-2013">
+          <file name="Bourgas-Plaza-Sales-Report-22-Jul-2013" extention=".xls" />
+          <file name="Kaspichan-Center-Sales-Report-22-Jul-2013" extention=".xls" />
+          <file name="Plovdiv-Stolipinovo-Sales-Report-22-Jul-2013" extention=".xls" />
+        </dir>
+      </dir>
+      <file name="Databases-Teamwork-Practical-Project-2014" extention=".docx" />
+      <file name="Sample-Aggregated-Sales-Report" extention=".pdf" />
+      <file name="Sample-Vendors-Expenses" extention=".xml" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015">
+      <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports">
+        <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports">
+          <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\20-Jul-2013">
+            <file name="Bourgas-Plaza-Sales-Report-20-Jul-2013" extention=".xls" />
+            <file name="Kaspichan-Center-Sales-Report-20-Jul-2013" extention=".xls" />
+            <file name="Zmeyovo-Sales-Report-20-Jul-2013" extention=".xls" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\21-Jul-2013">
+            <file name="Bourgas-Plaza-Sales-Report-21-Jul-2013" extention=".xls" />
+            <file name="Kaspichan-Center-Sales-Report-21-Jul-2013" extention=".xls" />
+            <file name="Plovdiv-Stolipinovo-Sales-Report-21-Jul-2013" extention=".xls" />
+            <file name="Zmeyovo-Sales-Report-21-Jul-2013" extention=".xls" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\21. Databases Team Work Project\2015\Sample-Sales-Reports\Sample-Sales-Reports\22-Jul-2013">
+            <file name="Bourgas-Plaza-Sales-Report-22-Jul-2013" extention=".xls" />
+            <file name="Kaspichan-Center-Sales-Report-22-Jul-2013" extention=".xls" />
+            <file name="Plovdiv-Stolipinovo-Sales-Report-22-Jul-2013" extention=".xls" />
+          </dir>
+        </dir>
+      </dir>
+      <file name="README" extention=".md" />
+      <file name="Sample-Aggregated-Sales-Report" extention=".pdf" />
+      <file name="Sample-Sales-Reports" extention=".zip" />
+      <file name="Sample-Vendors-Expenses" extention=".xml" />
+    </dir>
+  </dir>
+  <dir path="C:\Temp\Databases-master\22. Exam">
+    <dir path="C:\Temp\Databases-master\22. Exam\2013">
+      <file name="Databases-Practical-Exam-September-2013" extention=".docx" />
+    </dir>
+    <dir path="C:\Temp\Databases-master\22. Exam\2014">
+      <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution">
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 1 - Database First">
+          <file name="company-with-data" extention=".bak" />
+          <file name="Create-Database-Script" extention=".sql" />
+          <file name="Diagram" extention=".png" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data">
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.Data">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.Data\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".Config" />
+            <file name="Company.Data" extention=".csproj" />
+            <file name="CompanyEntities.Context" extention=".cs" />
+            <file name="CompanyEntities.Context" extention=".tt" />
+            <file name="CompanyEntities" extention=".cs" />
+            <file name="CompanyEntities.Designer" extention=".cs" />
+            <file name="CompanyEntities" extention=".edmx" />
+            <file name="CompanyEntities.edmx" extention=".diagram" />
+            <file name="CompanyEntities" extention=".tt" />
+            <file name="Department" extention=".cs" />
+            <file name="Employee" extention=".cs" />
+            <file name="EmployeesInProject" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Project" extention=".cs" />
+            <file name="Report" extention=".cs" />
+            <file name="Settings" extention=".StyleCop" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.DataGenerator">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 2 - Sample Data\Company.DataGenerator\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Company.DataGenerator" extention=".csproj" />
+            <file name="DataGeneratorExecutor" extention=".cs" />
+            <file name="DepartmentDataGenerator" extention=".cs" />
+            <file name="EmployeeDataGenerator" extention=".cs" />
+            <file name="EmployeesInProjectsDataGenerator" extention=".cs" />
+            <file name="IDataGenerator" extention=".cs" />
+            <file name="IRandomGenerator" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Program" extention=".cs" />
+            <file name="ProjectsDataGenerator" extention=".cs" />
+            <file name="RandomGenerator" extention=".cs" />
+            <file name="ReportsDataGenerator" extention=".cs" />
+            <file name="Settings" extention=".StyleCop" />
+          </dir>
+          <file name="Company" extention=".sln" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 3 - SQL Queries">
+          <file name="Query1" extention=".sql" />
+          <file name="Query2" extention=".sql" />
+          <file name="Query3" extention=".sql" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 4 - Performance Tuning">
+          <file name="Query3Cache" extention=".sql" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5 Database Backup">
+          <file name="cars-with-data" extention=".bak" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code">
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data\Migrations">
+              <file name="Configuration" extention=".cs" />
+            </dir>
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Data\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Cars.Data" extention=".csproj" />
+            <file name="CarsDbContext" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Settings" extention=".StyleCop" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\GeneratingJsonFiles">
+              <file name="IJsonFilesGenerator" extention=".cs" />
+              <file name="IRandomGenerator" extention=".cs" />
+              <file name="JsonFilesGenerator" extention=".cs" />
+              <file name="RandomGenerator" extention=".cs" />
+            </dir>
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\Models">
+              <file name="Car" extention=".cs" />
+              <file name="Dealer" extention=".cs" />
+            </dir>
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Importer\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Cars.Importer" extention=".csproj" />
+            <file name="packages" extention=".config" />
+            <file name="Program" extention=".cs" />
+            <file name="Settings" extention=".StyleCop" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Models">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Models\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Car" extention=".cs" />
+            <file name="Cars.Models" extention=".csproj" />
+            <file name="City" extention=".cs" />
+            <file name="Dealer" extention=".cs" />
+            <file name="Manufacturer" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Settings" extention=".StyleCop" />
+            <file name="TransmissionType" extention=".cs" />
+          </dir>
+          <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Searcher">
+            <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 5, 6 and 7 Code\Cars.Searcher\Properties">
+              <file name="AssemblyInfo" extention=".cs" />
+            </dir>
+            <file name="App" extention=".config" />
+            <file name="Car" extention=".cs" />
+            <file name="Cars.Searcher" extention=".csproj" />
+            <file name="Dealer" extention=".cs" />
+            <file name="packages" extention=".config" />
+            <file name="Program" extention=".cs" />
+            <file name="Query" extention=".cs" />
+            <file name="Settings" extention=".StyleCop" />
+            <file name="WhereClause" extention=".cs" />
+            <file name="WhereType" extention=".cs" />
+          </dir>
+          <file name="Cars" extention=".sln" />
+        </dir>
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Author-Solution\Problem 7 Answers">
+          <file name="Result0" extention=".xml" />
+          <file name="Result1" extention=".xml" />
+          <file name="Result2" extention=".xml" />
+          <file name="Result3" extention=".xml" />
+          <file name="Result4" extention=".xml" />
+          <file name="Result5" extention=".xml" />
+          <file name="Result6" extention=".xml" />
+          <file name="Result7" extention=".xml" />
+        </dir>
+        <file name="Documentation" extention=".txt" />
+      </dir>
+      <dir path="C:\Temp\Databases-master\22. Exam\2014\Description">
+        <dir path="C:\Temp\Databases-master\22. Exam\2014\Description\Data.Json.Files">
+          <file name="data.0" extention=".json" />
+          <file name="data.1" extention=".json" />
+          <file name="data.2" extention=".json" />
+          <file name="data.3" extention=".json" />
+          <file name="data.4" extention=".json" />
+        </dir>
+        <file name="Databases-Practical-Exam-September-2014" extention=".docx" />
+        <file name="Documentation" extention=".txt" />
+        <file name="Queries" extention=".xml" />
+      </dir>
+    </dir>
+  </dir>
+  <file name="" extention=".gitignore" />
+  <file name="LICENSE" extention="" />
+</dir>

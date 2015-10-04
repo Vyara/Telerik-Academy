@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<albums xmlns:catalog="urn:catalog:music-albums">
+  <album>
+    <name>The Fat of the Land</name>
+    <artist>The Prodigy</artist>
+    <year>ajsfkahsf</year>
+    <producer>Liam Howlett</producer>
+    <price>14.99</price>
+    <songs>
+      <song>
+        <title>Smack My B-tch Up</title>
+        <duration>5:43</duration>
+      </song>
+      <song>
+        <title>Breathe</title>
+        <duration>5:35</duration>
+      </song>
+      <song>
+        <title>Diesel Power</title>
+        <duration>4:18</duration>
+      </song>
+      <song>
+        <title>Funky Sh-t</title>
+        <duration>5:16</duration>
+      </song>
+      <song>
+        <title>Serial Thrilla</title>
+        <duration>5:11</duration>
+      </song>
+      <song>
+        <title>Mindfileds</title>
+        <duration>5:40</duration>
+      </song>
+      <song>
+        <title>Narayan</title>
+        <duration>9:06</duration>
+      </song>
+      <song>
+        <title>Firestarter</title>
+        <duration>zzz</duration>
+      </song>
+      <song>
+        <title>Climbatize</title>
+        <duration>6:37</duration>
+      </song>
+      <song>
+        <title>Fuel My Fire</title>
+        <duration>4:19</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Drones</name>
+    <artist>Muse</artist>
+    <year>2015</year>
+    <producer>Helium 3</producer>
+    <price>11.52</price>
+    <songs>
+      <song>
+        <title>Dead Inside</title>
+        <duration>4:23</duration>
+      </song>
+      <song>
+        <title>Drill Sergeant</title>
+        <duration>0:21</duration>
+      </song>
+      <song>
+        <title>Psycho</title>
+        <duration>5:17</duration>
+      </song>
+      <song>
+        <title>Mercy</title>
+        <duration>3:52</duration>
+      </song>
+      <song>
+        <title>Reapers</title>
+        <duration>6:00</duration>
+      </song>
+      <song>
+        <title>The Handler</title>
+        <duration>4:34</duration>
+      </song>
+      <song>
+        <title>JFK</title>
+        <duration>0:55</duration>
+      </song>
+      <song>
+        <title>Detector</title>
+        <duration>4:33</duration>
+      </song>
+      <song>
+        <title>Revolt</title>
+        <duration>4:06</duration>
+      </song>
+      <song>
+        <title>Aftermath</title>
+        <duration>5:48</duration>
+      </song>
+      <song>
+        <title>The Globalist</title>
+        <duration>10:07</duration>
+      </song>
+      <song>
+        <title>Drones</title>
+        <duration>2:52</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Black Holes and Revelations</name>
+    <artist>Muse</artist>
+    <year>2006</year>
+    <producer>Warner Bros. Records</producer>
+    <price>5.99</price>
+    <songs>
+      <song>
+        <title>Take a Bow</title>
+        <duration>4:35</duration>
+      </song>
+      <song>
+        <title>Starlight</title>
+        <duration>4:00</duration>
+      </song>
+      <song>
+        <title>Supermassive Black Hole</title>
+        <duration>3:29</duration>
+      </song>
+      <song>
+        <title>Map of the Problematique</title>
+        <duration>4:19</duration>
+      </song>
+      <song>
+        <title>Soldier's Poem</title>
+        <duration>2:04</duration>
+      </song>
+      <song>
+        <title>Invincible</title>
+        <duration>5:00</duration>
+      </song>
+      <song>
+        <title>Assassin</title>
+        <duration>3:31</duration>
+      </song>
+      <song>
+        <title>Exo-Politics</title>
+        <duration>3:53</duration>
+      </song>
+      <song>
+        <title>City of Delusion</title>
+        <duration>4:49</duration>
+      </song>
+      <song>
+        <title>Hoodoo</title>
+        <duration>3:43</duration>
+      </song>
+      <song>
+        <title>Knights of Cydonia</title>
+        <duration>6:07</duration>
+      </song>
+      <song>
+        <title>Glorious</title>
+        <duration>4:41</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>OK Computer</name>
+    <artist>Radiohead</artist>
+    <year>a</year>
+    <producer>Nigel Godrich</producer>
+    <price></price>
+    <songs>
+      <song>
+        <title>Airbag</title>
+        <duration>4:44</duration>
+      </song>
+      <song>
+        <title>Paranoid Android</title>
+        <duration>6:23</duration>
+      </song>
+      <song>
+        <title>Subterranean Homesick Alien</title>
+        <duration>4:28</duration>
+      </song>
+      <song>
+        <title>Exit Music</title>
+        <duration>4:25</duration>
+      </song>
+      <song>
+        <title>Let Down</title>
+        <duration>4:59</duration>
+      </song>
+      <song>
+        <title>Karma Police</title>
+        <duration>4:22</duration>
+      </song>
+      <song>
+        <title>Fitter Happier</title>
+        <duration>1:57</duration>
+      </song>
+      <song>
+        <title>Electroneering</title>
+        <duration>3:51</duration>
+      </song>
+      <song>
+        <title>Climbing Up the Walls</title>
+        <duration>4:45</duration>
+      </song>
+      <song>
+        <title>No Surprises</title>
+        <duration>3:49</duration>
+      </song>
+      <song>
+        <title>Lucky</title>
+        <duration>4:20</duration>
+      </song>
+      <song>
+        <title>The Tourist</title>
+        <duration>5:25</duration>
+      </song>
+      <song>
+        <title>A Reminder</title>
+        <duration>3:54</duration>
+      </song>
+      <song>
+        <title>Melatonin</title>
+        <duration>2:08</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>The Day Is My Enemy</name>
+    <artist>The Prodigy</artist>
+    <year>2015</year>
+    <producer>Vertigo Berlin</producer>
+    <price>10.91</price>
+    <songs>
+      <song>
+        <title>The Day Is My Enemy</title>
+        <duration>4:25</duration>
+      </song>
+      <song>
+        <title>Nasty</title>
+        <duration>4:03</duration>
+      </song>
+      <song>
+        <title>Rebel Radio</title>
+        <duration>3:52</duration>
+      </song>
+      <song>
+        <title>Ibiza</title>
+        <duration>2:46</duration>
+      </song>
+      <song>
+        <title>Destroy</title>
+        <duration>4:29</duration>
+      </song>
+      <song>
+        <title>Wild Frontier</title>
+        <duration>4:28</duration>
+      </song>
+      <song>
+        <title>Rok-Weiler</title>
+        <duration>3:51</duration>
+      </song>
+      <song>
+        <title>Beyond the DeathRay</title>
+        <duration>3:09</duration>
+      </song>
+      <song>
+        <title>Rhythm Bomb</title>
+        <duration>4:12</duration>
+      </song>
+      <song>
+        <title>Roadblox</title>
+        <duration>5:01</duration>
+      </song>
+      <song>
+        <title>Get Your Fight On</title>
+        <duration>3:39</duration>
+      </song>
+      <song>
+        <title>Medicine</title>
+        <duration>3:56</duration>
+      </song>
+      <song>
+        <title>Invisible Sun</title>
+        <duration>4:16</duration>
+      </song>
+      <song>
+        <title>Wall of Death</title>
+        <duration>4:04</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Garbage</name>
+    <artist>Garbage</artist>
+    <year>1995</year>
+    <producer>Almo Sounds</producer>
+    <price>19.98</price>
+    <songs>
+      <song>
+        <title>Supervixen</title>
+        <duration>3:56</duration>
+      </song>
+      <song>
+        <title>Queer</title>
+        <duration>4:36</duration>
+      </song>
+      <song>
+        <title>Only Happy When It Rains</title>
+        <duration>3:57</duration>
+      </song>
+      <song>
+        <title>As Heaven Is Wide</title>
+        <duration>4:53</duration>
+      </song>
+      <song>
+        <title>Not My Idea</title>
+        <duration>3:41</duration>
+      </song>
+      <song>
+        <title>A Stroke of Luck</title>
+        <duration>4:44</duration>
+      </song>
+      <song>
+        <title>Vow</title>
+        <duration>4:30</duration>
+      </song>
+      <song>
+        <title>Stupid Girl</title>
+        <duration>4:19</duration>
+      </song>
+      <song>
+        <title>Dog New Tricks</title>
+        <duration>3:57</duration>
+      </song>
+      <song>
+        <title>My Lover's Box</title>
+        <duration>3:55</duration>
+      </song>
+      <song>
+        <title>Fix Me Now</title>
+        <duration>4:43</duration>
+      </song>
+      <song>
+        <title>Milk</title>
+        <duration>3:54</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Version 2.0</name>
+    <artist>Garbage</artist>
+    <year>1998</year>
+    <producer>Garbage</producer>
+    <price>11.74</price>
+    <songs>
+      <song>
+        <title>Temptation Waits</title>
+        <duration>4:38</duration>
+      </song>
+      <song>
+        <title>I Think I'm Paranoid</title>
+        <duration>3:38</duration>
+      </song>
+      <song>
+        <title>When I Grow Up</title>
+        <duration>3:25</duration>
+      </song>
+      <song>
+        <title>Medication</title>
+        <duration>4:08</duration>
+      </song>
+      <song>
+        <title>Special</title>
+        <duration>3:41</duration>
+      </song>
+      <song>
+        <title>Hammering in My Head</title>
+        <duration>4:52</duration>
+      </song>
+      <song>
+        <title>Push It</title>
+        <duration>4:01</duration>
+      </song>
+      <song>
+        <title>The Trick Is to Keep Breathing</title>
+        <duration>4:14</duration>
+      </song>
+      <song>
+        <title>Dumb</title>
+        <duration>3:52</duration>
+      </song>
+      <song>
+        <title>Sleep Together</title>
+        <duration>4:04</duration>
+      </song>
+      <song>
+        <title>Wicked Ways</title>
+        <duration>3:44</duration>
+      </song>
+      <song>
+        <title>You Look So Fine</title>
+        <duration>5:20</duration>
+      </song>
+      <song>
+        <title>Lick the Pavement</title>
+        <duration>2:44</duration>
+      </song>
+      <song>
+        <title>Thirteen</title>
+        <duration>3:28</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Surrender</name>
+    <artist>The Chemical Brothers</artist>
+    <year>1999</year>
+    <producer>Virgin Records</producer>
+    <price>9.27</price>
+    <songs>
+      <song>
+        <title>Music: Response</title>
+        <duration>5:20</duration>
+      </song>
+      <song>
+        <title>Under The Influence</title>
+        <duration>4:16</duration>
+      </song>
+      <song>
+        <title>Out Of Control</title>
+        <duration>7:20</duration>
+      </song>
+      <song>
+        <title>Orange Wedge</title>
+        <duration>3:07</duration>
+      </song>
+      <song>
+        <title>Let Forever Be</title>
+        <duration>3:56</duration>
+      </song>
+      <song>
+        <title>The Sunshine Underground</title>
+        <duration>8:39</duration>
+      </song>
+      <song>
+        <title>Asleep From Day</title>
+        <duration>4:47</duration>
+      </song>
+      <song>
+        <title>Got Glint?</title>
+        <duration>5:26</duration>
+      </song>
+      <song>
+        <title>Hey Boy Hey Girl</title>
+        <duration>4:51</duration>
+      </song>
+      <song>
+        <title>Surrender</title>
+        <duration>4:30</duration>
+      </song>
+      <song>
+        <title>Dream On</title>
+        <duration>6:47</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Not Your Kind of People</name>
+    <artist>Garbage</artist>
+    <year>2012</year>
+    <producer>Liberator Music</producer>
+    <price>11.81</price>
+    <songs>
+      <song>
+        <title>Automatic Systematic Habit</title>
+        <duration>3:18</duration>
+      </song>
+      <song>
+        <title>Big Bright World</title>
+        <duration>3:36</duration>
+      </song>
+      <song>
+        <title>Blood for Poppies</title>
+        <duration>3:40</duration>
+      </song>
+      <song>
+        <title>Control</title>
+        <duration>4:12</duration>
+      </song>
+      <song>
+        <title>Not Ypur Kind of People</title>
+        <duration>4:59</duration>
+      </song>
+      <song>
+        <title>Felt</title>
+        <duration>3:27</duration>
+      </song>
+      <song>
+        <title>I Hate Love</title>
+        <duration>3:55</duration>
+      </song>
+      <song>
+        <title>Sugar</title>
+        <duration>4:01</duration>
+      </song>
+      <song>
+        <title>Battle In Me</title>
+        <duration>4:16</duration>
+      </song>
+      <song>
+        <title>Man On a Wire</title>
+        <duration>3:09</duration>
+      </song>
+      <song>
+        <title>Beloved Freak</title>
+        <duration>4:30</duration>
+      </song>
+    </songs>
+  </album>
+</albums>

@@ -1,0 +1,6 @@
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\bin\Debug\TraverseADirectoryWithXDocument.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\bin\Debug\TraverseADirectoryWithXDocument.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\bin\Debug\TraverseADirectoryWithXDocument.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\obj\Debug\TraverseADirectoryWithXDocument.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\obj\Debug\TraverseADirectoryWithXDocument.exe
+e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryWithXDocument\obj\Debug\TraverseADirectoryWithXDocument.pdb
