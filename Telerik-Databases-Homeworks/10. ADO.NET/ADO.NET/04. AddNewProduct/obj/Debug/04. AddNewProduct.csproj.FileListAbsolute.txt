@@ -1,0 +1,6 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\bin\Debug\_04.AddNewProduct.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\bin\Debug\_04.AddNewProduct.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\bin\Debug\_04.AddNewProduct.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\obj\Debug\04. AddNewProduct.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\obj\Debug\_04.AddNewProduct.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\04. AddNewProduct\obj\Debug\_04.AddNewProduct.pdb

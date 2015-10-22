@@ -1,0 +1,12 @@
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\ConcurencyTest.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\ConcurencyTest.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\ConcurencyTest.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\obj\Debug\07. ConcurencyTest.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\obj\Debug\ConcurencyTest.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\obj\Debug\ConcurencyTest.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\EntityFramework.dll
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\EntityFramework.SqlServer.dll
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\NorthwindContext.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\NorthwindContext.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\EntityFramework.xml
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\07. ConcurencyTest\bin\Debug\EntityFramework.SqlServer.xml

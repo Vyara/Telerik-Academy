@@ -1,0 +1,17 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\_10.SQLlieBooks.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\obj\Debug\10. SQLlieBooks.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\_10.SQLlieBooks.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\_10.SQLlieBooks.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\EntityFramework.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\EntityFramework.SqlServer.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\NDbUnit.Core.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\NDbUnit.SqlLite.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\System.Data.SQLite.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\System.Data.SQLite.EF6.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\System.Data.SQLite.Linq.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\EntityFramework.xml
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\EntityFramework.SqlServer.xml
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\NDbUnit.SqlLite.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\bin\Debug\System.Data.SQLite.xml
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\obj\Debug\_10.SQLlieBooks.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\10. SQLlieBooks\obj\Debug\_10.SQLlieBooks.pdb

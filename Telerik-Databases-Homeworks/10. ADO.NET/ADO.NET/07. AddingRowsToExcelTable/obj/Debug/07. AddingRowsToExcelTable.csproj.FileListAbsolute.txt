@@ -1,0 +1,6 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\bin\Debug\_07.AddingRowsToExcelTable.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\bin\Debug\_07.AddingRowsToExcelTable.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\bin\Debug\_07.AddingRowsToExcelTable.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\obj\Debug\_07.AddingRowsToExcelTable.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\obj\Debug\_07.AddingRowsToExcelTable.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\07. AddingRowsToExcelTable\obj\Debug\07. AddingRowsToExcelTable.csprojResolveAssemblyReference.cache

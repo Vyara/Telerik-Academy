@@ -1,0 +1,12 @@
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\InheritEmployees.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\InheritEmployees.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\InheritEmployees.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\obj\Debug\InheritEmployees.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\obj\Debug\InheritEmployees.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\obj\Debug\08. InheritEmployees.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\EntityFramework.dll
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\EntityFramework.SqlServer.dll
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\NorthwindContext.exe
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\NorthwindContext.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\EntityFramework.xml
+e:\users\vyara\documents\visual studio 2015\Projects\EntityFramework\08. InheritEmployees\bin\Debug\EntityFramework.SqlServer.xml

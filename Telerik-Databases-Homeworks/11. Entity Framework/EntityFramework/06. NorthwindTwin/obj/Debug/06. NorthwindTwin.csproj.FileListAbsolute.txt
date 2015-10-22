@@ -1,0 +1,12 @@
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\NorthwindTwin.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\NorthwindTwin.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\NorthwindTwin.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\obj\Debug\06. NorthwindTwin.csprojResolveAssemblyReference.cache
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\obj\Debug\NorthwindTwin.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\obj\Debug\NorthwindTwin.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\EntityFramework.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\EntityFramework.SqlServer.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\NorthwindContext.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\NorthwindContext.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\EntityFramework.xml
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\EntityFramework\06. NorthwindTwin\bin\Debug\EntityFramework.SqlServer.xml

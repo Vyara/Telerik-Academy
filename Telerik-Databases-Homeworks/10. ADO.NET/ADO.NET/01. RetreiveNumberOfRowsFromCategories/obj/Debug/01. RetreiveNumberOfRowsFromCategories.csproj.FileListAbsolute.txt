@@ -1,0 +1,17 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\_01.RetreiveNumberOfRowsFromCategories.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\obj\Debug\01. RetreiveNumberOfRowsFromCategories.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\_01.RetreiveNumberOfRowsFromCategories.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\_01.RetreiveNumberOfRowsFromCategories.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\obj\Debug\_01.RetreiveNumberOfRowsFromCategories.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\obj\Debug\_01.RetreiveNumberOfRowsFromCategories.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\EntityFramework.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\EntityFramework.SqlServer.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\System.Data.SQLite.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\System.Data.SQLite.EF6.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\System.Data.SQLite.Linq.dll
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\EntityFramework.xml
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\EntityFramework.SqlServer.xml
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\System.Data.SQLite.xml
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\10. ADO.NET\ADO.NET\01. RetreiveNumberOfRowsFromCategories\bin\Debug\_01.RetreiveNumberOfRowsFromCategories.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\10. ADO.NET\ADO.NET\01. RetreiveNumberOfRowsFromCategories\obj\Debug\_01.RetreiveNumberOfRowsFromCategories.exe
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\10. ADO.NET\ADO.NET\01. RetreiveNumberOfRowsFromCategories\obj\Debug\_01.RetreiveNumberOfRowsFromCategories.pdb

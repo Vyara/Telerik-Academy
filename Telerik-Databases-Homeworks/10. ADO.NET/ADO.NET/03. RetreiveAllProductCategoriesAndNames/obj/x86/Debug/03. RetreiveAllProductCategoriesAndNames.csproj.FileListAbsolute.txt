@@ -1,0 +1,1 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\03. RetreiveAllProductCategoriesAndNames\bin\x86\Debug\_03.RetreiveAllProductCategoriesAndNames.exe.config

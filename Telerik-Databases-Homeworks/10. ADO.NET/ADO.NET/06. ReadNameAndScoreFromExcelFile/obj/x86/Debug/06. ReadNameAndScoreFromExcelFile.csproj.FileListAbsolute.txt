@@ -1,0 +1,5 @@
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\06. ReadNameAndScoreFromExcelFile\bin\x86\Debug\_06.ReadNameAndScoreFromExcelFile.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\06. ReadNameAndScoreFromExcelFile\bin\x86\Debug\_06.ReadNameAndScoreFromExcelFile.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\06. ReadNameAndScoreFromExcelFile\bin\x86\Debug\_06.ReadNameAndScoreFromExcelFile.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\06. ReadNameAndScoreFromExcelFile\obj\x86\Debug\_06.ReadNameAndScoreFromExcelFile.exe
+e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\06. ReadNameAndScoreFromExcelFile\obj\x86\Debug\_06.ReadNameAndScoreFromExcelFile.pdb
