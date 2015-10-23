@@ -12,3 +12,17 @@ E:\Users\Vyara\Documents\Visual Studio 2015\Projects\StudentSystem\StudentSystem
 E:\Users\Vyara\Documents\Visual Studio 2015\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.dll
 E:\Users\Vyara\Documents\Visual Studio 2015\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.pdb
 E:\Users\Vyara\Documents\Visual Studio 2015\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.pdb
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.exe
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.pdb
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.dll
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.dll
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.pdb
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.pdb
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+E:\Users\Vyara\Documents\Visual Studio 2013\Projects2\13. Entity Framework Code First\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.csprojResolveAssemblyReference.cache

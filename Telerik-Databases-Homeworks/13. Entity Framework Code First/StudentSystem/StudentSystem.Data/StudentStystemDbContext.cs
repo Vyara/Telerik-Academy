@@ -6,8 +6,8 @@
     public class StudentStystemDbContext : DbContext
     {
         public StudentStystemDbContext()
-            :base("StudentsSystemDb")
-        {       
+            : base("StudentsSystemDb")
+        {
         }
 
         public virtual IDbSet<Course> Courses { get; set; }
@@ -15,6 +15,5 @@
         public virtual IDbSet<Homework> Homeworks { get; set; }
 
         public virtual IDbSet<Student> Students { get; set; }
-
     }
 }

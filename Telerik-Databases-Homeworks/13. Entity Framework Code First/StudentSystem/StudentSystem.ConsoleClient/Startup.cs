@@ -1,28 +1,24 @@
-﻿
-namespace StudentSystem.ConsoleClient
+﻿namespace StudentSystem.ConsoleClient
 {
-    using Data;
-    using Data.Migrations;
     using System;
     using System.Data.Entity;
     using System.Linq;
+    using Data;
+    using Data.Migrations;
 
     public class Startup
     {
-
-       public static void Main()
+        public static void Main()
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<StudentStystemDbContext, Configuration>());
 
-            var studentsContext = new StudentStystemDbContext();
+            var con = new StudentStystemDbContext();
 
-            Console.WriteLine("Students currently in the system: ");
-            studentsContext.Students
+            Console.WriteLine("Students: ");
+            con.Students
                 .Select(s => new { s.FirstName, s.LastName })
                 .ToList()
-                .ForEach(s => Console.WriteLine("- {0} {1}", s.FirstName, s.LastName));
+                .ForEach(s => System.Console.WriteLine("* {0} {1}", s.FirstName, s.LastName));
         }
-
     }
 }
-

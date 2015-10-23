@@ -14,7 +14,7 @@
             this.homeworks = new HashSet<Homework>();
         }
 
-        public int CourseId { get; set; }
+        public int Id { get; set; }
 
         [MaxLength(50)]
         public string Name { get; set; }

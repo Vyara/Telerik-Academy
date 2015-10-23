@@ -13,6 +13,7 @@
             this.courses = new HashSet<Course>();
             this.homeworks = new HashSet<Homework>();
         }
+
         public int Id { get; set; }
 
         [Required]
@@ -28,7 +29,7 @@
 
         [Required]
         [Range(1000, 10000)]
-        public uint Number { get; set; }
+        public int Number { get; set; }
 
         public virtual ICollection<Course> Courses
         {
@@ -42,6 +43,5 @@
             get { return this.homeworks; }
             set { this.homeworks = value; }
         }
-
     }
 }
