@@ -1,0 +1,8 @@
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\bin\Debug\SetOFWords.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\bin\Debug\SetOFWords.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\bin\Debug\SetOFWords.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\obj\Debug\SetOFWords.csprojResolveAssemblyReference.cache
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\obj\Debug\SetOFWords.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\obj\Debug\SetOFWords.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\bin\Debug\Trie.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\SetOFWords\bin\Debug\Trie.pdb

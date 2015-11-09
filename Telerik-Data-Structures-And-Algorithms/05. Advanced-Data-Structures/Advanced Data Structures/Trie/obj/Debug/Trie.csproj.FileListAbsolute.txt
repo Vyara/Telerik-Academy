@@ -1,0 +1,5 @@
+e:\users\vyara\documents\visual studio 2015\Projects\Advanced Data Structures\Trie\bin\Debug\Trie.dll
+e:\users\vyara\documents\visual studio 2015\Projects\Advanced Data Structures\Trie\bin\Debug\Trie.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\Advanced Data Structures\Trie\obj\Debug\Trie.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\Advanced Data Structures\Trie\obj\Debug\Trie.dll
+e:\users\vyara\documents\visual studio 2015\Projects\Advanced Data Structures\Trie\obj\Debug\Trie.pdb

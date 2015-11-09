@@ -1,0 +1,7 @@
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\bin\Debug\ProductRange.exe.config
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\bin\Debug\ProductRange.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\bin\Debug\ProductRange.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\bin\Debug\PowerCollections.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\obj\Debug\ProductRange.csprojResolveAssemblyReference.cache
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\obj\Debug\ProductRange.exe
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\Advanced Data Structures\ProductRange\obj\Debug\ProductRange.pdb
