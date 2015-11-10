@@ -1,0 +1,7 @@
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\bin\Debug\SortStudents.exe.config
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\bin\Debug\SortStudents.exe
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\bin\Debug\SortStudents.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\obj\Debug\01. SortStudents.csprojResolveAssemblyReference.cache
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\obj\Debug\SortStudents.exe
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\obj\Debug\SortStudents.pdb
+e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\01. SortStudents\bin\Debug\PowerCollections.dll
