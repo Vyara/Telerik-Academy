@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple Chat App", "Simple Chat App", "{7C5C5F6F-5F2A-4C64-A12F-C62BAF3EBF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Simple Chat App\Sender\Sender.csproj", "{2DBEBB67-F2EB-4096-9BE8-CC2206622341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Simple Chat App\Receiver\Receiver.csproj", "{38EC77A9-6386-49DD-B968-7BA383A538B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple Chat App PubNub", "Simple Chat App PubNub", "{A20C11A6-E967-4932-86FB-98467AE0327E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatPubNub", "Simple Chat App PubNUb\ChatPubNub\ChatPubNub.csproj", "{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Photo Album DropBox", "Photo Album DropBox", "{78EE1ACE-810E-4C09-9351-293D32B4D2B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum", "Photo Album DropBox\PhotoAlbum\PhotoAlbum.csproj", "{F47573ED-2856-4236-8A91-1A87102905E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBEBB67-F2EB-4096-9BE8-CC2206622341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBEBB67-F2EB-4096-9BE8-CC2206622341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBEBB67-F2EB-4096-9BE8-CC2206622341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBEBB67-F2EB-4096-9BE8-CC2206622341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EC77A9-6386-49DD-B968-7BA383A538B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EC77A9-6386-49DD-B968-7BA383A538B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EC77A9-6386-49DD-B968-7BA383A538B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EC77A9-6386-49DD-B968-7BA383A538B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47573ED-2856-4236-8A91-1A87102905E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47573ED-2856-4236-8A91-1A87102905E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47573ED-2856-4236-8A91-1A87102905E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47573ED-2856-4236-8A91-1A87102905E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DBEBB67-F2EB-4096-9BE8-CC2206622341} = {7C5C5F6F-5F2A-4C64-A12F-C62BAF3EBF5C}
+		{38EC77A9-6386-49DD-B968-7BA383A538B9} = {7C5C5F6F-5F2A-4C64-A12F-C62BAF3EBF5C}
+		{CD83B5AF-AADD-4A41-A3DE-FF1EBF6FDE46} = {A20C11A6-E967-4932-86FB-98467AE0327E}
+		{F47573ED-2856-4236-8A91-1A87102905E5} = {78EE1ACE-810E-4C09-9351-293D32B4D2B1}
+	EndGlobalSection
+EndGlobal

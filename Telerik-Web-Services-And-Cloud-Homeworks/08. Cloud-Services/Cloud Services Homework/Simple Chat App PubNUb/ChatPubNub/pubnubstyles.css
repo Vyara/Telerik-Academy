@@ -1,0 +1,10 @@
+﻿#wrapper {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+#messagesArea {
+    width: 80%;
+    height: 500px;
+}
