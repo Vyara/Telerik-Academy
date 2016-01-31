@@ -1,0 +1,17 @@
+extends ../index
+
+block main-content
+    .container
+        .jumbotron
+            h2 Phones
+    .container
+        .row
+            each p in phone
+                .col-sm-4.col-lg-4.col-md-4
+                    .thumbnail
+                        img(src=p.img, alt=p.name)
+                        .caption
+                            h4.pull-right= '$ ' +  p.price
+                            h4
+                                a(href='/phones/' + p._id)= p.name
+

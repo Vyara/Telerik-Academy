@@ -1,0 +1,16 @@
+extends ../index
+
+block main-content
+    .container
+        .jumbotron
+            h2 Wearables
+    .container
+        .row
+            each w in wearable
+                .col-sm-4.col-lg-4.col-md-4
+                    .thumbnail
+                        img(src=w.img, alt=w.name)
+                        .caption
+                            h4.pull-right= '$ ' +  w.price
+                            h4
+                                a(href='/wearables/' + w._id)= w.name

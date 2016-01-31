@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="utf-8" />
+
+    <base href="/" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/app-styles.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-cookies.js"></script>
+</head>
+<body ng-app="game" ng-cloack ng-controller="MainController as vm">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">Tic Tac Toe</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/games">All Games</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right" ng-if="!vm.globallySetCurrentUser">
+                    <li>
+                        <a href="/identity/login">Login</a>
+                    </li>
+                    <li>
+                        <a href="/identity/register">Register</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" ng-if="vm.globallySetCurrentUser">
+                    <li>
+                        <a href="/identity/profile">{{vm.globallySetCurrentUser.Username}}</a>
+                    </li>
+                    <li>
+                        <a href="#" ng-click="vm.logout()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div ng-view>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                TIC TAC TOE Game Project 2015
+            </div>
+        </div>
+    </footer>
+    <script src="app/app.js"></script>
+    <script src="app/common/main-controller.js"></script>
+    <script src="app/common/data-service.js"></script>
+    <script src="app/common/notifier-service.js"></script>
+    <script src="app/common/collection-split-filter.js"></script>
+    <script src="app/identity/register-controller.js"></script>
+    <script src="app/identity/login-controller.js"></script>
+    <script src="app/identity/auth-service.js"></script>
+    <script src="app/identity/identity-service.js"></script>
+    <script src="app/games/games-service.js"></script>
+    <script src="app/games/all-games-controller.js"></script>
+    <script src="app/games/game-state-filter.js"></script>
+    <script src="app/games/start-game-controller.js"></script>
+</body>
+</html>

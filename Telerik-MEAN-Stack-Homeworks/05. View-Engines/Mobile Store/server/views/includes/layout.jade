@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    title Mobile Store
+    include styles
+body
+    nav
+    if links
+        each link in links
+            a(href=link.url class='btn btn-primary' style='margin-left: 5px;')
+                = 'To the ' + link.title + ' page'
+    else
+        a(href='/' class='btn btn-primary' style='margin-left: 5px;')
+            = 'Back to home'
+
+    div#root
+        block mainContent
+    footer(style='text-align: center;')
+        h3(class='footer') &copy;  Telerik Academy 2016
+    include scripts

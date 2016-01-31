@@ -1,0 +1,11 @@
+extends includes/layout
+
+block mainContent
+    div
+        h1(class='jumbotron') Phones:
+        each phone in phones
+            div(style='border: 1px solid black')
+                p(style='font-size: 20px;')
+                    = phone.name + ': Price: ' + phone.price
+                img(src=phone.img style="width: 20%")
+

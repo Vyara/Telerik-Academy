@@ -1,0 +1,11 @@
+extends includes/layout
+
+block mainContent
+    div
+        h1(class='jumbotron') Tablets:
+        each tablet in tablets
+            div(style='border: 1px solid black')
+                p(style='font-size: 20px;')
+                    = tablet.name + ' :Price: ' + tablet.price + '€'
+                img(src=tablet.img style="width: 20%")
+
