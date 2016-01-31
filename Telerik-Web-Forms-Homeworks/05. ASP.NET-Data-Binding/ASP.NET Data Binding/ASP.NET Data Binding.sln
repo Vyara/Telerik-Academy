@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Cars", "01. Cars", "{3714F725-1CBD-4CB0-B9A3-C458404EFCE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "01. Cars\Cars\Cars.csproj", "{F310BBDE-A79D-4687-AA36-249D7F71CFB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02,04. Northwind Employees", "02,04. Northwind Employees", "{2D3A7ACD-AFFC-43BB-A8BC-F2420624A3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployessGridView", "02,04. Northwind Employees\EmployessGridView\EmployessGridView.csproj", "{31E50F13-1B94-440C-91B3-43309C6F20C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesFormView", "02,04. Northwind Employees\EmployeesFormView\EmployeesFormView.csproj", "{0A99611F-C690-46C2-971A-CD66C57CFCD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesRepeaterAndListView", "02,04. Northwind Employees\EmployeesRepeaterAndListView\EmployeesRepeaterAndListView.csproj", "{4679274A-D90D-4956-97F0-652338EF0329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. XMLTree", "03. XMLTree", "{6A770D4F-E018-4C3E-8C93-F721C1EA3FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksXML", "03. XMLTree\BooksXML\BooksXML.csproj", "{A3E18334-EEDD-4AA0-811F-4DA6D6A44673}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F310BBDE-A79D-4687-AA36-249D7F71CFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F310BBDE-A79D-4687-AA36-249D7F71CFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F310BBDE-A79D-4687-AA36-249D7F71CFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F310BBDE-A79D-4687-AA36-249D7F71CFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E50F13-1B94-440C-91B3-43309C6F20C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E50F13-1B94-440C-91B3-43309C6F20C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E50F13-1B94-440C-91B3-43309C6F20C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E50F13-1B94-440C-91B3-43309C6F20C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A99611F-C690-46C2-971A-CD66C57CFCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A99611F-C690-46C2-971A-CD66C57CFCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A99611F-C690-46C2-971A-CD66C57CFCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A99611F-C690-46C2-971A-CD66C57CFCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4679274A-D90D-4956-97F0-652338EF0329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4679274A-D90D-4956-97F0-652338EF0329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4679274A-D90D-4956-97F0-652338EF0329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4679274A-D90D-4956-97F0-652338EF0329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E18334-EEDD-4AA0-811F-4DA6D6A44673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E18334-EEDD-4AA0-811F-4DA6D6A44673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E18334-EEDD-4AA0-811F-4DA6D6A44673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E18334-EEDD-4AA0-811F-4DA6D6A44673}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F310BBDE-A79D-4687-AA36-249D7F71CFB3} = {3714F725-1CBD-4CB0-B9A3-C458404EFCE5}
+		{31E50F13-1B94-440C-91B3-43309C6F20C0} = {2D3A7ACD-AFFC-43BB-A8BC-F2420624A3E9}
+		{0A99611F-C690-46C2-971A-CD66C57CFCD2} = {2D3A7ACD-AFFC-43BB-A8BC-F2420624A3E9}
+		{4679274A-D90D-4956-97F0-652338EF0329} = {2D3A7ACD-AFFC-43BB-A8BC-F2420624A3E9}
+		{A3E18334-EEDD-4AA0-811F-4DA6D6A44673} = {6A770D4F-E018-4C3E-8C93-F721C1EA3FCE}
+	EndGlobalSection
+EndGlobal

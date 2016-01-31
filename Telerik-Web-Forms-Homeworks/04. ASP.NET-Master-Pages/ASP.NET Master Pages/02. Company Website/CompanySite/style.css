@@ -1,0 +1,7 @@
+﻿#form1 > div {
+    border: 1px solid black;
+}
+
+h2, .centered {
+    text-align: center;
+}

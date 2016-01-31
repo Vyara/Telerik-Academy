@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="CompanySite.Default" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="centered">
+        <h1>Welcome to Cat Corp</h1>
+        <h4>Where your business is our Purrority</h4>
+    </div>
+    <form id="form1" runat="server">
+        <nav class="centered">
+            <asp:HyperLink ID="hl_english" runat="server" NavigateUrl="~/EnglishHome.aspx">English Version</asp:HyperLink>
+            <asp:HyperLink ID="hl_friends" runat="server" NavigateUrl="~/GermanHome.aspx">German Version</asp:HyperLink>
+        </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="siteWrapper" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

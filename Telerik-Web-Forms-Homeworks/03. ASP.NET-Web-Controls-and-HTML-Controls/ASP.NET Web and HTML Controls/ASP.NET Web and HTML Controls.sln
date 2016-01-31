@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Random", "01. Random", "{10C459F4-FE1B-4B25-87B1-1DBA63ECC253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Escaping", "02. Escaping", "{E842DB0D-D4FB-4CE8-8268-02E2D5D66C7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Students and Courses", "03. Students and Courses", "{D676806E-6695-4821-B94B-C5EEFF4328ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Tic-tac-toe", "04. Tic-tac-toe", "{C249BE9B-51EF-4478-B3B6-4E4D145475B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Web Calculator", "05. Web Calculator", "{CB3ED4F6-ACA3-4D63-B995-AB21EEC98EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGeneratedNumbers", "01. Random\RandomGeneratedNumbers\RandomGeneratedNumbers.csproj", "{8CB8434A-908A-409B-B477-5EFC8B4B1E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscapeInput", "02. Escaping\EscapeInput\EscapeInput.csproj", "{DF1C6EFB-238D-4170-ADE6-57AC156EBA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSystem", "03. Students and Courses\StudentSystem\StudentSystem.csproj", "{BB75FD58-C73E-4805-8964-C7A11AF9E5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "04. Tic-tac-toe\TicTacToe\TicTacToe.csproj", "{DFC375D8-55D8-46D2-917C-44ECB16B2E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "05. Web Calculator\SimpleCalculator\SimpleCalculator.csproj", "{D550F298-CC32-4444-87ED-330DA38232D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CB8434A-908A-409B-B477-5EFC8B4B1E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB8434A-908A-409B-B477-5EFC8B4B1E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB8434A-908A-409B-B477-5EFC8B4B1E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB8434A-908A-409B-B477-5EFC8B4B1E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1C6EFB-238D-4170-ADE6-57AC156EBA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1C6EFB-238D-4170-ADE6-57AC156EBA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1C6EFB-238D-4170-ADE6-57AC156EBA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1C6EFB-238D-4170-ADE6-57AC156EBA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB75FD58-C73E-4805-8964-C7A11AF9E5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB75FD58-C73E-4805-8964-C7A11AF9E5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB75FD58-C73E-4805-8964-C7A11AF9E5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB75FD58-C73E-4805-8964-C7A11AF9E5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC375D8-55D8-46D2-917C-44ECB16B2E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC375D8-55D8-46D2-917C-44ECB16B2E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC375D8-55D8-46D2-917C-44ECB16B2E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC375D8-55D8-46D2-917C-44ECB16B2E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D550F298-CC32-4444-87ED-330DA38232D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D550F298-CC32-4444-87ED-330DA38232D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D550F298-CC32-4444-87ED-330DA38232D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D550F298-CC32-4444-87ED-330DA38232D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CB8434A-908A-409B-B477-5EFC8B4B1E26} = {10C459F4-FE1B-4B25-87B1-1DBA63ECC253}
+		{DF1C6EFB-238D-4170-ADE6-57AC156EBA22} = {E842DB0D-D4FB-4CE8-8268-02E2D5D66C7C}
+		{BB75FD58-C73E-4805-8964-C7A11AF9E5C7} = {D676806E-6695-4821-B94B-C5EEFF4328ED}
+		{DFC375D8-55D8-46D2-917C-44ECB16B2E3E} = {C249BE9B-51EF-4478-B3B6-4E4D145475B9}
+		{D550F298-CC32-4444-87ED-330DA38232D7} = {CB3ED4F6-ACA3-4D63-B995-AB21EEC98EE2}
+	EndGlobalSection
+EndGlobal

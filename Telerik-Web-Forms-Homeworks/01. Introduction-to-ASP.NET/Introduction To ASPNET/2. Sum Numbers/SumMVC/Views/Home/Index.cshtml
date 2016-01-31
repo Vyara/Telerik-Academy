@@ -1,0 +1,15 @@
+﻿<div class="jumbotron">
+    @using (Html.BeginForm("Sum", "Home"))
+    {
+        <h1>Calculate Sum Of Two Numbers</h1>
+        <input id="sumA" name="sumA" type="number" />
+        <input id="sumB" name="sumB" type="number" />
+        <input type="submit" value="Show Sum" />
+    }
+
+    @if (ViewBag.Sum != null)
+    { 
+        <h1>Result:</h1>
+        <h1 id="sumResult">@ViewBag.Sum</h1>
+    }
+</div>

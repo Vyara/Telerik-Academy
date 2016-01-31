@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. TODO List", "02. TODO List", "{D8B2D56E-A2A7-4E8B-9D23-291387CFA5B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Tweets aggregator", "03. Tweets aggregator", "{F96F4257-C4D6-4FE2-B872-B1815BE0B025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Countries", "01. Countries", "{70A56F4A-B38C-4CC7-B533-B5424ACD7143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continents", "01. Countries\Continents.csproj", "{FA020A2A-DBFE-4680-ABE6-C0807B297542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todos", "02. TODO List\Todos.csproj", "{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweets", "03. Tweets aggregator\Tweets.csproj", "{1B342F45-0F62-4105-A54D-73B096C108BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA020A2A-DBFE-4680-ABE6-C0807B297542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA020A2A-DBFE-4680-ABE6-C0807B297542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA020A2A-DBFE-4680-ABE6-C0807B297542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA020A2A-DBFE-4680-ABE6-C0807B297542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B342F45-0F62-4105-A54D-73B096C108BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B342F45-0F62-4105-A54D-73B096C108BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B342F45-0F62-4105-A54D-73B096C108BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B342F45-0F62-4105-A54D-73B096C108BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA020A2A-DBFE-4680-ABE6-C0807B297542} = {70A56F4A-B38C-4CC7-B533-B5424ACD7143}
+		{BD3FF889-60CD-4FA1-9A2B-183C7BE14C93} = {D8B2D56E-A2A7-4E8B-9D23-291387CFA5B7}
+		{1B342F45-0F62-4105-A54D-73B096C108BD} = {F96F4257-C4D6-4FE2-B872-B1815BE0B025}
+	EndGlobalSection
+EndGlobal

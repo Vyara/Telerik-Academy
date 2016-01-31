@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Create A Simple ASPX page", "1. Create A Simple ASPX page", "{60FC7003-2B79-48A7-88FE-BD2F6E3C05D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPage", "1. Create A Simple ASPX page\HelloPage\HelloPage.csproj", "{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Create A WebForms App", "2. Create A WebForms App", "{8A756FF2-D69A-4CA3-AD9D-8A36408466CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApp", "2. Create A WebForms App\WebFormsApp\WebFormsApp.csproj", "{189AB79A-8806-4DCF-9666-61C853D0A080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Dump Events", "3. Dump Events", "{F57154F7-0725-419B-9CDF-F35843F7446F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageEvents", "3. Dump Events\PageEvents\PageEvents.csproj", "{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189AB79A-8806-4DCF-9666-61C853D0A080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189AB79A-8806-4DCF-9666-61C853D0A080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189AB79A-8806-4DCF-9666-61C853D0A080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189AB79A-8806-4DCF-9666-61C853D0A080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{029D9D47-FC62-4DF0-B86D-69CEE2CF0AAE} = {60FC7003-2B79-48A7-88FE-BD2F6E3C05D4}
+		{189AB79A-8806-4DCF-9666-61C853D0A080} = {8A756FF2-D69A-4CA3-AD9D-8A36408466CC}
+		{CB8A5BD9-26F5-497A-8519-9EBC3806AFD4} = {F57154F7-0725-419B-9CDF-F35843F7446F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿
+#contentWrapper >  ul{
+    position: relative;
+    display:inline-block;
+}
+
+#contentWrapper div, img, p{
+    position: relative;
+    display:inline-block;
+}
+
+#contentWrapper {
+    position: relative;
+    display:inline-block;
+}
+
+h2{
+    text-align: center;
+}
+
+#masterWrapper nav{
+    position:relative;
+    display:inline-block;
+}
+
+#masterWrapper #contentWrapper{
+    position:relative;
+    display:inline;
+}
+
+#masterWrapper nav a{
+    position:relative;
+    display:block;
+}
+
+#contentWrapper img{
+    position:absolute;
+
+}

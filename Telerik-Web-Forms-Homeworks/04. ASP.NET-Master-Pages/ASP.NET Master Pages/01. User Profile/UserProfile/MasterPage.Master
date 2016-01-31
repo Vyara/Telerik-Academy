@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="UserProfile.MasterPage" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+      <form id="formMain" runat="server">
+        <header id="header" class="jumbotron">
+            <h2>Professor Meow's Personal Page</h2>
+        </header>
+        <aside id="masterWrapper" >
+            <div class="sidebar-title"><h3>Menu:</h3></div>
+            <nav>
+                <asp:HyperLink ID="hl_home" runat="server" NavigateUrl="~/PersonalInfo.aspx">Personal Info</asp:HyperLink>
+                <asp:HyperLink ID="hl_friends" runat="server" NavigateUrl="~/Friends.aspx">Friends</asp:HyperLink>
+                <asp:HyperLink ID="hl_additionalInfo" runat="server" NavigateUrl="~/AdditionalInfo.aspx">Additional Info</asp:HyperLink>
+            </nav>
+        </aside>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="contentHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+              <strong>&copy; Professor Meow</strong>
+        </footer>
+    </form>
+</body>
+</html>
