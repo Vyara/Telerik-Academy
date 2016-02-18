@@ -1,0 +1,14 @@
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\LibrarySystem.Data.Models.dll.config
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\LibrarySystem.Data.Models.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\LibrarySystem.Data.Models.pdb
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\EntityFramework.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\EntityFramework.xml
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\obj\Debug\LibrarySystem.Data.Models.csprojResolveAssemblyReference.cache
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\obj\Debug\LibrarySystem.Data.Models.dll
+E:\Users\Vyara\Documents\Visual Studio 2015\Projects\KendoUI ASP.NET MVC Wrappers HW\LibrarySystem.Data.Models\obj\Debug\LibrarySystem.Data.Models.pdb

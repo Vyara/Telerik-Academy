@@ -1,0 +1,72 @@
+﻿@using Kendo.Mvc.UI
+@model IEnumerable<LibrarySystem.Web.Models.BookIndexModel>
+@{
+    ViewBag.Title = "All";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="search">
+    @(Html.Kendo().AutoComplete()
+    .Name("SearchAutocomplete")
+    .DataTextField("Title")
+    .BindTo(Model)
+    .Filter("contains")
+    )
+    <button type="submit" id="btn-search">Search</button>
+</div>
+
+
+
+<h2>All Books</h2>
+
+
+@(Html.Kendo().Grid(Model)
+.Name("grid")
+.Columns(columns =>
+{
+    columns.Bound(b => b.Title);
+    columns.Bound(b => b.CategoryName);
+    columns.Template(b => @Html.ActionLink("View Details", "Details", new
+    {
+
+        id = b.Id
+    })).Title("Details");
+
+    columns.Command(commands =>
+    {
+        commands.Custom("Refresh").Click("onClick");
+    }).Title("Commands").Width(200);
+
+})
+.DataSource(datasource => datasource
+.Ajax()
+.Model(model =>
+{
+    model.Id(book => book.Id);
+    model.Field(book => book.Id).Editable(false);
+})
+.ServerOperation(true)
+)
+
+.Pageable()
+.Sortable()
+)
+
+<script>
+    $("#search").on("click", "#btn-search", function (e) {
+        var a = e;
+        var autocomplete = $("#SearchAutocomplete").data("kendoAutoComplete");
+        if (autocomplete.dataSource._view.length >= 1) {
+            if (autocomplete.dataSource._view.length == 1) {
+                window.location.href = "/Books/Details/" + autocomplete.dataSource._view[0].Id;
+            }
+            var queryT = autocomplete.element[0].value
+            for (var i in autocomplete.dataSource._view) {
+                if (autocomplete.dataSource._view[i].Title == queryT) {
+                    window.location.href = "/Books/Details/" + autocomplete.dataSource._view[i].Id;
+                }
+            }
+
+        }
+    });
+</script>

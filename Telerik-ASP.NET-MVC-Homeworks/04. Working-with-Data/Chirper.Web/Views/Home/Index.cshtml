@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Chirp your Mind!</h2>
+
+@Html.ActionLink("See the chirps!", "All", "Chirps", null, new { @class = "btn btn-lg btn-primary" })
+
+<div class="col-md-4">
+    @section Info{
+        <h4>
+            Section Info test
+        </h4>
+        <p>testing section</p>
+    }
+</div>
+
+<div class="col-md-4">
+    @Html.Partial("_IndexPartial")
+</div>

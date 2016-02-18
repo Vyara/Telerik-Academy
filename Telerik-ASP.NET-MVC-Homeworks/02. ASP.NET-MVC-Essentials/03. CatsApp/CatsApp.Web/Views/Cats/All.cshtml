@@ -1,0 +1,22 @@
+﻿@model IEnumerable < CatsApp.Web.Models.CatViewModel>
+@{
+    ViewBag.Title = "All";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Cats</h2>
+
+@foreach (var cat in Model)
+{
+    <div class="row jumbotron">
+        <h3>Name: @cat.Name</h3>
+        <div class="col-md-3">
+            <img style="max-width: 70%; max-height: 70%" class="catImage" src="@cat.ImageUrl"/>
+        </div>
+        <div class="row">
+            @Html.ActionLink("Details", "Details", new {id = cat.Id}, new {@class = "btn btn-primary"})
+        </div>
+
+    </div>
+}
+

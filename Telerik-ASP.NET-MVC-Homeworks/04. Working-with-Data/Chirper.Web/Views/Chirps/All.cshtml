@@ -1,0 +1,28 @@
+﻿@model IEnumerable < Chirper.Web.Models.ChirpViewModel>
+@{
+    ViewBag.Title = "All";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Chirps</h2>
+
+@foreach (var chirp in Model)
+{
+    <div class="row jumbotron">
+        <h3>Name: @chirp.Message</h3>
+        <div class="col-md-3">
+            <p>Created by: @chirp.Creator.FirstName @chirp.Creator.LastName</p>
+        </div>
+        <ul> Tags:
+            @foreach (var tag in chirp.Tags)
+            {
+                <li>@tag.Name</li>
+            }
+        </ul>
+        <div class="row">
+            @Html.ActionLink("Details", "Details", new {id = chirp.Id}, new {@class = "btn btn-primary"})
+        </div>
+
+    </div>
+}
+

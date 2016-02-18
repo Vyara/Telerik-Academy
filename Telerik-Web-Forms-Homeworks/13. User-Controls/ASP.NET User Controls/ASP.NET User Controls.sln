@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. MenuOfLinks", "01. MenuOfLinks", "{997182B8-80C4-4422-A262-99122F2207A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuOfLinks", "01.MenuOfLinks\MenuOfLinks\MenuOfLinks.csproj", "{2B740CE3-FD37-42E7-A557-C3D3D86B1024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. AnalogClock", "02. AnalogClock", "{6DB7DC4F-9083-4909-BEE8-1CD853371289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "02. Analog Clock\Clock\Clock.csproj", "{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B740CE3-FD37-42E7-A557-C3D3D86B1024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B740CE3-FD37-42E7-A557-C3D3D86B1024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B740CE3-FD37-42E7-A557-C3D3D86B1024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B740CE3-FD37-42E7-A557-C3D3D86B1024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B740CE3-FD37-42E7-A557-C3D3D86B1024} = {997182B8-80C4-4422-A262-99122F2207A4}
+		{C6A901F7-3EC5-4F90-8856-4DFD9E1673EA} = {6DB7DC4F-9083-4909-BEE8-1CD853371289}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Movies.Web.Models.MovieViewModel>
+@{
+    ViewBag.Title = "All";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Movies</h2>
+
+
+<div class="row">
+    @Ajax.ActionLink("Add Movie", "Create", null, new AjaxOptions()
+{
+    HttpMethod = "GET",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "create-movie"
+}, new { @class = "btn btn-primary" })
+
+</div>
+<br />
+
+<div id="create-movie"> </div>
+<div id="edit-movie"> </div>
+<div id="movie-details"> </div>
+<div id="delete-movie"></div>
+
+@foreach (var movie in Model)
+{
+    <div id="all-movies" class="row jumbotron">
+        <h3>Name: @movie.Title</h3>
+        <div class="col-md-3">
+            <img style="max-width: 70%; max-height: 70%" class="movieImage" src="@movie.ImageUrl" />
+        </div>
+        <div class="row">
+            @Ajax.ActionLink("Details", "Details", new { id = movie.Id }, new AjaxOptions
+       {
+           HttpMethod = "GET",
+           InsertionMode = InsertionMode.Replace,
+           UpdateTargetId = "movie-details"
+       }, new { @class = "btn btn-primary" })
+        </div>
+
+        <br />
+        <div class="row">
+            @Ajax.ActionLink("Edit", "Edit", new { id = movie.Id }, new AjaxOptions
+       {
+           HttpMethod = "GET",
+           InsertionMode = InsertionMode.Replace,
+           UpdateTargetId = "edit-movie"
+       }, new { @class = "btn btn-success" })
+        </div>
+       
+         <br />
+        <div class="row">
+            @Ajax.ActionLink("Delete", "Delete", new { id = movie.Id }, new AjaxOptions
+       {
+           HttpMethod = "GET",
+           InsertionMode = InsertionMode.Replace,
+           UpdateTargetId = "delete-movie"
+       }, new { @class = "btn btn-warning" })
+        </div>
+
+
+
+    </div>
+}
+

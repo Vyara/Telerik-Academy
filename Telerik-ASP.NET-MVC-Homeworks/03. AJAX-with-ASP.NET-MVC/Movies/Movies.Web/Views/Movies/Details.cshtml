@@ -1,0 +1,40 @@
+﻿@using System.Globalization
+@model Movies.Data.Models.Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div if="movie-details" class="well row">
+    <h1>Name: @Model.Title</h1>
+    <div class="col-md-6">
+        <img style="max-width: 100%; max-height: 100%" class="catImage" src="@Model.ImageUrl" />
+    </div>
+    <div>
+        <strong>Year: @Model.Year</strong>
+    </div>
+    <div>
+        <strong>Director: @Model.Director</strong>
+    </div>
+    <div>
+        <strong>Cast: </strong>
+        <ul>
+            <li style="text-decoration: none"><strong>@Model.LeadingMale.Name, Age: @Model.LeadingMale.Age</strong> </li>
+            <li style="text-decoration: none"><strong>@Model.LeadingFemale.Name, Age: @Model.LeadingFemale.Age</strong> </li>
+        </ul>
+    </div>
+    <div>
+        <strong>Studio: @Model.Studio.Name, @Model.Studio.Address</strong>
+    </div>
+    <br />
+    <div class="row">
+        @Ajax.ActionLink("Go Back", "All", null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "all-movies"
+        }, new {@class = "btn btn-primary"})
+    </div>
+
+</div>
+

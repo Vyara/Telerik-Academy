@@ -1,0 +1,27 @@
+﻿@using Kendo.Mvc.UI
+@model LibrarySystem.Data.Models.Book
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+@(Html.Kendo().Window()
+    .Name("Window")
+    .Title(Model.Title)
+    .Width(600)
+    .Resizable()
+    .Scrollable(true)
+    .Draggable()
+    .Content(
+    @<div>
+        <div class="book-description"><i>by @Model.Author</i></div>
+        <div class="book-description"><i>ISBN @Model.ISBN</i></div>
+        <div class="book-description"><i>Website:<a href="@Model.Website" target="_blank">@Model.Website</a> </i></div>
+        <div class="book-description">@Model.Description</div>
+        <div class="book-description">
+            <a href="/Home">Go back</a>
+        </div>
+    </div>
+    ))
+

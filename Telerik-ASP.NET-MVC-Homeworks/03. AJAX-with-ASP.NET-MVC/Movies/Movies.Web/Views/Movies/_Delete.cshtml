@@ -1,0 +1,26 @@
+﻿@model Movies.Data.Models.Movie
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div id="delete-form">
+    <h2>Delete</h2>
+
+    <div class="well">Are you sure you want to delete the movie @Model.Title?</div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn" /> |
+            <input type="button" value="Close" class="btn" onclick="closeDeleteForm()" />
+        </div>
+    }
+    <script>
+        function closeDeleteForm() {
+            $("#delete-form").remove("#delete-form");
+        };
+    </script>
+</div>

@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-inline text-left" }))
+{
+
+    <div class="row">
+
+        <div class="controls col-md-3">
+            @Html.Label("Quantity", "Quantity", new { @class = "control-label" })
+            @Html.TextBox("Amount", null, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="controls col-md-3">
+            @Html.Label("Units", "Unit", new { @class = "control-label" })
+            @Html.DropDownList("Units", null, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="controls col-md-3">
+            @Html.Label("Kilo", "Kilo", new { @class = "control-label" })
+            @Html.DropDownList("Kilo", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <br />
+    <input type="submit" value="GO" class="btn btn-primary" />
+}
+
+@if (ViewBag.Results != null)
+{
+    <br />
+    <table class="table table-striped table-condensed">
+        @for (int i = 0; i < ViewBag.Results.Count; i++)
+                {
+            <tr>
+                <td>@ViewBag.Results[i].Name</td>
+                <td>@ViewBag.Results[i].Size</td>
+            </tr>
+        }
+
+    </table>
+}

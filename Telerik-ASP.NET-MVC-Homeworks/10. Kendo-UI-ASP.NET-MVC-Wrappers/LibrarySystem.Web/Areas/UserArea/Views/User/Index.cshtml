@@ -1,0 +1,51 @@
+﻿@model IEnumerable<LibrarySystem.Web.Models.BookGridModel>
+@using Kendo.Mvc.UI
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Books";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Hello, @User.Identity.Name</h2>
+
+<h2>Books</h2>
+
+@(Html.Kendo().Grid<LibrarySystem.Web.Models.BookGridModel>()
+.Name("Grid")
+
+.ToolBar(toolbar => toolbar.Create())
+.Editable(editable => editable.Mode(GridEditMode.InLine))
+.DataSource(datasource => datasource
+.Ajax()
+.Model(model =>
+{
+    model.Id(book => book.Id);
+    model.Field(book => book.Id).Editable(false);
+})
+.ServerOperation(false)
+.Read(read => read.Action("Read", "User"))
+.Create(create => create.Action("Create", "User"))
+.Update(update => update.Action("Edit", "User"))
+.Destroy(destroy => destroy.Action("Delete", "User"))
+)
+.Columns(columns =>
+{
+    columns.Bound(b => b.Id);
+    columns.Bound(b => b.Title);
+    columns.Bound(b => b.Author);
+    columns.Bound(b => b.ISBN);
+    columns.Bound(b => b.Website);
+    columns.Bound(b => b.CategoryName);
+    columns.Bound(b => b.Description);
+    columns.Command(commands =>
+    {
+        commands.Edit();
+        commands.Destroy();
+    }).Title("Commands").Width(200);
+})
+.Pageable()
+.Sortable()
+
+)
+

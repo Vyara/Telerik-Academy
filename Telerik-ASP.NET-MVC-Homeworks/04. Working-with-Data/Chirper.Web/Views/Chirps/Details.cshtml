@@ -1,0 +1,22 @@
+﻿@model Chirper.Data.Models.Chirp
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="well row">
+    <div class="row jumbotron">
+        <h3>Name: @Model.Message</h3>
+        <div class="col-md-3">
+            <p>Created by: @Model.Creator.FirstName @Model.Creator.LastName</p>
+        </div>
+        <ul>
+            Tags:
+            @foreach (var tag in Model.Tags)
+            {
+                <li>@tag.Name</li>
+            }
+        </ul>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Welcome To Movie Heaven!</h2>
+
+@Ajax.ActionLink("See the movies!", "All", "Movies", null, new AjaxOptions
+{
+    HttpMethod = "GET",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "all-movies"
+}, new { @class = "btn btn-lg btn-primary" })
+
+
