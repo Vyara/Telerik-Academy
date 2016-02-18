@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\bin\Debug\TraverseADirectoryAndWriteToAnXml.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\obj\Debug\TraverseADirectoryAndWriteToAnXml.csprojResolveAssemblyReference.cache
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\bin\Debug\TraverseADirectoryAndWriteToAnXml.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\bin\Debug\TraverseADirectoryAndWriteToAnXml.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\obj\Debug\TraverseADirectoryAndWriteToAnXml.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\TraverseADirectoryAndWriteToAnXml\obj\Debug\TraverseADirectoryAndWriteToAnXml.pdb

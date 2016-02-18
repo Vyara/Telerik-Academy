@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\bin\Debug\_08.ReadFromConsoleAndFindProducts.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\bin\Debug\_08.ReadFromConsoleAndFindProducts.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\bin\Debug\_08.ReadFromConsoleAndFindProducts.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\obj\Debug\_08.ReadFromConsoleAndFindProducts.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\obj\Debug\_08.ReadFromConsoleAndFindProducts.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\08. ReadFromConsoleAndFindProducts\obj\Debug\08. ReadFromConsoleAndFindProducts.csprojResolveAssemblyReference.cache

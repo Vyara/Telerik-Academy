@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\bin\Debug\GenerateAndValidateXSDSchema.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\bin\Debug\GenerateAndValidateXSDSchema.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\bin\Debug\GenerateAndValidateXSDSchema.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\obj\Debug\GenerateAndValidateXSDSchema.csprojResolveAssemblyReference.cache
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\obj\Debug\GenerateAndValidateXSDSchema.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\GenerateAndValidateXSDSchema\obj\Debug\GenerateAndValidateXSDSchema.pdb

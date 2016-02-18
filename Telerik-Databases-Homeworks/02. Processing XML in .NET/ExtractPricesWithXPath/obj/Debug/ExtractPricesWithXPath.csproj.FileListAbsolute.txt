@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\bin\Debug\ExtractPricesWithXPath.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\bin\Debug\ExtractPricesWithXPath.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\bin\Debug\ExtractPricesWithXPath.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\obj\Debug\ExtractPricesWithXPath.csprojResolveAssemblyReference.cache
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\obj\Debug\ExtractPricesWithXPath.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithXPath\obj\Debug\ExtractPricesWithXPath.pdb

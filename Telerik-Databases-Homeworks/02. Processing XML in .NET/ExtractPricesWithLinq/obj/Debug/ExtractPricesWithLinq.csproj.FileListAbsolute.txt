@@ -1,5 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithLinq\bin\Debug\ExtractPricesWithLinq.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithLinq\bin\Debug\ExtractPricesWithLinq.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithLinq\bin\Debug\ExtractPricesWithLinq.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithLinq\obj\Debug\ExtractPricesWithLinq.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ExtractPricesWithLinq\obj\Debug\ExtractPricesWithLinq.pdb

@@ -1,1 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\ASP.NET MVC Working with data\Chirper.Web\obj\Debug\Chirper.Web.csprojResolveAssemblyReference.cache

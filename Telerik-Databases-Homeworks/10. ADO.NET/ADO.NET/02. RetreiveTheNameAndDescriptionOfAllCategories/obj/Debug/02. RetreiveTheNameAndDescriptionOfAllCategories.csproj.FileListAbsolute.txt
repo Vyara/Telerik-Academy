@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\bin\Debug\_02.RetreiveTheNameAndDescriptionOfAllCategories.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\bin\Debug\_02.RetreiveTheNameAndDescriptionOfAllCategories.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\bin\Debug\_02.RetreiveTheNameAndDescriptionOfAllCategories.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\obj\Debug\_02.RetreiveTheNameAndDescriptionOfAllCategories.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\obj\Debug\_02.RetreiveTheNameAndDescriptionOfAllCategories.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\02. RetreiveTheNameAndDescriptionOfAllCategories\obj\Debug\02. RetreiveTheNameAndDescriptionOfAllCategories.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\bin\Debug\CreateAnXmlFromATextFile.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\bin\Debug\CreateAnXmlFromATextFile.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\bin\Debug\CreateAnXmlFromATextFile.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\obj\Debug\CreateAnXmlFromATextFile.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\obj\Debug\CreateAnXmlFromATextFile.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAnXmlFromATextFile\obj\Debug\CreateAnXmlFromATextFile.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\bin\Debug\ExtractArtistsWithXPath.exe.config
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\bin\Debug\ExtractArtistsWithXPath.exe
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\bin\Debug\ExtractArtistsWithXPath.pdb
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\obj\Debug\ExtractArtistsWithXPath.exe
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\obj\Debug\ExtractArtistsWithXPath.pdb
-E:\Users\Vyara\Documents\Visual Studio 2015\Projects\02. XML Processing in .NET\ExtractArtistsWithXPath\obj\Debug\ExtractArtistsWithXPath.csprojResolveAssemblyReference.cache

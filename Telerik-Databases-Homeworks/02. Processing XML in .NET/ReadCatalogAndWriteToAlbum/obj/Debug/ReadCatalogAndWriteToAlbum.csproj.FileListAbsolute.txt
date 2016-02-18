@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\bin\Debug\ReadCatalogAndWriteToAlbum.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\bin\Debug\ReadCatalogAndWriteToAlbum.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\bin\Debug\ReadCatalogAndWriteToAlbum.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\obj\Debug\ReadCatalogAndWriteToAlbum.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\obj\Debug\ReadCatalogAndWriteToAlbum.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\ReadCatalogAndWriteToAlbum\obj\Debug\ReadCatalogAndWriteToAlbum.csprojResolveAssemblyReference.cache

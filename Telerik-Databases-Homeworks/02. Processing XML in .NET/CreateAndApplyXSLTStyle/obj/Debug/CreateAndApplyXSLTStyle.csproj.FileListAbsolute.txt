@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\bin\Debug\CreateAndApplyXSLTStyle.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\bin\Debug\CreateAndApplyXSLTStyle.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\bin\Debug\CreateAndApplyXSLTStyle.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\obj\Debug\CreateAndApplyXSLTStyle.csprojResolveAssemblyReference.cache
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\obj\Debug\CreateAndApplyXSLTStyle.exe
-e:\users\vyara\documents\visual studio 2015\Projects\02. XML Processing in .NET\CreateAndApplyXSLTStyle\obj\Debug\CreateAndApplyXSLTStyle.pdb

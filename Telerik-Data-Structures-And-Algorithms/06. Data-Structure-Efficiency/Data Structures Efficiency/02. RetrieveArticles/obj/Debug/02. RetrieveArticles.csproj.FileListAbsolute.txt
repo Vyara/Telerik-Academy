@@ -1,6 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\bin\Debug\RetrieveArticles.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\bin\Debug\RetrieveArticles.exe
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\bin\Debug\RetrieveArticles.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\obj\Debug\RetrieveArticles.exe
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\obj\Debug\RetrieveArticles.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\Data Structures Efficiency\02. RetrieveArticles\bin\Debug\PowerCollections.dll

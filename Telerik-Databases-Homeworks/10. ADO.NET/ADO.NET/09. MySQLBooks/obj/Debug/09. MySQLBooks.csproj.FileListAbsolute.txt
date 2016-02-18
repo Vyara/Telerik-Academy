@@ -1,7 +1,0 @@
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\bin\Debug\_09.MySQLBooks.exe.config
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\obj\Debug\09. MySQLBooks.csprojResolveAssemblyReference.cache
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\bin\Debug\_09.MySQLBooks.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\bin\Debug\_09.MySQLBooks.pdb
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\bin\Debug\MySql.Data.dll
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\obj\Debug\_09.MySQLBooks.exe
-e:\users\vyara\documents\visual studio 2015\Projects\ADO.NET\09. MySQLBooks\obj\Debug\_09.MySQLBooks.pdb
